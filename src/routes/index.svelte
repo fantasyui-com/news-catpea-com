@@ -1,46 +1,65 @@
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
 
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+  <title>CATPEA! NEWS</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<header>
+<div class="collapse bg-dark" id="navbarHeader">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 col-md-7 py-4">
+      <h4 class="text-white">About</h4>
+      <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+    </div>
+    <div class="col-sm-4 offset-md-1 py-4">
+      <h4 class="text-white">Contact</h4>
+      <ul class="list-unstyled">
+        <li><a href="#" class="text-white">Follow on Twitter</a></li>
+        <li><a href="#" class="text-white">Like on Facebook</a></li>
+        <li><a href="#" class="text-white">Email me</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<div class="navbar navbar-dark bg-dark shadow-sm">
+<div class="container d-flex justify-content-between">
+  <a href="#" class="navbar-brand d-flex align-items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+    <strong>News</strong>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</div>
+</div>
+</header>
 
-<figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
+<main role="main">
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<section class="jumbotron text-center">
+<div class="container">
+  <h1>Album example</h1>
+  <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+  <p>
+    <a href="#" class="btn btn-primary my-2">Main call to action</a>
+    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+  </p>
+</div>
+</section>
+
+
+</main>
+
+<footer class="text-muted">
+<div class="container">
+<p class="float-right">
+  <a href="#">Back to top</a>
+</p>
+<p>Setting up typography...</p>
+<p>Visit the main site for the real thing <a href="catpea.com/">catpea.com</a>.</p>
+</div>
+</footer>
