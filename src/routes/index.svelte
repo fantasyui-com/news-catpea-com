@@ -60,6 +60,6 @@
   <a href="#">Back to top</a>
 </p>
 <p>Setting up typography...</p>
-<p>Visit the main site for the real thing <a href="catpea.com/">catpea.com</a>.</p>
+<p>Visit the main site for the real thing <a href="http://catpea.com/">catpea.com</a>.</p>
 </div>
 </footer>
