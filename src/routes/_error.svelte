@@ -1,40 +1,35 @@
 <script>
-	export let status;
-	export let error;
+  import startCase from 'lodash/startCase.js';
+  export let status;
+  export let error;
 
-	const dev = process.env.NODE_ENV === 'development';
+  const dev = process.env.NODE_ENV === 'development';
 </script>
 
 <style>
-	h1, p {
-		margin: 0 auto;
-	}
 
-	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
 </style>
 
 <svelte:head>
-	<title>{status}</title>
+  <title>News every hour, on the hour. - news.catpea.com</title>
 </svelte:head>
 
-<h1>{status}</h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
 
-<p>{error.message}</p>
+      <div class="card border-warning mb-3" style="margin-top: 35vh;">
+        <div class="card-header">Error: {startCase(error.message)}</div>
+        <div class="card-body text-warning">
+          <h5 class="card-title">HTTP Status: {status}</h5>
+          {#if dev && error.stack}
+            {#each error.stack.split('\n') as line}
+              <p class="card-text">{line}</p>
+            {/each}
+          {/if}
+        </div>
+      </div>
 
-{#if dev && error.stack}
-	<pre>{error.stack}</pre>
-{/if}
+    </div>
+  </div>
+</div>
