@@ -8,6 +8,6 @@
  @import "../../catpea-com/src/style/index.scss";
 </style>
 
-<!-- <Nav {segment}/> -->
+<Nav {segment} opened={false}/>
 
 <slot></slot>

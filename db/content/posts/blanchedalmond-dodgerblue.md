@@ -1,0 +1,25 @@
+---
+id: blanchedalmond-dodgerblue
+title: Working On News Catpea Com
+category: research
+date: 2020-04-17T19:45:54.868Z
+draft: false
+---
+
+I setup [news.catpea.com][1] a bit early than I wanted to, I'll upload all the photos, research and poems on there.
+
+I need something that is less application and more website to try out less boxy designs.
+
+Before I can make a product for [Bootstrap Themes][2] I feel have to create something that will qualify for [Bootstrap Expo][3] at least in theory.
+
+[Theme][4] Styleguide is neat, but I now need something like this: [https://getbootstrap.com/docs/4.4/examples/][5] about nine web page designs.
+
+At the time of writing there are nine menu items (Quarantine Log, Research Blog, Book, Videos, Wall, Palette, Theme, Designer, and Composer), so it would be pretty neat to present components of catpea as templates.
+
+This is really helping me learn about design, and it is keeping my programming skills sharp.
+
+[1]: http://news.catpea.com
+[2]: https://themes.getbootstrap.com/
+[3]: https://expo.getbootstrap.com/
+[4]: /theme
+[5]: https://getbootstrap.com/docs/4.4/examples/

@@ -1,0 +1,12 @@
+---
+id: ghostwhite-palegreen
+title: Captains Log Ninth Day Of Quarantine I Found One More Chicken Am Ready For Dinner I Created A Small Soundboard For What Is
+category: quarantine
+date: 2020-03-25T23:33:22.740Z
+draft: false
+---
+
+Captain's Log: Ninth Day of Quarantine: I found one more chicken, am ready for dinner. I created a small [Soundboard][1] for what is basically a tiny collection of LOFI Hip-Hop sounds. A tiny collection will do, because we have the the synthesizer taking care of everything else. I added some Hip sounds to the THE WARRIOR Album Single and it does sound very well. Realistically it is difficult to call it music at this point, I have all the components but there were bugs along the way. [Svelte Sapper][2] is complicated to visualize, it pre-creates some things, meaning before I publish to the website, Sapper will create a pre-ran version of the site. When a visitor visits, the pre-ran (pre-generated static version) will then be upgraded to a real version, and replaced by now running live version. It is the correct technology, and it didn't get me, but it does take a moment to figure out when a bug jumps out of nowhere.
+
+[1]: https://en.wikipedia.org/wiki/Soundboard_(computer_program)
+[2]: https://sapper.svelte.dev/docs#Server-side_rendering
