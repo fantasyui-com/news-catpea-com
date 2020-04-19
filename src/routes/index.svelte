@@ -6,7 +6,7 @@
   import moment from "moment";
 
   import db from '../modules/db/index.js';
-  import Icon from '../../../catpea-com/src/controls/Icon.svelte';
+
 
   let collection = db();
 
@@ -41,16 +41,13 @@
 <main role="main">
   <section>
     <div class="container">
-      <!-- <div class="row mt-5">
+
+    <div class="row mt-5">
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb bg-dark">
-            <li class="breadcrumb-item"><a href=".">News</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Research</li>
-          </ol>
-        </nav>
+      <span class="text-warning small">Showing all posts in all categories</span> &middot <a class="small" href="/explore">list available categories</a>
       </div>
-      </div> -->
+    </div>
+
 
       <div class="row mt-5">
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
@@ -63,7 +60,7 @@
                 <a href="/read/{item.id}" class="text-muted lead">{item.title}</a>
               </div>
               <div class="ml-3">
-                <span class="text-warning small">&mdash; {item.ago}</span> &middot; <span class="text-info small">{item.category}</span>
+                <span class="text-warning small">&mdash; {item.ago}</span> &middot; <a class="small" href="/explore/{item.category}">{item.category}</a>
               </div>
             </div>
           {/each}

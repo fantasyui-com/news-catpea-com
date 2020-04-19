@@ -1,12 +1,17 @@
 ---
 id: crimson-salmon
-title: I Am Testing Separate Quarantine Research Sections In The Main Menu The Current Scroll Bar Within A Scroll Bar Setup Was For Te
+title: News On News Catpea Com Has A Functional Category Browser
 category: research
-date: 2020-04-06T19:21:21.474Z
+date: 2020-04-19T17:22:14.849Z
 draft: false
 ---
 
-I am testing separate [Quarantine][1]/[Research][2] sections in the main menu. The current scroll-bar within a scroll-bar setup was for testing, I wanted to see if it worked or if I needed to so something special. Well, they are both blogs, very similar to the warrior book, they should just have the same UI. This also brings me closer to proper Web Design, where I take a moment to make some fancy graphics to decorate typographical creations.
+I continue working on [news.catpea.com][1] I added categories and little navigational hints, and timestamps.
 
-[1]: /quarantine
-[2]: /research
+I want to create a new category, poetry. But I don't want to mix it with quarantine, yet.
+
+So, I guess, the news site will have a category browser with strict rule, one post per category.
+
+And Then I'll add tags, where the user can browse all posts tagged poem for example.
+
+[1]: http://news.catpea.com

@@ -2,6 +2,47 @@
 const database = [
 
 
+  {
+    date: '2020-04-19T17:22:14.849Z',
+    name:'News on news.catpea.com has a functional category browser.',
+    html: `
+
+    I continue working on [news.catpea.com] I added categories and little navigational hints, and timestamps.
+
+    I want to create a new category, poetry. But I don't want to mix it with quarantine, yet.
+
+    So, I guess, the news site will have a category browser with strict rule, one post per category.
+
+    And Then I'll add tags, where the user can browse all posts tagged poem for example.
+
+    `.trim().split('\n').map(i=>i.trim()),
+    link:{
+    }
+  },
+  
+
+  {
+    date: '2020-04-18T22:07:44.063Z',
+    name:'System Upgrade',
+    html: `
+
+    I continued working on [news.catpea.com] and actually made very good progress.
+
+    I wanted to pull the poems out of code and give them an alternate version that can be easily read via github.
+
+    Here is the [result], it is not pretty, but it is pretty readable.
+
+    Now I can continue with making [news.catpea.com] look nicer, I am missing some icons, and i want to allow browsing by category (research/quarantine) so that with a click only poems will come up.
+
+    `.trim().split('\n').map(i=>i.trim()),
+    link:{
+      result: 'https://github.com/fantasyui-com/news-catpea-com/blob/17041ee955dacdf17c1f5f7c706bd1bbbd8b3060/db/content/posts/aquamarine-sandybrown.md'
+    }
+  },
+
+
+
+
     {
       date:'2020-04-17T19:45:54.868Z',
       name:'Working on news.catpea.com',

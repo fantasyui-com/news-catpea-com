@@ -204,7 +204,9 @@ for( let item of collection){
   item.text = turndownService.turndown(item.html)
 
    //console.log(item.text);
-  if(!item.name && item.text) item.name = item.html.replace(/<[^>]*>/g, "").replace(/\n/g, "").replace(/\[[^\]]*\]/g, "").substr(0,128);
+  if(!item.name && item.text) {
+    item.name = item.html.replace(/<[^>]*>/g, "").replace(/\n/g, "").replace(/\[[^\]]*\]/g, "").substr(0,128) + '...';
+  }
 
   item.name = startCase(kebabCase(item.name))
 
