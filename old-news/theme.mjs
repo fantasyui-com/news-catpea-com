@@ -20,7 +20,7 @@ const database = [
 
       This theme needs to be a drop-in replacement for standard [Bootstrap] and [Bootswatch] themes.
 
-    `,
+    `.trim().split('\n').map(i=>i.trim()),
     link:{
     }
   },
@@ -30,13 +30,18 @@ const database = [
 
 
 function process(data) {
-  const clean = data.map(item => {
-    item.html = item.html.trim().split('\n').map(i=>i.trim());
+
+  const clean = data
+
+  .map(item => {
     if(typeof item.html !== 'string'){
       item.html = item.html.map(d=>(d.charAt(0)=='<')?d:`<p>${d}</p>`).join('')
     }
     return item;
   })
+
+
+
   return clean;
 
 } // fun

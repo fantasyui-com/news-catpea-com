@@ -24,6 +24,7 @@
   import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
 
   import moment from "moment";
+  import startCase from "lodash/startCase.js";
   import db from '../../modules/db/index.js';
 
   let collection = db();
@@ -81,7 +82,7 @@
 
     <div class="row mt-5">
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
-      <span class="text-warning small">Reading post with navigation in all categories</span> &middot <a class="small" href="/explore">list available categories</a>
+      <span class="text-warning small">Reading all posts</span> &middot <a class="small" href="/explore">list available categories</a> &middot <a class="small" href="/tags">list all tags</a>
       </div>
     </div>
 
@@ -108,14 +109,17 @@
         </ul>
       </nav>
 
-        <div class="mb-5">
-          <div>
-            <a href="/read/{item.id}" class="text-muted lead">{item.title} </a>
-          </div>
-          <div class="ml-3">
-            <span class="text-warning small">&mdash; {item.ago}</span> &middot; <span class="text-info small">{item.category}</span>
-          </div>
-        </div>
+      <div class="mb-5">
+        <h1 class="text-muted lead">{item.title}</h1>
+        <small class="ml-3">
+          &mdash;
+          <span class="text-warning">Posted {item.ago}</span>
+          &middot;
+          in <span class="text-info"></span>
+          <a href="/explore/{item.category}">{startCase(item.category)}</a>
+          {#if item.tags.length}&middot; {#each item.tags.split(' ') as tag}<a href="/tags/{tag}">#{tag}</a>&nbsp;{/each}{/if}
+        </small>
+      </div>
 
         <p>{@html item.html}</p>
 
