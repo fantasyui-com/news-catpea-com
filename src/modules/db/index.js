@@ -1,6 +1,16 @@
 
 const data = [
   {
+    "id": "id121",
+    "title": "Whoo Hoo! News Launched",
+    "category": "research",
+    "tags": "Launch",
+    "date": "2020-04-20T00:09:23.684Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>I am still getting used to it but it looks pretty neat. I coded the whole thing from scratch, haha.</p>\n<p>It reminded me of my days programming <a href=\"https://www.youtube.com/watch?v=9Zx1vEmaQMc\">CGI</a> in <a href=\"https://www.youtube.com/watch?v=E2JJZVqe97I\">Perl</a> I kind of miss that.</p>\n<p>I am writing this in my text editor, in the <a href=\"https://www.youtube.com/watch?v=f49LJV1i-_w\">Markdown</a> format.</p>\n<p>That&#39;s what I used originally but I wanted to see what would happen is I stored my notes in code. I liked it, but it was not portable across systems.</p>\n<p>Too many things change in code, research notes have to be much simpler. And they have to be <a href=\"https://github.com/fantasyui-com/news-catpea-com/blob/master/db/content/posts/id121.md\">readable</a> outside of any programming language.\nGithub does make this possible, by supporting markdown, I&#39;ll just stick with the Markdown format from now on.</p>\n<p>I&#39;ll probably create a separate repository <a href=\"https://github.com/fantasyui-com/news-catpea-com/tree/master/db/content/posts\">for just my posts</a> and do the same for my little book.</p>\n"
+  },
+  {
     "id": "id120",
     "title": "News on news.catpea.com has a functional category browser.",
     "category": "research",
@@ -361,16 +371,6 @@ const data = [
     "html": "<p>Clarification as to why my development is taking so long. While I am developing some programs that are *best* on the desktop. I am actually developing User Interfaces that work on Mobile Phones, and &quot;grow&quot; to fit tablet and desktop. Making user interfaces that work property on Mobile and Desktop is kind of hard, the more detailed they become the harder it is to ensure compatibility.</p>\n"
   },
   {
-    "id": "id84",
-    "title": "Save The Files",
-    "category": "quarantine",
-    "tags": "Poem",
-    "date": "2020-04-08T01:41:32.088Z",
-    "draft": false,
-    "deleted": false,
-    "html": "<p>Captain&#39;s Log, Eternal, Quarantine, Day Twenty Two.</p>\n<p>Eeeeek! It&#39;s raining, I am trying not to be complaining.</p>\n<p>But the sky is no longer blue, what am I to do?</p>\n<p>Each time I sneeze, the power goes out,</p>\n<p>not to say my sneezes are not petite, or that I am ill!</p>\n<p>No, I am perfectly fine, I don&#39;t need to blow my nose.</p>\n<p>It is the transformer outside that blows!</p>\n<p>Frantically, atomically I hit CTRL+S, CTRL+S, save, save. Saves!</p>\n<p>As the thunderous thunder thunders its electromagnetic waves.</p>\n<p>How am I going to finish, how can I upload,</p>\n<p>when any moment something will explode,</p>\n<p>and there will be nothing where current once flowed.</p>\n<p>While the rain has slowed, my fingers still tapping,</p>\n<p>Save, save, save! rise! against the Gigawatt Wave.</p>\n<p>Seriously, please remember to save your files,</p>\n<p>this can only result in more smiles.</p>\n<p>Also, please remember to backup your files.</p>\n<p>As that&#39;s even better - by miles.</p>\n"
-  },
-  {
     "id": "id83",
     "title": "Yup It Was A Github Problem They Only Serve Regularly Named Files Everything Was Fine On My End On My Local Servers But The...",
     "category": "research",
@@ -379,6 +379,16 @@ const data = [
     "draft": false,
     "deleted": false,
     "html": "<p>Yup, it was a github problem, they only serve regularly named files. Everything was fine on my end, on my local servers. But the moment website was uploaded to their server, it would refuse to serve some files. So, on my computer the program ran fine, on github&#39;s it was missing files as the server would not serve them just give a File Not Found 404. Pretty awful, I couldn&#39;t fully investigate the problem until I uploaded to github where the error was occurring.</p>\n"
+  },
+  {
+    "id": "id84",
+    "title": "Save The Files",
+    "category": "quarantine",
+    "tags": "Poem",
+    "date": "2020-04-08T01:41:32.088Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>Captain&#39;s Log, Eternal, Quarantine, Day Twenty Two.</p>\n<p>Eeeeek! It&#39;s raining, I am trying not to be complaining.</p>\n<p>But the sky is no longer blue, what am I to do?</p>\n<p>Each time I sneeze, the power goes out,</p>\n<p>not to say my sneezes are not petite, or that I am ill!</p>\n<p>No, I am perfectly fine, I don&#39;t need to blow my nose.</p>\n<p>It is the transformer outside that blows!</p>\n<p>Frantically, atomically I hit CTRL+S, CTRL+S, save, save. Saves!</p>\n<p>As the thunderous thunder thunders its electromagnetic waves.</p>\n<p>How am I going to finish, how can I upload,</p>\n<p>when any moment something will explode,</p>\n<p>and there will be nothing where current once flowed.</p>\n<p>While the rain has slowed, my fingers still tapping,</p>\n<p>Save, save, save! rise! against the Gigawatt Wave.</p>\n<p>Seriously, please remember to save your files,</p>\n<p>this can only result in more smiles.</p>\n<p>Also, please remember to backup your files.</p>\n<p>As that&#39;s even better - by miles.</p>\n"
   },
   {
     "id": "id82",
@@ -591,16 +601,6 @@ const data = [
     "html": "<p>Things in square brackets are supposed to be links, but the system is crashing before I get a chance to replace the square bracket notation, it will take me a moment to figure out why <a href=\"https://sapper.svelte.dev/\">Sapper</a> is failing. I did finish writing the poem for today, so that&#39;s nice. I just found out that on top of everything else <a href=\"https://www.githubstatus.com/\">github is having problems</a>: &quot;Update - We are investigating reports of service unavailability.&quot;</p>\n"
   },
   {
-    "id": "id61",
-    "title": "Workout Video",
-    "category": "quarantine",
-    "tags": "Poem",
-    "date": "2020-04-02T20:04:32.068Z",
-    "draft": false,
-    "deleted": false,
-    "html": "<p>Captain&#39;s Log: Day Seventeen of Quarantine.</p>\n<p>Found two bugs in code, and got stuck in between.</p>\n<p>I was supposed to be working on a Sound Machine,</p>\n<p>but spent the noon formatting the code to keep it clean.</p>\n<p>I can&#39;t believe, there is a bug in my code,</p>\n<p>its probably in octicons, because I am using node.</p>\n<p>Worst of all, I can&#39;t see it fail until I publish,</p>\n<p>because sapper likes static as not to be sluggish.</p>\n<p>So here I am, finally dressed up like Superman,</p>\n<p>Debugging code, blind, like a veritable caveman.</p>\n<p>I did a bit of soul searching,</p>\n<p>then followed with some researching.</p>\n<p>Now, I am sitting here, contemplating if I need a cape,</p>\n<p>wondering if I should follow up with an Audiotape.</p>\n<p>I could finish up getting in shape,</p>\n<p>and completely change the workout landscape.</p>\n<p>I am serious about making a workout tape,</p>\n<p>I really want to get in shape.</p>\n<p>What if the workout required wearing a tail?</p>\n<p>Would it become like super holy grail?</p>\n<p>I would walk the street and people would pale,</p>\n<p>&quot;Sir! Why have you done this?</p>\n<p>You, are a Whale!!!&quot;</p>\n"
-  },
-  {
     "id": "id60",
     "title": "Yah It Is An Internal Bug I Have Little To Do With It Could Be Or That It Is Worth Solving Because It Is A Learning Experie...",
     "category": "research",
@@ -609,6 +609,16 @@ const data = [
     "draft": false,
     "deleted": false,
     "html": "<p>Yah, it is an internal bug I have little to do with, it could be <a href=\"https://rollupjs.org/guide/en/\">Rollup</a> or that <a href=\"https://github.com/primer/octicons/commit/875bc333ce4dc6a460a116dfd315a56dbb23120f#diff-c93a11fe3afdd3ccfbe1f152a8cf7b20L1\">Octicons require a json file</a>, it is worth solving because it is a learning experience, I get a moment of time to look through the system I am working with, mostly <a href=\"https://svelte.dev/\">Svelte</a>, <a href=\"https://sapper.svelte.dev/\">Sapper</a> and <a href=\"https://rollupjs.org/guide/en/\">Rollup</a>. The code for <a href=\"https://octicons.github.com/\">Octicons</a> which is made by github is highly questionable, I should make a copy and just re-write it. There is some <a href=\"https://www.w3.org/Graphics/SVG/WG/wiki/SVG_FAQ\">SVG</a> work coming up, since Octicons are in SVG, I may just do that then.</p>\n"
+  },
+  {
+    "id": "id61",
+    "title": "Workout Video",
+    "category": "quarantine",
+    "tags": "Poem",
+    "date": "2020-04-02T20:04:32.068Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>Captain&#39;s Log: Day Seventeen of Quarantine.</p>\n<p>Found two bugs in code, and got stuck in between.</p>\n<p>I was supposed to be working on a Sound Machine,</p>\n<p>but spent the noon formatting the code to keep it clean.</p>\n<p>I can&#39;t believe, there is a bug in my code,</p>\n<p>its probably in octicons, because I am using node.</p>\n<p>Worst of all, I can&#39;t see it fail until I publish,</p>\n<p>because sapper likes static as not to be sluggish.</p>\n<p>So here I am, finally dressed up like Superman,</p>\n<p>Debugging code, blind, like a veritable caveman.</p>\n<p>I did a bit of soul searching,</p>\n<p>then followed with some researching.</p>\n<p>Now, I am sitting here, contemplating if I need a cape,</p>\n<p>wondering if I should follow up with an Audiotape.</p>\n<p>I could finish up getting in shape,</p>\n<p>and completely change the workout landscape.</p>\n<p>I am serious about making a workout tape,</p>\n<p>I really want to get in shape.</p>\n<p>What if the workout required wearing a tail?</p>\n<p>Would it become like super holy grail?</p>\n<p>I would walk the street and people would pale,</p>\n<p>&quot;Sir! Why have you done this?</p>\n<p>You, are a Whale!!!&quot;</p>\n"
   },
   {
     "id": "id59",
@@ -841,16 +851,6 @@ const data = [
     "html": "<p>Yah, I need new GUI technologies, the browser stuff is old and brittle. I am looking to <a href=\"https://www.google.com/search?q=zbrush+gui&amp;tbm=isch\">ZBrush</a> and <a href=\"https://www.google.com/search?q=photoshop+gui&amp;tbm=isch\">Photoshop</a>. Just at a glance I can see I need more spacing, more dark, and above all collapsible panels. Working on nicer preset selector.</p>\n<p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"research/gui1.png\" alt=\"GUI Ideas\"></p>\n<p>GUI Ideas</p>\n"
   },
   {
-    "id": "id36",
-    "title": "Must Dance",
-    "category": "quarantine",
-    "tags": "Poem",
-    "date": "2020-03-29T13:14:44.761Z",
-    "draft": false,
-    "deleted": false,
-    "html": "<p>Captain&#39;s Log: Day Thirteen of Quarantine;</p>\n<p>still staring at my screen,</p>\n<p>hanging on for dear life to my spleen</p>\n<p>as I drink another coffee bean,</p>\n<p>trying, trying not to create a scene,</p>\n<p>dancing dressed red outside my window;</p>\n<p>during quarantine.</p>\n"
-  },
-  {
     "id": "id35",
     "title": "Well Ive Noticed The Ui Is Not Loading On My Cheap Mobile Tablet And The Dropdowns I Use For Everything Look Ugly Plus They...",
     "category": "research",
@@ -859,6 +859,16 @@ const data = [
     "draft": false,
     "deleted": false,
     "html": "<p>Well, I&#39;ve noticed the UI is not loading on my cheap mobile tablet. And the dropdowns I use for everything look ugly, plus they are hard to consistently style across different browsers and devices. UI needs a new strategy. Now, I will leave the Shebang Slash Sequencer in, I won&#39;t make radical changes to it. But, time has come to think about a new GUI technology.</p>\n"
+  },
+  {
+    "id": "id36",
+    "title": "Must Dance",
+    "category": "quarantine",
+    "tags": "Poem",
+    "date": "2020-03-29T13:14:44.761Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>Captain&#39;s Log: Day Thirteen of Quarantine;</p>\n<p>still staring at my screen,</p>\n<p>hanging on for dear life to my spleen</p>\n<p>as I drink another coffee bean,</p>\n<p>trying, trying not to create a scene,</p>\n<p>dancing dressed red outside my window;</p>\n<p>during quarantine.</p>\n"
   },
   {
     "id": "id34",
@@ -871,16 +881,6 @@ const data = [
     "html": "<p>The birds are going wild outside my window, probably because of all the Plump Squirrels I&#39;ve been feeding. Dammit.</p>\n"
   },
   {
-    "id": "id33",
-    "title": "Ragrets",
-    "category": "quarantine",
-    "tags": "Poem",
-    "date": "2020-03-28T22:31:17.209Z",
-    "draft": false,
-    "deleted": false,
-    "html": "<p>Captain&#39;s Log, Day Twelve of Quarantine. I ordered some trailmix from the internet, mailman dropped it off by the door and all the local Squirrels I&#39;ve been feeding came over, ripped the box open, and ate it. How rude, I probably shoudn&#39;t have been feeding them all this time.</p>\n"
-  },
-  {
     "id": "id32",
     "title": "I Continue My Work On The Little Shebang Slash Beat Sequencer I Am Searching For An Easy Ui Configuration That Is Also Fully F...",
     "category": "quarantine",
@@ -889,6 +889,16 @@ const data = [
     "draft": false,
     "deleted": false,
     "html": "<p>I continue my work on the little Shebang Slash Beat Sequencer, I am searching for an easy UI configuration, that is also fully featured (can edit a huge song), and has a huge area for configuring things beyond Octave and Note. The area that opens up below when user clicks a line number will be used for sound synthesis configuration that could be as many as 10 dropdowns. I don&#39;t like horizontal scrolling, this is what this test is about. But there is something wrong with Vertical Scrolling, like here in the <a href=\"https://www.youtube.com/watch?v=gdSslkrN1kk\">Mod Trackers</a>, it just feels too awkward to compose a song downwards. On the other hand I don&#39;t want to recreate the <a href=\"https://www.ableton.com/en/live/\">Ableton</a> UI, editing music this way is too slow. I&#39;ll probably keep creating these little UI widgets, but begin connecting them together under a common beat. This way the end result is a dashboard of easy to use musical instruments, and probably some fat squirrels.</p>\n"
+  },
+  {
+    "id": "id33",
+    "title": "Ragrets",
+    "category": "quarantine",
+    "tags": "Poem",
+    "date": "2020-03-28T22:31:17.209Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>Captain&#39;s Log, Day Twelve of Quarantine. I ordered some trailmix from the internet, mailman dropped it off by the door and all the local Squirrels I&#39;ve been feeding came over, ripped the box open, and ate it. How rude, I probably shoudn&#39;t have been feeding them all this time.</p>\n"
   },
   {
     "id": "id31",
@@ -991,16 +1001,6 @@ const data = [
     "html": "<p>Day Six of Quarantine: Created a New Autogenerative Music Widget and disguised it as an immature <a href=\"https://www.dictionary.com/browse/sciurine\">Sciurine</a> Urine joke. The technology is extremely advanced. I am for the first time in forever connecting virtual synthesizers through a <a href=\"https://tonejs.github.io/docs/13.8.25/Reverb\">Reverb Convolver</a>. This reshapes the Synthesized Sounds, the synthesizer waveform, into a more realistic sounding instrument. Reverb just about does it, if Commodore 64 came with a decent reverb it would sound amazing, nothing like chiptunes. I have gotten used to breaking up my Generative Music into movements, and the initial song comes with 24 measures, where evey eight measures I do something interesting with the higher pitched instruments. For the most part I fell like using A Basic <a href=\"https://github.com/Tonejs/Tone.js/wiki/Arpeggiator\">Arpeggiator</a> for everything, I am yet to test it with real world sound samples (digital sound recordings as opposed to synthesizer based sounds.)</p>\n"
   },
   {
-    "id": "id21",
-    "title": "Day Five Of Quarantine...",
-    "category": "quarantine",
-    "tags": "Poem",
-    "date": "2020-03-21T20:14:25.929Z",
-    "draft": false,
-    "deleted": false,
-    "html": "<p>Day Five of Quarantine...</p>\n"
-  },
-  {
     "id": "id20",
     "title": "Updated Warrior Book And Videos...",
     "category": "research",
@@ -1009,6 +1009,16 @@ const data = [
     "draft": false,
     "deleted": false,
     "html": "<p>Updated Warrior Book and Videos</p>\n"
+  },
+  {
+    "id": "id21",
+    "title": "Day Five Of Quarantine...",
+    "category": "quarantine",
+    "tags": "Poem",
+    "date": "2020-03-21T20:14:25.929Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>Day Five of Quarantine...</p>\n"
   },
   {
     "id": "id19",

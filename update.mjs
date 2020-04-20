@@ -28,11 +28,15 @@ renderer.image = function(href, title, text) {
   }
 
 
-const order = JSON.parse(fs.readFileSync(`db/data/order.json`).toString()); // .map({}) // .sort( byKey('date') )
+//  const order = JSON.parse(fs.readFileSync(`db/data/order.json`).toString()); // .map({}) // .sort( byKey('date') )
+const order = fs.readdirSync('db/content/posts/');
+
+//console.log(order);
+
 let list = [];
 
 for( let id of order){
-  const {content, data} = matter(fs.readFileSync(`db/content/posts/${id}.md`).toString());
+  const {content, data} = matter(fs.readFileSync(`db/content/posts/${id}`).toString());
   list.push(Object.assign({},data,{html:marked(content, { renderer })}));
 }
 
