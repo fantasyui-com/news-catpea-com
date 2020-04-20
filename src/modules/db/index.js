@@ -8,7 +8,7 @@ const data = [
     "date": "2020-04-20T21:37:20.115Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>I made the UI a bit easier to follow, there is still a bunch of work to be done.</p>\n<p>There maybe some broken links, but I think I got it all. I think I would like to add Latest Popem on there, maybe latest post, I maked ited less than 1 day old in red.</p>\n<p>I continue learning how to use <a href=\"https://getbootstrap.com/\">Bootstrap</a> without twisting things around. I want to be able to create Themes that are Interchangable. THat kind of programming is hard to get used to.</p>\n<p>I&#39;ve been somewhat quitet about my research becasue I was just programming the news site. Now the Tag/Category system will allow me to post Philosophy, Songs (that I may sing, eek) my music and all kinds of things.</p>\n"
+    "html": "<p>I made the UI a bit easier to follow, there is still a bunch of work to be done.</p>\n<p>There maybe some broken links, but I think I got it all.</p>\n<p>I continue learning how to use <a href=\"https://getbootstrap.com/\">Bootstrap</a> without twisting things around. I want to be able to create Themes that are Interchangable. That kind of programming is hard to get used to.</p>\n<p>I&#39;ve been somewhat quitet about my research becasue I was just programming the news site. Now the Tag/Category system will allow me to post Philosophy, Songs (that I may sing, eek) my music, bicycle adventures, and all kinds of things.</p>\n"
   },
   {
     "id": "id122",
