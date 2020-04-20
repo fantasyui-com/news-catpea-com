@@ -10,4 +10,4 @@ deleted: false
 
 Added Squirrel
 
-![](icons/squirrel.svg)
+![](research/squirrel.png)

@@ -1,6 +1,6 @@
 ---
 id: id6
-title: Continued Exploring Potential For Component Re Usability Is Following Web Components Where Templating Is Concerned I Can Refe...
+title: Svelte Research
 category: research
 tags: Coding
 date: 2020-01-24T01:16:31.658Z

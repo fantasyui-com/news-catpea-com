@@ -1,6 +1,16 @@
 
 const data = [
   {
+    "id": "id123",
+    "title": "User Interface Updates",
+    "category": "research",
+    "tags": "Coding",
+    "date": "2020-04-20T21:37:20.115Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>I made the UI a bit easier to follow, there is still a bunch of work to be done.</p>\n<p>There maybe some broken links, but I think I got it all. I think I would like to add Latest Popem on there, maybe latest post, I maked ited less than 1 day old in red.</p>\n<p>I continue learning how to use <a href=\"https://getbootstrap.com/\">Bootstrap</a> without twisting things around. I want to be able to create Themes that are Interchangable. THat kind of programming is hard to get used to.</p>\n<p>I&#39;ve been somewhat quitet about my research becasue I was just programming the news site. Now the Tag/Category system will allow me to post Philosophy, Songs (that I may sing, eek) my music and all kinds of things.</p>\n"
+  },
+  {
     "id": "id122",
     "title": "Poetic Flight, Buckle and Coat",
     "category": "quarantine",
@@ -112,7 +122,7 @@ const data = [
   },
   {
     "id": "id111",
-    "title": "Research Energon 1 Jpg Transformer Robots Eat Energon Or Something Research Energon Jpg And Walk On It Sometimes I Gave...",
+    "title": "Designing Energon Cubes",
     "category": "research",
     "tags": "Coding Bootstrap",
     "date": "2020-04-15T21:29:22.387Z",
@@ -882,19 +892,19 @@ const data = [
   },
   {
     "id": "id34",
-    "title": "The Birds Are Going Wild Outside My Window Probably Because Of All The Plump Squirrels Ive Been Feeding Dammit...",
+    "title": "The Birds Are Going Wild Outside My Window",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Strange",
     "date": "2020-03-29T11:14:44.761Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>The birds are going wild outside my window, probably because of all the Plump Squirrels I&#39;ve been feeding. Dammit.</p>\n"
+    "html": "<p>The birds are going wild outside my window.</p>\n<p>Probably because of all the Plump Squirrels I&#39;ve been feeding.</p>\n<p>Dammit.</p>\n"
   },
   {
     "id": "id32",
-    "title": "I Continue My Work On The Little Shebang Slash Beat Sequencer I Am Searching For An Easy Ui Configuration That Is Also Fully F...",
-    "category": "quarantine",
-    "tags": "Poem",
+    "title": "I Continue My Work On The Little Shebang Slash Beat Sequencer",
+    "category": "research",
+    "tags": "Coding",
     "date": "2020-03-28T22:31:17.209Z",
     "draft": false,
     "deleted": false,
@@ -912,9 +922,9 @@ const data = [
   },
   {
     "id": "id31",
-    "title": "Captains Log Star Date Day Eleven I Connected The Beat Sequencer To Sound Click On Any Of The Tiny Boxes And When The Loop Co...",
+    "title": "The Beat Sequencer",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Audio",
     "date": "2020-03-27T13:12:01.513Z",
     "draft": false,
     "deleted": false,
@@ -922,9 +932,9 @@ const data = [
   },
   {
     "id": "id30",
-    "title": "Quarantine Day Ten My Arms Grew So Powerful From All The Rest That I Mistakenly Struck Myself Several Times I Busied Myself To...",
+    "title": "Shebang Genre",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Audio",
     "date": "2020-03-26T23:56:25.371Z",
     "draft": false,
     "deleted": false,
@@ -932,9 +942,9 @@ const data = [
   },
   {
     "id": "id29",
-    "title": "Captains Log Ninth Day Of Quarantine I Found One More Chicken Am Ready For Dinner I Created A Small For What Is Basically...",
+    "title": "Soundboard",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Audio",
     "date": "2020-03-25T23:33:22.740Z",
     "draft": false,
     "deleted": false,
@@ -942,9 +952,9 @@ const data = [
   },
   {
     "id": "id28",
-    "title": "Captains Log Supplemental Day Eight And Half Of Quarantine I Almost Finished Eating My 30 Day Supply Of Chicken My Muscle...",
+    "title": "The Warrior Album Single",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Audio",
     "date": "2020-03-24T21:11:29.310Z",
     "draft": false,
     "deleted": false,
@@ -952,19 +962,19 @@ const data = [
   },
   {
     "id": "id27",
-    "title": "Added Mp 3 Preview For The Sciurine Song You Can Also It Public Domain License Sciurine Mp 3...",
+    "title": "Sciurine Song MP3",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Audio",
     "date": "2020-03-24T15:18:57.286Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>Added mp3 preview for the Sciurine Song. You can also <a href=\"sciurine.mp3\">download</a> it (Public Domain License).</p>\n"
+    "html": "<p>Added mp3 preview for the Sciurine Song. You can also <a href=\"http://catpea.com/sciurine.mp3\">download</a> it (Public Domain License).</p>\n"
   },
   {
     "id": "id26",
-    "title": "Captains Log Eighth Day Of The Quarantine I Have Extended The Sciurine Instrumental Section With A Beautiful Thin Saw A Sciu...",
+    "title": "Sciurine Instrumental Section",
     "category": "quarantine",
-    "tags": "Poem Squirrel",
+    "tags": "Audio",
     "date": "2020-03-24T13:36:42.106Z",
     "draft": false,
     "deleted": false,
@@ -972,9 +982,9 @@ const data = [
   },
   {
     "id": "id25",
-    "title": "On The Seventh Day Of Quarantine I Added Tremolo Effect To The Sciurines In Memphis Song It Is Used In The Second Movement...",
+    "title": "Tremolo Effect To The Sciurines In Memphis Song",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Audio",
     "date": "2020-03-24T00:46:35.352Z",
     "draft": false,
     "deleted": false,
@@ -982,9 +992,9 @@ const data = [
   },
   {
     "id": "id24",
-    "title": "Added High Fidelity Mode For Dehydration In Memphis It Should Be Possible To Play It On Mobile Now Need A Speedy Cpu Thoug...",
+    "title": "Added High Fidelity Mode For Dehydration In Memphis",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Audio",
     "date": "2020-03-23T20:32:49.019Z",
     "draft": false,
     "deleted": false,
@@ -992,9 +1002,9 @@ const data = [
   },
   {
     "id": "id23",
-    "title": "Added Membrane Synth Drums To The Dehydration In Memphis Generative Album It Sounds Like The Is Collaborating With The And...",
+    "title": "Added Membrane Synth Drums To The Dehydration In Memphis",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Audio",
     "date": "2020-03-23T13:41:42.846Z",
     "draft": false,
     "deleted": false,
@@ -1002,9 +1012,9 @@ const data = [
   },
   {
     "id": "id22",
-    "title": "Day Six Of Quarantine Created A New Autogenerative Music Widget And Disguised It As An Immature Urine Joke The Technology Is...",
+    "title": "Autogenerative Music Widget",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Audio",
     "date": "2020-03-22T20:14:25.929Z",
     "draft": false,
     "deleted": false,
@@ -1012,19 +1022,19 @@ const data = [
   },
   {
     "id": "id20",
-    "title": "Updated Warrior Book And Videos...",
+    "title": "Updated Warrior Book And Videos",
     "category": "research",
-    "tags": "Coding",
+    "tags": "Book",
     "date": "2020-03-21T20:14:25.929Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>Updated Warrior Book and Videos</p>\n"
+    "html": "<p>Updated Warrior Book and Videos on catpea.com</p>\n"
   },
   {
     "id": "id21",
     "title": "Day Five Of Quarantine...",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Philosophy",
     "date": "2020-03-21T20:14:25.929Z",
     "draft": false,
     "deleted": false,
@@ -1034,7 +1044,7 @@ const data = [
     "id": "id19",
     "title": "Day Four Of Quarantine...",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Philosophy",
     "date": "2020-03-20T20:14:25.929Z",
     "draft": false,
     "deleted": false,
@@ -1044,7 +1054,7 @@ const data = [
     "id": "id18",
     "title": "Day Three Of Quarantine...",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Philosophy",
     "date": "2020-03-19T20:14:25.929Z",
     "draft": false,
     "deleted": false,
@@ -1054,7 +1064,7 @@ const data = [
     "id": "id17",
     "title": "Day Two Of Quarantine...",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Philosophy",
     "date": "2020-03-18T20:14:25.929Z",
     "draft": false,
     "deleted": false,
@@ -1064,7 +1074,7 @@ const data = [
     "id": "id16",
     "title": "Day One Of Quarantine...",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Philosophy",
     "date": "2020-03-17T20:14:25.929Z",
     "draft": false,
     "deleted": false,
@@ -1072,7 +1082,7 @@ const data = [
   },
   {
     "id": "id15",
-    "title": "Updated The Tool With Support For Mobile Tablet And Light Source Direction Https Fantasyui Com Github Io Neumorphism...",
+    "title": "Updated Neumorphism",
     "category": "research",
     "tags": "Coding",
     "date": "2020-02-05T00:33:31.100Z",
@@ -1082,7 +1092,7 @@ const data = [
   },
   {
     "id": "id14",
-    "title": "Created A Tool For Updating The Book And Cat Pea Gui Https Fantasyui Com Github Io Neumorphism...",
+    "title": "Created A Tool For Updating The Book",
     "category": "research",
     "tags": "Coding GUI",
     "date": "2020-02-03T01:48:18.732Z",
@@ -1098,7 +1108,7 @@ const data = [
     "date": "2020-01-31T04:07:32.063Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>Hee Haw, what a ride, I split the user Interface components used in <a href=\"/warrior\">The Warrior Book</a> from <a href=\"https://github.com/fantasyui-com/catpea-com\">Cat Pea Code</a> and created a creatively named stand-alone project: <a href=\"https://fantasyui-com.github.io/book-gui/?path=/story/widgets--illustration\">book-gui</a></p>\n"
+    "html": "<p>Hee Haw, what a ride, I split the user Interface components used in <a href=\"http://catpea.com/warrior\">The Warrior Book</a> from <a href=\"https://github.com/fantasyui-com/catpea-com\">Cat Pea Code</a> and created a creatively named stand-alone project: <a href=\"https://fantasyui-com.github.io/book-gui/?path=/story/widgets--illustration\">book-gui</a></p>\n"
   },
   {
     "id": "id12",
@@ -1108,11 +1118,11 @@ const data = [
     "date": "2020-01-28T03:34:30.737Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>Added <a href=\"/warrior\">The Warrior Book</a> to the main menu. It is a complicated effort as the book was converted to a pure data file, and now needs components to render the data. It made the book very portable, but there are a couple of broken internal links, and perhaps a bug or two.</p>\n"
+    "html": "<p>Added <a href=\"http://catpea.com/warrior\">The Warrior Book</a> to the main menu. It is a complicated effort as the book was converted to a pure data file, and now needs components to render the data. It made the book very portable, but there are a couple of broken internal links, and perhaps a bug or two.</p>\n"
   },
   {
     "id": "id11",
-    "title": "The Squirrel Expert System Can Hide Topics That The User Already Discussed Squirrels Mind Can Be Configured Via Preferences Pa...",
+    "title": "The Squirrel Expert System",
     "category": "research",
     "tags": "Coding Squirrel",
     "date": "2020-01-25T01:01:25.484Z",
@@ -1122,7 +1132,7 @@ const data = [
   },
   {
     "id": "id10",
-    "title": "Added Squirrel Ai...",
+    "title": "Added Squirrel AI!",
     "category": "research",
     "tags": "Coding Squirrel",
     "date": "2020-01-24T14:39:17.606Z",
@@ -1138,7 +1148,7 @@ const data = [
     "date": "2020-01-24T02:11:52.327Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>Added Squirrel</p>\n<p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"icons/squirrel.svg\" alt=\"\"></p>\n"
+    "html": "<p>Added Squirrel</p>\n<p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"research/squirrel.png\" alt=\"\"></p>\n"
   },
   {
     "id": "id8",
@@ -1152,7 +1162,7 @@ const data = [
   },
   {
     "id": "id7",
-    "title": "Added Prev Next Navigation To Random Videos...",
+    "title": "Added Prev Next Navigation To Random Videos",
     "category": "research",
     "tags": "Coding",
     "date": "2020-01-24T01:34:33.923Z",
@@ -1162,7 +1172,7 @@ const data = [
   },
   {
     "id": "id6",
-    "title": "Continued Exploring Potential For Component Re Usability Is Following Web Components Where Templating Is Concerned I Can Refe...",
+    "title": "Svelte Research",
     "category": "research",
     "tags": "Coding",
     "date": "2020-01-24T01:16:31.658Z",
@@ -1172,7 +1182,7 @@ const data = [
   },
   {
     "id": "id5",
-    "title": "Added Autopause To Random Video Player Improved Its Randomness...",
+    "title": "Added Autopause To Random Video Player",
     "category": "research",
     "tags": "Coding",
     "date": "2020-01-24T00:51:10.250Z",
@@ -1182,13 +1192,13 @@ const data = [
   },
   {
     "id": "id4",
-    "title": "Made The Little News Squirrels Shake When A User Pokes At Them Icons Squirrel Svg...",
+    "title": "Made The Little News Squirrels Shake",
     "category": "research",
     "tags": "Coding",
     "date": "2020-01-23T01:46:22.215Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>Made the little news squirrels shake when a user pokes at them.</p>\n<p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"icons/squirrel.svg\" alt=\"\"></p>\n"
+    "html": "<p>Made the little news squirrels shake when a user pokes at them.</p>\n"
   },
   {
     "id": "id3",
@@ -1202,7 +1212,7 @@ const data = [
   },
   {
     "id": "id2",
-    "title": "Improved The Randomness Of Bodybuilding Advice Items Begin Repeating After About 84 Selections I Added A Tiny Little Sub Progr...",
+    "title": "Improved The Randomness Of Bodybuilding Advice",
     "category": "research",
     "tags": "Coding",
     "date": "2020-01-22T03:38:19.680Z",
@@ -1212,23 +1222,23 @@ const data = [
   },
   {
     "id": "id1",
-    "title": "Added Preferences Pane To Bodybuilding Advice Bodybuilding Advice Is Meant To Serve As A Starting Point For More Complex Compon...",
+    "title": "Added Preferences Pane To Bodybuilding Advice Component",
     "category": "research",
     "tags": "Coding",
     "date": "2020-01-22T03:23:19.680Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>Added Preferences Pane to Bodybuilding Advice. Bodybuilding Advice is meant to serve as a starting point for more complex components.</p>\n"
+    "html": "<p>Added Preferences Pane to Bodybuilding Advice on <a href=\"http://catpea.com\">Cat Pea</a>.</p>\n<p>Bodybuilding Advice is meant to serve as a starting point for more complex components.</p>\n"
   },
   {
     "id": "id0",
-    "title": "Testing I Love The Icons Squirrel Svg Icon Https Octicons Github Com...",
+    "title": "I Love The Squirrel Octicon",
     "category": "research",
     "tags": "Coding",
     "date": "2020-01-22T03:22:19.680Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>Testing <a href=\"https://octicons.github.com/\">octicons</a>. I love the <img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"icons/squirrel.svg\" alt=\"\"> icon.</p>\n"
+    "html": "<p>Testing <a href=\"https://octicons.github.com/\">octicons</a>. I love the squirrel icon.</p>\n<p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"research/squirrel.png\" alt=\"\"></p>\n"
   }
 ];
 

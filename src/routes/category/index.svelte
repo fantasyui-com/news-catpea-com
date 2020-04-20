@@ -44,7 +44,7 @@
 
   }
 
-  let types = [];
+  let list = [];
   function reducer(accumulator,current){
     if(!accumulator[current.category]){
       accumulator[current.category] = {
@@ -66,12 +66,15 @@
   Object.keys(typeOverview).forEach(function(key){
     let {count, latest, id} = typeOverview[key];
     let name = startCase(key);
-    types.push({id, name, count, latest});
+    list.push({id, name, count, latest});
   })
 
   function recalculateTimestamps(){
-    collection = collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
-    types = types.map(i=>{ i.ago = moment(i.latest).from(moment()); return i; })
+    collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
+    collection.map(i=>{ i.today = (moment().diff(moment(i.date), 'days') < 1); return i; })
+
+    list.map(i=>{ i.ago = moment(i.latest).from(moment()); return i; })
+    list.map(i=>{ i.today = collection.filter(o=>o.category === i.id).filter(o=>o.today).length; return i; });
   }
 
   let intervalId = null;
@@ -90,25 +93,25 @@
     <div class="container">
 
     <div class="row mt-5">
-      <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
+      <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
       <span class="text-warning small"></span>
       <Sub description="Listing of all categories" posts tags></Sub>
       </div>
     </div>
 
       <div class="row mt-5">
-        <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
+        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
           <div class="list-group">
-            {#each types as type}
-              <a href="/explore/{type.id}" class="list-group-item list-group-item-action bg-dark" class:active={slug==type.id}>
+            {#each list as type}
+              <a href="/category/{type.id}" class="list-group-item list-group-item-action bg-dark" class:active={slug==type.id}>
                 <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">{type.name} <span class="badge badge-primary badge-pill">{type.count}</span></h5>
-                  <small class="text-muted">{type.ago}</small>
+                  <h5 class="mb-1">{type.name} {#if type.today}<span class="badge badge-danger badge-pill">{type.today}</span>{/if}</h5>
+                  <small class="text-muted">Updated {type.ago}</small>
                 </div>
 
                 {#if metadata[type.id]}
                   <p class="mb-1">{metadata[type.id].about}</p>
-                  <small class="text-muted">{metadata[type.id].note}</small>
+                  <small class="text-muted">{metadata[type.id].note} Contains {type.count} post{type.count==1?'':'s'}, {type.today} in the last 24 hours.</small>
                 {/if}
 
               </a>

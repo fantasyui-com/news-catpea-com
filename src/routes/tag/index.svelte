@@ -44,13 +44,7 @@
     collection.map(i=>{ i.today = (moment().diff(moment(i.date), 'days') < 1); return i; })
 
     list.map(i=>{i.ago = moment(i.latest).from(moment()); return i; })
-
-    list.map(i=>{
-
-      i.today = collection.filter(o=>o.tags.split(' ').includes(i.id)).filter(o=>o.today).length;
-
-    return i;
-    })
+    list.map(i=>{ i.today = collection.filter(o=>o.tags.split(' ').includes(i.id)).filter(o=>o.today).length; return i; });
 
   }
 
@@ -69,28 +63,21 @@
     <div class="container">
 
     <div class="row mt-5">
-      <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
+      <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
       <Sub description="Listing of all tags" posts categories></Sub>
       </div>
     </div>
 
       <div class="row mt-5">
-        <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
+        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
           <div class="list-group">
             {#each list as tag}
-              <a href="/tags/{tag.id}" class="list-group-item list-group-item-action bg-dark">
+              <a href="/tag/{tag.id}" class="list-group-item list-group-item-action bg-dark">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1">{tag.name} {#if tag.today}<span class="badge badge-danger badge-pill">{tag.today}</span>{/if}</h5>
-
                   <small class="text-muted">updated {tag.ago}</small>
                 </div>
                 <small class="text-muted">Contains {tag.count} post{tag.count==1?'':'s'}, {tag.today} in the last 24 hours.</small>
-
-                <!-- {#if metadata[type.id]}
-                  <p class="mb-1">{metadata[type.id].about}</p>
-                  <small class="text-muted">{metadata[type.id].note}</small>
-                {/if} -->
-
               </a>
             {/each}
           </div>

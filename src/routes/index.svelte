@@ -11,6 +11,8 @@
 
   function recalculateTimestamps(){
     collection = collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
+    collection.map(i=>{ i.today = (moment().diff(moment(i.date), 'days') < 1); return i; })
+
   }
 
   let intervalId = null;

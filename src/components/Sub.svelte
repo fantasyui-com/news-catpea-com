@@ -15,9 +15,9 @@
 
       <div class="float-left py-1 ml-2">{description}</div>
 
-      {#if posts}<a class="btn btn-sm btn-outline-info float-right mr-2" href="/">All Posts</a>{/if}
-      {#if categories}<a class="btn btn-sm btn-outline-info float-right mr-2" href="/category">All Categories</a>{/if}
-      {#if tags}<a class="btn btn-sm btn-outline-info float-right mr-2" href="/tag">All Tags</a>{/if}
+      {#if posts}<a class="btn btn-sm btn-outline-info float-right mr-2" href="/"><img src="/icons/eye.svg" alt="" width="16" height="16"> Posts</a>{/if}
+      {#if categories}<a class="btn btn-sm btn-outline-info float-right mr-2" href="/category"><img src="/icons/eye.svg" alt="" width="16" height="16"> Categories</a>{/if}
+      {#if tags}<a class="btn btn-sm btn-outline-info float-right mr-2" href="/tag"><img src="/icons/eye.svg" alt="" width="16" height="16"> Tags</a>{/if}
 
   </div>
 </div>

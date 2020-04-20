@@ -23,6 +23,9 @@
   export let category;
 
   import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
+  import Sub from '../../../components/Sub.svelte';
+  import Post from '../../../components/Post.svelte';
+
 
   import moment from "moment";
   import startCase from "lodash/startCase.js";
@@ -32,6 +35,7 @@
 
   function recalculateTimestamps(){
     collection = collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
+    collection.map(i=>{ i.today = (moment().diff(moment(i.date), 'days') < 1); return i; })
   }
 
   let intervalId = null;
@@ -66,40 +70,16 @@
 <main role="main">
   <section>
     <div class="container">
-      <!-- <div class="row mt-5">
-      <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb bg-dark">
-            <li class="breadcrumb-item"><a href=".">News</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Research</li>
-          </ol>
-        </nav>
-      </div>
-      </div> -->
-
       <div class="row mt-5">
-        <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
-        <span class="text-warning small">Showing posts in {category} category only</span> &middot <a class="small" href="/">show all posts</a> &middot <a class="small" href="/explore">list available categories</a>
+        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
+        <Sub description="Showing posts in {category} category" posts categories tags></Sub>
         </div>
       </div>
-
       <div class="row mt-5">
-      <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
-
-          {#each collection as item, i}
-          <div class="mb-5">
-            <h1 class="lead"><a href="/explore/{category}/read/{item.id}" class="text-muted">{item.title}</a></h1>
-            <small class="ml-3">
-              &mdash;
-              <span class="text-warning">Posted {item.ago}</span>
-              &middot;
-              in <span class="text-info"></span>
-              <a href="/explore/{item.category}">{startCase(item.category)}</a>
-              {#if item.tags.length}&middot; {#each item.tags.split(' ') as tag}<a href="/tags/{tag}">#{tag}</a>&nbsp;{/each}{/if}
-            </small>
-          </div>
+        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
+          {#each collection as data}
+            <Post {data} read="/category/{category}/read/{data.id}"/>
           {/each}
-
         </div>
       </div>
     </div>

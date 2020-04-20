@@ -6,7 +6,7 @@
 
 </script>
 
-<div class="card mb-5 article-link">
+<div class="card mb-5 article-link shadow" class:border-danger={data.today}>
   <div class="card-body py-4 px-3">
     <h5 class="card-title pb-2"><a class="text-light" href={read}>{data.title} &raquo;</a></h5>
     <h6 class="card-subtitle ml-3"><img src="/icons/envelope.svg" alt="" width="16" height="16"> Posted {data.ago} in <a href="/category/{data.category}">{startCase(data.category)}</a>.</h6>

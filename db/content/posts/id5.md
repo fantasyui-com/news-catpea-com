@@ -1,6 +1,6 @@
 ---
 id: id5
-title: Added Autopause To Random Video Player Improved Its Randomness...
+title: Added Autopause To Random Video Player
 category: research
 tags: Coding
 date: 2020-01-24T00:51:10.250Z

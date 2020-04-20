@@ -1,6 +1,6 @@
 ---
 id: id2
-title: Improved The Randomness Of Bodybuilding Advice Items Begin Repeating After About 84 Selections I Added A Tiny Little Sub Progr...
+title: Improved The Randomness Of Bodybuilding Advice
 category: research
 tags: Coding
 date: 2020-01-22T03:38:19.680Z
