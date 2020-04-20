@@ -22,9 +22,11 @@
   export let post;
 
   import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
+  import Sub from '../../components/Sub.svelte';
 
   import moment from "moment";
   import startCase from "lodash/startCase.js";
+
   import db from '../../modules/db/index.js';
 
   let collection = db();
@@ -82,7 +84,8 @@
 
     <div class="row mt-5">
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xxl-3 col-xxl-6">
-      <span class="text-warning small">Reading all posts</span> &middot <a class="small" href="/explore">list available categories</a> &middot <a class="small" href="/tags">list all tags</a>
+      <Sub description="Reading all posts" posts tags></Sub>
+
       </div>
     </div>
 

@@ -2,13 +2,13 @@
 const data = [
   {
     "id": "id122",
-    "title": "Poetic Flight",
+    "title": "Poetic Flight, Buckle and Coat",
     "category": "quarantine",
     "tags": "Poem",
     "date": "2020-04-20T02:28:30.917Z",
     "draft": false,
     "deleted": false,
-    "html": "<p>Captain&#39;s Log, Quarantine, Day Thirty Four.  </p>\n<p>I finished a big program, but I am ready for more.  </p>\n<p>So, I am writing a poem, and it is always very hard,<br>because I never know what its going to be about.  </p>\n<p>One moment, I am mighty, serious, and athletic,<br>then I sit to the poem, and I lose that aesthetic.  </p>\n<p>In my early 20s I wore a Blues Brother suit for office work,<br>but even that didn&#39;t work, cause I added cowboy-shoes,<br>and a huge buckle, not a day past when I didn&#39;t get a chuckle.  </p>\n<p>Later it got even worse, I wore leather pants and a matrix coat,<br>I fit into my coffee shop like a mountain goat.  </p>\n<p>Being serious is just too darn hard,<br>I don&#39;t have the might,  </p>\n<p>OK, that&#39;s enough for this poetic flight,<br>I am done writing, y&#39;all have goodnight.  </p>\n<p><audio controls=\"\" preload=\"none\" class=\"rounded\"><source src=\"poems/day34.mp3\" type=\"audio/mpeg\"></audio></p>\n"
+    "html": "<p>Captain&#39;s Log, Quarantine, Day Thirty Four.  </p>\n<p>I finished a big program, but I am ready for more.  </p>\n<p>So, I am writing a poem, and it is always very hard,<br>because I never know what its going to be about.  </p>\n<p>One moment, I am mighty, serious, and athletic,<br>then I sit to the poem, and I lose that aesthetic.  </p>\n<p>In my early 20s I wore a Blues Brother suit for office work,<br>but even that didn&#39;t work, cause I added cowboy-shoes,<br>and a huge buckle, not a day past when I didn&#39;t get a chuckle.  </p>\n<p>Later it got even worse, I wore leather pants and a Matrix coat,<br>I fit into my coffee shop like a mountain goat.  </p>\n<p>Being serious is just too darn hard,<br>I don&#39;t have the might,  </p>\n<p>OK, that&#39;s enough for this poetic flight,<br>I am done writing, y&#39;all have goodnight.  </p>\n<p><audio controls=\"\" preload=\"none\" class=\"rounded\"><source src=\"poems/day34.mp3\" type=\"audio/mpeg\"></audio></p>\n"
   },
   {
     "id": "id121",
@@ -494,7 +494,7 @@ const data = [
     "id": "id73",
     "title": "The Ballad of Meow",
     "category": "quarantine",
-    "tags": "Poem",
+    "tags": "Poem Photo",
     "date": "2020-04-06T03:23:24.501Z",
     "draft": false,
     "deleted": false,
