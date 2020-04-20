@@ -37,7 +37,7 @@ let list = [];
 
 for( let id of order){
   const {content, data} = matter(fs.readFileSync(`db/content/posts/${id}`).toString());
-  list.push(Object.assign({},data,{html:marked(content, { renderer })}));
+  list.push(Object.assign({},data,{html:marked(content.replace(/ controls="" /g,' controls '), { renderer })}));
 }
 
 list = list.sort(function(a,b){
