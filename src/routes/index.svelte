@@ -6,9 +6,10 @@
   import Post from '../components/Post.svelte';
   import Sub from '../components/Sub.svelte';
   import Tail from '../components/Tail.svelte';
-
   import db from '../modules/db/index.js';
+  import configuration from '../modules/configuration/index.js';
 
+  const conf = configuration();
 
   let collection = db();
   function recalculateTimestamps(){
@@ -23,7 +24,7 @@
   });
 
   recalculateTimestamps();
-  
+
   onMount(() => {
   });
 
@@ -34,7 +35,7 @@
 </style>
 
 <svelte:head>
-  <title>CATPEA! NEWS</title>
+  <title>{conf.title}</title>
 </svelte:head>
 
 <main role="main">

@@ -29,7 +29,11 @@
 
   import moment from "moment";
   import startCase from "lodash/startCase.js";
+
   import db from '../../../modules/db/index.js';
+  import configuration from '../../../modules/configuration/index.js';
+
+  const conf = configuration();
 
   $: collection = db().filter(o=>o.tags.split(' ').includes(tag));
 
@@ -56,18 +60,13 @@
 
 </script>
 
-
-
 <style>
-
 </style>
 
 <svelte:head>
-  <title>CATPEA! NEWS</title>
+  <title>{conf.title}</title>
 </svelte:head>
 
-
-<!-- <Icon name="squirrel" color="dark" class="mr-2"/> -->
 <main role="main">
   <section>
     <div class="container">

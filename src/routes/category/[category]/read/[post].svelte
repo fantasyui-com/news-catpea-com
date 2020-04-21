@@ -28,7 +28,11 @@
 
   import moment from "moment";
   import startCase from "lodash/startCase.js";
+
   import db from '../../../../modules/db/index.js';
+  import configuration from '../../../../modules/configuration/index.js';
+
+  const conf = configuration();
 
   let collection = db().filter(o=>o.category === category);
 
@@ -78,6 +82,10 @@
 
 
 </script>
+
+<svelte:head>
+  <title>{conf.title}</title>
+</svelte:head>
 
 <main role="main">
   <section>
