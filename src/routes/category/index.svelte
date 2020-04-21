@@ -41,10 +41,16 @@
       about:'Describes my poetic adventures during the 2020 Pandemic.',
       note:'Includes many poems from my studies and experiments with poetry.',
     },
+
     research:{
       about:'Describes my early Svelte and Bootstrap research.',
       note:'It also contains early notes on user interface design.',
-    }
+    },
+
+    theme:{
+      about:'Bootstrap Theme Development and CSS Functions/Tooling',
+      note:'Log of features being added to the flagship theme.',
+    },
 
   }
 
@@ -99,33 +105,32 @@
 <main role="main">
   <section>
     <div class="container">
-
-    <div class="row mt-5">
-      <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
-      <span class="text-warning small"></span>
-      <Sub description="Listing of all categories" posts tags></Sub>
-      </div>
-    </div>
-
       <div class="row mt-5">
-        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
-          <div class="list-group">
-            {#each list as type}
-              <a href="/category/{type.id}" class="list-group-item list-group-item-action bg-dark" class:active={slug==type.id}>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">{type.name} {#if type.today}<span class="badge badge-danger badge-pill">{type.today}</span>{/if}</h5>
-                  <small class="text-muted">Updated {type.ago}</small>
-                </div>
-
-                {#if metadata[type.id]}
-                  <p class="mb-1">{metadata[type.id].about}</p>
-                  <small class="text-muted">{metadata[type.id].note}</small>
-                {/if}
-                <small class="text-muted">Contains {type.count} post{type.count==1?'':'s'}, {type.today} in the last 24 hours.</small>
-
-              </a>
-            {/each}
-          </div>
+        <div class="{conf.column}">
+        <span class="text-warning small"></span>
+        <Sub description="Listing of all categories" posts tags></Sub>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="{conf.column}">
+          {#each list as type}
+            <div class="card mb-5 article-link shadow" class:border-danger={type.today}>
+              <div class="card-body py-4 px-3">
+                <h5 class="card-title pb-2"><a class="text-light" href="/category/{type.id}">{type.name} &raquo; {#if type.today}<span class="badge badge-danger badge-pill float-right">{type.today}</span>{/if}</a></h5>
+                <h6 class="card-subtitle ml-3 mb-3"><img src="/icons/envelope.svg" alt="" width="16" height="16" style="filter: invert(1);"> Updated {type.ago}.</h6>
+                <p class="card-text ml-3">
+                  {#if metadata[type.id]}
+                    <p class="">
+                    {metadata[type.id].about}
+                    {metadata[type.id].note}
+                    Contains {type.count} post{type.count==1?'':'s'}, {type.today} in the last 24 hours.
+                    </p>
+                  {/if}
+                </p>
+                <a class="btn btn-outline-info ml-3" href="/category/{type.id}">Browse {type.name} &raquo;</a>
+              </div>
+            </div>
+          {/each}
         </div>
       </div>
     </div>

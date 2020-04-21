@@ -25,6 +25,8 @@
   import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
   import Sub from '../../../../components/Sub.svelte';
   import Tail from '../../../../components/Tail.svelte';
+  import Read from '../../../../components/Read.svelte';
+  import Flip from '../../../../components/Flip.svelte';
 
   import moment from "moment";
   import startCase from "lodash/startCase.js";
@@ -90,73 +92,27 @@
 <main role="main">
   <section>
     <div class="container">
-
-    <div class="row mt-5">
-      <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
-        <Sub description="Reading posts tagged {tag}" posts categories tags></Sub>
-      </div>
-    </div>
-
       <div class="row mt-5">
-      <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
-
-      <nav aria-label="" class="my-5">
-        <ul class="pagination pagination-sm">
-
-
-
-          {#if hasNext}
-          <li class="page-item"><a class="page-link bg-dark border-0" title={prev.title} href="/tag/{tag}/read/{next.id}">&laquo; Older</a></li>
-          {:else}
-          <li class="page-item disabled"><span class="page-link bg-dark border-0"><s>&times; Older</s></span></li>
-          {/if}
-          {#if hasPrev}
-            <li class="page-item"><a class="page-link bg-dark border-0" title={prev.title} href="/tag/{tag}/read/{prev.id}">Newer &raquo;</a></li>
-          {:else}
-            <li class="page-item disabled"><span class="page-link bg-dark border-0"><s>Newer &times;</s></span></li>
-          {/if}
-
-
-        </ul>
-      </nav>
-
-        <div class="mb-5">
-          <h1 class="text-muted lead">{item.title}</h1>
-          <small class="ml-3">
-            &mdash;
-            <span class="text-warning">Posted {item.ago}</span>
-            &middot;
-            in <span class="text-info"></span>
-            <a href="/category/{item.category}">{startCase(item.category)}</a>
-            {#if item.tags.length}&middot; {#each item.tags.split(' ') as tag}<a href="/tag/{tag}">#{tag}</a>&nbsp;{/each}{/if}
-          </small>
+        <div class="{conf.column}">
+          <Sub description="Reading posts tagged {tag}" posts categories tags></Sub>
         </div>
-
-        <p>{@html item.html}</p>
-
-        <nav aria-label="" class="my-5">
-          <ul class="pagination pagination-lg">
-
-
-
-          {#if hasNext}
-          <li class="page-item"><a class="page-link bg-dark border-0" title={prev.title} href="/tag/{tag}/read/{next.id}">&laquo; Older</a></li>
-          {:else}
-          <li class="page-item disabled"><span class="page-link bg-dark border-0"><s>&times; Older</s></span></li>
-          {/if}
-          {#if hasPrev}
-            <li class="page-item"><a class="page-link bg-dark border-0" title={prev.title} href="/tag/{tag}/read/{prev.id}">Newer &raquo;</a></li>
-          {:else}
-            <li class="page-item disabled"><span class="page-link bg-dark border-0"><s>Newer &times;</s></span></li>
-          {/if}
-
-          </ul>
-        </nav>
-
+      </div>
+      <div class="row">
+        <div class="{conf.column}">
+          <Flip {index} {collection} base="/tag/{tag}/read"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="{conf.column}">
+          <Read data={item}/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="{conf.column}">
+          <Flip lg {index} {collection} base="/tag/{tag}/read"/>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </main>
-
 <Tail/>

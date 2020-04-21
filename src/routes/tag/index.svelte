@@ -69,30 +69,28 @@
 <main role="main">
   <section>
     <div class="container">
-
     <div class="row mt-5">
-      <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
+      <div class="{conf.column}">
       <Sub description="Listing of all tags" posts categories></Sub>
       </div>
     </div>
-
       <div class="row mt-5">
-        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
-          <div class="list-group">
-            {#each list as tag}
-              <a href="/tag/{tag.id}" class="list-group-item list-group-item-action bg-dark">
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">{tag.name} {#if tag.today}<span class="badge badge-danger badge-pill">{tag.today}</span>{/if}</h5>
-                  <small class="text-muted">updated {tag.ago}</small>
-                </div>
-                <small class="text-muted">Contains {tag.count} post{tag.count==1?'':'s'}, {tag.today} in the last 24 hours.</small>
-              </a>
-            {/each}
-          </div>
+        <div class="{conf.column}">
+          {#each list as tag}
+            <div class="card mb-5 article-link shadow" class:border-danger={tag.today}>
+              <div class="card-body py-4 px-3">
+                <h5 class="card-title pb-2"><a class="text-light" href="/tag/{tag.id}">{tag.name} &raquo; {#if tag.today}<span class="badge badge-danger badge-pill float-right">{tag.today}</span>{/if}</a></h5>
+                <h6 class="card-subtitle ml-3 mb-3"><img src="/icons/envelope.svg" alt="" width="16" height="16" style="filter: invert(1);"> Updated {tag.ago}.</h6>
+                <p class="card-text ml-3">
+                   Contains {tag.count} post{tag.count==1?'':'s'}, {tag.today} in the last 24 hours.
+                </p>
+                <a class="btn btn-outline-info ml-3" href="/tag/{tag.id}">Browse {tag.name} &raquo;</a>
+              </div>
+            </div>
+          {/each}
         </div>
       </div>
     </div>
   </section>
 </main>
-
 <Tail/>

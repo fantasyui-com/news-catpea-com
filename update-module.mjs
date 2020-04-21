@@ -27,8 +27,13 @@ const dirs = fs.readdirSync('./news/', { withFileTypes: true }).filter(o=>o.isDi
 
 let list = [];
 for( let id of files){
-  const {content, data} = matter(fs.readFileSync(id).toString());
-  list.push(Object.assign({},data,{html:marked(content, { renderer })}));
+  let {content, data} = matter(fs.readFileSync(id).toString());
+
+  // this is for github use only, it must be removed
+  content = content.replace(/\[download audio version\]\([^)]+\)/g,'');
+
+  const html = marked(content, { renderer });
+  list.push(Object.assign({},data,{html}));
 }
 list = list.sort(function(a,b){
   return new Date(b.date) - new Date(a.date);

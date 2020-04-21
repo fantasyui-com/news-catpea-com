@@ -10,14 +10,14 @@
 
 </script>
 
-<div class="card mb-5 article-link">
+<div class="card mb-3 article-link">
   <div class="card-body p-1">
 
-      <div class="float-left py-1 ml-2">{description}</div>
+      <div class="float-lg-left py-1 mx-1 small text-info mb-2 mb-lg-0">{description}</div>
 
-      {#if posts}<a class="btn btn-sm btn-outline-info float-right mr-2" href="/"><img src="/icons/eye.svg" alt="" width="16" height="16"> Posts</a>{/if}
-      {#if categories}<a class="btn btn-sm btn-outline-info float-right mr-2" href="/category"><img src="/icons/eye.svg" alt="" width="16" height="16"> Categories</a>{/if}
-      {#if tags}<a class="btn btn-sm btn-outline-info float-right mr-2" href="/tag"><img src="/icons/eye.svg" alt="" width="16" height="16"> Tags</a>{/if}
+      {#if posts}<a class="btn btn-sm btn-outline-info float-lg-right mx-1 mb-2 mb-lg-0" href="/"><img src="/icons/eye.svg" alt="" width="16" height="16" style="filter: invert(1);"> All Posts</a>{/if}
+      {#if categories}<a class="btn btn-sm btn-outline-info float-lg-right mx-1 mb-2 mb-lg-0" href="/category"><img src="/icons/eye.svg" alt="" width="16" height="16" style="filter: invert(1);"> Browse Categories</a>{/if}
+      {#if tags}<a class="btn btn-sm btn-outline-info float-lg-right mx-1 mb-2 mb-lg-0" href="/tag"><img src="/icons/eye.svg" alt="" width="16" height="16" style="filter: invert(1);"> Browse Tags</a>{/if}
 
   </div>
 </div>

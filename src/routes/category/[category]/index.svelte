@@ -74,12 +74,12 @@
   <section>
     <div class="container">
       <div class="row mt-5">
-        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
+        <div class="{conf.column}">
         <Sub description="Showing posts in {category} category" posts categories tags></Sub>
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
+        <div class="{conf.column}">
           {#each collection as data}
             <Post {data} read="/category/{category}/read/{data.id}"/>
           {/each}

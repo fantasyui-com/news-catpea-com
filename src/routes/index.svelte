@@ -43,13 +43,13 @@
     <div class="container">
 
       <div class="row mt-5">
-        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
-        <Sub description="Showing all posts" categories=true tags=true></Sub>
+        <div class="{conf.column}">
+        <Sub description="Showing all {collection.length} posts" categories=true tags=true></Sub>
         </div>
       </div>
 
       <div class="row mt-5">
-        <div class="col-12 offset-md-1 col-md-10 offset-xxl-3 col-xxl-6">
+        <div class="{conf.column}">
           {#each collection as data}
             <Post {data} read="/read/{data.id}"/>
           {/each}
