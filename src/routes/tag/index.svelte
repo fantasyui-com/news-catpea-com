@@ -1,6 +1,7 @@
 <script>
   import { onDestroy } from 'svelte';
   import Sub from '../../components/Sub.svelte';
+  import Tail from '../../components/Tail.svelte';
 
   import moment from "moment";
   import startCase from "lodash/startCase.js";
@@ -86,3 +87,5 @@
     </div>
   </section>
 </main>
+
+<Tail/>

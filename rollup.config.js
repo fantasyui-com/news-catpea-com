@@ -91,7 +91,10 @@ export default {
         // preferBuiltins: true,
         // mainFields: ['browser'],
         browser: true,
-        dedupe
+        dedupe,
+        // customResolveOptions: {
+        //   moduleDirectory: 'svelte_modules'
+        // }
       }),
       commonjs(),
 

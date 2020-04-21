@@ -24,6 +24,7 @@
 
   import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
   import Sub from '../../../components/Sub.svelte';
+  import Tail from '../../../components/Tail.svelte';
   import Post from '../../../components/Post.svelte';
 
   import moment from "moment";
@@ -86,11 +87,4 @@
   </section>
 </main>
 
-<footer class="text-muted">
-  <div class="container">
-    <p class="float-right">
-      <a href="#top">back to top</a>
-    </p>
-    <p><a href="https://catpea.com/">catpea.com</a></p>
-  </div>
-</footer>
+<Tail/>
