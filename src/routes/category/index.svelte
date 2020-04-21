@@ -111,8 +111,9 @@
 
                 {#if metadata[type.id]}
                   <p class="mb-1">{metadata[type.id].about}</p>
-                  <small class="text-muted">{metadata[type.id].note} Contains {type.count} post{type.count==1?'':'s'}, {type.today} in the last 24 hours.</small>
+                  <small class="text-muted">{metadata[type.id].note}</small>
                 {/if}
+                <small class="text-muted">Contains {type.count} post{type.count==1?'':'s'}, {type.today} in the last 24 hours.</small>
 
               </a>
             {/each}
