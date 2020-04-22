@@ -1,6 +1,17 @@
 
 const data = [
   {
+    "id": "id126",
+    "title": "Everybody Counts",
+    "category": "quarantine",
+    "tags": "Poem Listen",
+    "date": "2020-04-22T01:29:53.978Z",
+    "audio": "poems/day36.mp3",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>Captain&#39;s Log, Quarantine, Day Thirty Six.<br>Today has been an interesting mix,  </p>\n<p>We have to be strong,<br>and go far and long.  </p>\n<p>We can&#39;t sit around,<br>looking at the ground,  </p>\n<p>We are each a hero,<br>and none are zero.  </p>\n<p>Everybody counts,<br>care for each other amounts,  </p>\n<p>It amounts to Happiness and Cheer,<br>and all the Wonders we hold Dear.  </p>\n"
+  },
+  {
     "id": "id125",
     "title": "UI Component Upgrades",
     "category": "research",
