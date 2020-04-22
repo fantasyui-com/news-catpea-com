@@ -2,10 +2,11 @@
   import Nav from '../components/Nav.svelte';
 
   export let segment;
+
 </script>
 
 <style lang="scss" global>
- @import "../../catpea-com/src/style/index.scss";
+  @import "../../catpea-com/src/style/index.scss";
 </style>
 
 <Nav {segment} opened={false}/>
