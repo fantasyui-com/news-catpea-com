@@ -44,7 +44,7 @@
 
       <div class="row mt-5">
         <div class="{conf.column}">
-        <Sub description="Showing all {collection.length} posts" categories=true tags=true></Sub>
+        <Sub description="Showing All {collection.length} Posts" categories=true tags=true></Sub>
         </div>
       </div>
 
@@ -53,6 +53,12 @@
           {#each collection as data}
             <Post {data} read="/read/{data.id}"/>
           {/each}
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="{conf.column}">
+        <Sub description="Showing All {collection.length} Posts" categories=true tags=true></Sub>
         </div>
       </div>
 

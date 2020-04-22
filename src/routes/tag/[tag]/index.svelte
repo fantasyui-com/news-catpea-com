@@ -70,11 +70,13 @@
 <main role="main">
   <section>
     <div class="container">
+
       <div class="row mt-5">
         <div class="{conf.column}">
-          <Sub description="Showing posts tagged {tag}" posts tags categories></Sub>
+          <Sub description="Index Of {collection.length} Post{collection.length==1?'':'s'} Tagged With {tag}" posts tags categories></Sub>
         </div>
       </div>
+
       <div class="row mt-5">
         <div class="{conf.column}">
           {#each collection as data}
@@ -82,6 +84,13 @@
           {/each}
         </div>
       </div>
+
+      <div class="row mb-5">
+        <div class="{conf.column}">
+          <Sub description="Index Of {collection.length} Post{collection.length==1?'':'s'} Tagged With {tag}" posts tags categories></Sub>
+        </div>
+      </div>
+
     </div>
   </section>
 </main>

@@ -86,7 +86,7 @@
     <div class="container">
       <div class="row mt-5">
         <div class="{conf.column}">
-        <Sub description="Reading all posts" posts tags></Sub>
+        <Sub description="Post# {collection.length - (index )}: Navigating All {collection.length} Post{collection.length==1?'':'s'}" posts tags></Sub>
         </div>
       </div>
 
@@ -105,6 +105,12 @@
       <div class="row">
         <div class="{conf.column}">
           <Flip lg {index} {collection} base="/read"/>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="{conf.column}">
+        <Sub description="Post# {collection.length - (index )}: Navigating All  {collection.length} Post{collection.length==1?'':'s'}" posts tags></Sub>
         </div>
       </div>
 

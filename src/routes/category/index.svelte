@@ -105,12 +105,14 @@
 <main role="main">
   <section>
     <div class="container">
+
       <div class="row mt-5">
         <div class="{conf.column}">
         <span class="text-warning small"></span>
-        <Sub description="Listing of all categories" posts tags></Sub>
+        <Sub description="Listing Of All {list.length} Categories" posts tags></Sub>
         </div>
       </div>
+
       <div class="row mt-5">
         <div class="{conf.column}">
           {#each list as type}
@@ -133,6 +135,14 @@
           {/each}
         </div>
       </div>
+
+      <div class="row mb-5">
+        <div class="{conf.column}">
+        <span class="text-warning small"></span>
+        <Sub description="Listing Of All {list.length} Categories" posts tags></Sub>
+        </div>
+      </div>
+
     </div>
   </section>
 </main>

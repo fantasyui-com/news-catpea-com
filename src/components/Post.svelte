@@ -9,7 +9,7 @@
 <div class="card mb-5 article-link shadow" class:border-danger={data.today}>
   <div class="card-body py-4 px-3">
 
-    <h5 class="card-title pb-2"><a class="text-light" href={read}>{data.title} &raquo;</a></h5>
+    <h5 class="card-title pb-2"><a class="text-light" href={read}>{data.title}</a></h5>
 
     <h6 class="card-subtitle ml-3"><img src="/icons/envelope.svg" alt="" width="16" height="16" style="filter: invert(1);"> Posted {data.ago} in <a href="/category/{data.category}">{startCase(data.category)}</a>.</h6>
 
@@ -25,7 +25,8 @@
       </small>
     </p>
 
-    <a href={data.audio} class="btn btn-primary btn-sm ml-3" class:d-none={!data.audio}><img src="/icons/play.svg" alt="" width="16" height="16" style="filter: invert(1);"> Listen</a>
+    <a href={read} class="btn btn-outline-success btn-sm ml-3"><img src="/icons/file-earmark-text.svg" alt="" width="16" height="16" style="filter: invert(1);"> Read</a>
+    <a href={data.audio} class="btn btn-outline-info btn-sm ml-3" class:d-none={!data.audio}><img src="/icons/play.svg" alt="" width="16" height="16" style="filter: invert(1);"> Listen</a>
 
   </div>
 </div>

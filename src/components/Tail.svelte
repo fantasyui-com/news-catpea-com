@@ -10,6 +10,7 @@ const conf = configuration();
 
         <a class="btn btn-sm btn-outline-info float-right mr-2" href="#top">back to top</a>
         <a class="btn btn-sm btn-outline-info float-left ml-2" href="http://catpea.com/">catpea.com</a>
+        <a class="btn btn-sm btn-outline-info float-left ml-2" href="http://news.catpea.com/">news.catpea.com</a>
 
       </div>
     </div>

@@ -69,11 +69,13 @@
 <main role="main">
   <section>
     <div class="container">
-    <div class="row mt-5">
-      <div class="{conf.column}">
-      <Sub description="Listing of all tags" posts categories></Sub>
+
+      <div class="row mt-5">
+        <div class="{conf.column}">
+        <Sub description="Listing Of All {list.length} Tags" posts categories></Sub>
+        </div>
       </div>
-    </div>
+
       <div class="row mt-5">
         <div class="{conf.column}">
           {#each list as tag}
@@ -90,6 +92,13 @@
           {/each}
         </div>
       </div>
+
+      <div class="row mb-5">
+        <div class="{conf.column}">
+        <Sub description="Listing Of All {list.length} Tags" posts categories></Sub>
+        </div>
+      </div>
+
     </div>
   </section>
 </main>

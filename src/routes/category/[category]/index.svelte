@@ -73,11 +73,13 @@
 <main role="main">
   <section>
     <div class="container">
+
       <div class="row mt-5">
         <div class="{conf.column}">
-        <Sub description="Showing posts in {category} category" posts categories tags></Sub>
+        <Sub description="Index Of {collection.length} Post{collection.length==1?'':'s'} In {startCase(category)} Category" posts categories tags></Sub>
         </div>
       </div>
+
       <div class="row mt-5">
         <div class="{conf.column}">
           {#each collection as data}
@@ -85,6 +87,13 @@
           {/each}
         </div>
       </div>
+
+      <div class="row mt-5">
+        <div class="{conf.column}">
+        <Sub description="Index Of {collection.length} Post{collection.length==1?'':'s'} In {startCase(category)} Category" posts categories tags></Sub>
+        </div>
+      </div>
+
     </div>
   </section>
 </main>

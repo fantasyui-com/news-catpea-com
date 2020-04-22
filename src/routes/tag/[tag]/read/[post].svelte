@@ -94,7 +94,7 @@
     <div class="container">
       <div class="row mt-5">
         <div class="{conf.column}">
-          <Sub description="Reading posts tagged {tag}" posts categories tags></Sub>
+          <Sub post={post} description="Navigating {collection.length} Post{collection.length==1?'':'s'} Tagged With {tag}" posts categories tags untag></Sub>
         </div>
       </div>
       <div class="row">
@@ -110,6 +110,11 @@
       <div class="row">
         <div class="{conf.column}">
           <Flip lg {index} {collection} base="/tag/{tag}/read"/>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="{conf.column}">
+          <Sub post={post} description="Navigating {collection.length} Post{collection.length==1?'':'s'} Tagged With {tag}" posts categories tags untag></Sub>
         </div>
       </div>
     </div>
