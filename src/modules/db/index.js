@@ -1,6 +1,16 @@
 
 const data = [
   {
+    "id": "id127",
+    "title": "Color Themes in Bootstrap, and Post Templates in Bash.",
+    "category": "research",
+    "tags": "Programming",
+    "date": "2020-04-22T23:59:52.233Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>I had a piece of bread today, I&#39;ve been programming like a madman.</p>\n<p>I created couple of commands to update the <a href=\"https://github.com/fantasyui-com/news/blob/master/README.md\">github mirror of my posts</a>, it has a little <a href=\"https://github.com/fantasyui-com/news/blob/master/add.sh\">templating system</a> in <a href=\"https://www.youtube.com/watch?v=2hz7-v2f1sA\">Bash</a>, so I can say:</p>\n<p>add poem<br>or<br>add research  </p>\n<p>and it will create a post blank with a proper time-stamp and id.\nReady for poems, and long winds, as they say in Wales.</p>\n<p>And I updated the <a href=\"https://catpea.com/palette\">Palette Tool</a> on <a href=\"https://catpea.com/\">Cat Pea</a> to crank out pretty gosh darn readable Color Themes, here is an abstract montage of Purple Dark Pastels, Green Trinity Matrix, and desaturated Blue Navy.</p>\n<p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"research/multicolor.png\" alt=\"Image\"></p>\n<p>I still have to adjust a tool that makes use of that data over in <a href=\"https://news.catpea.com/\">news.catpea.com</a>, but it is all looking pretty good.\nHere is a <a href=\"https://github.com/fantasyui-com/news/blob/master/posts/id127.md\">mirror of this post</a> on github.</p>\n"
+  },
+  {
     "id": "id126",
     "title": "Everybody Counts",
     "category": "quarantine",

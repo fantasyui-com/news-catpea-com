@@ -22,8 +22,8 @@ renderer.image = function(href, title, text) {
     return out;
 };
 
-const files = fs.readdirSync('./news/', { withFileTypes: true }).filter(o=>o.isFile()).filter(o=>o.name.match(/^id[0-9]+\.md/)).map(o=>path.resolve('./news',o.name));
-const dirs = fs.readdirSync('./news/', { withFileTypes: true }).filter(o=>o.isDirectory()).filter(o=>o.name.match(/^[^._]/)).map(o=>path.resolve('./news',o.name));
+const files = fs.readdirSync('./news/posts/', { withFileTypes: true }).filter(o=>o.isFile()).filter(o=>o.name.match(/^id[0-9]+\.md/)).map(o=>path.resolve('./news/posts',o.name));
+const dirs = fs.readdirSync('./news/posts/', { withFileTypes: true }).filter(o=>o.isDirectory()).filter(o=>o.name.match(/^[^._]/)).map(o=>path.resolve('./news/posts',o.name));
 
 let list = [];
 for( let id of files){
