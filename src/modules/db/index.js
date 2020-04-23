@@ -1,6 +1,17 @@
 
 const data = [
   {
+    "id": "id128",
+    "title": "I Miss Old Programming Languages",
+    "category": "quarantine",
+    "tags": "Poem Listen",
+    "date": "2020-04-23T01:46:11.372Z",
+    "audio": "poems/day37.mp3",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>Captain&#39;s Log, Quarantine, Day Thirty Seven.<br>I can&#39;t believe that seven only rhymes with Eleven, and Heaven.  </p>\n<p>Every ten days I get stuck rhyming those two words,<br>and it is just about as fun as petting birds.  </p>\n<p>I was writing <a href=\"https://www.youtube.com/watch?v=2hz7-v2f1sA\">Bash</a> this afternoon,<br>I am so full of energy, I feel like a loon.  </p>\n<p>I was so tired at eight yesterday,<br>I have no idea how I will fall asleep today.  </p>\n<p>I wrote a <a href=\"https://www.youtube.com/watch?v=xW4CdejMNPA\">non-capturing</a> Perl <a href=\"https://www.youtube.com/watch?v=ykSuHWhh5hc\">Regular Expression</a> in <a href=\"https://www.youtube.com/watch?v=32waL1Z9XK0\">sed</a>,<br>gosh I miss the old <a href=\"https://www.youtube.com/watch?v=E2JJZVqe97I\">Perl</a>, I miss <a href=\"https://www.youtube.com/watch?v=9Zx1vEmaQMc\">CGI</a>, and I miss <a href=\"https://www.youtube.com/watch?v=BNYpmLH6IjQ\">ed</a>.  </p>\n<p>What has the world become after <a href=\"https://youtu.be/PUv66718DII?t=2490\">abandoning modes</a>,<br>and how strange have become our codes.  </p>\n<p>Using <a href=\"https://www.youtube.com/watch?v=St5B7hnMLjg\">SASS</a> writ in <a href=\"https://www.youtube.com/watch?v=kJkB_Tggk8U\">C++</a>,<br>to make <a href=\"https://www.youtube.com/watch?v=gT0Lh1eYk78\">CSS</a>? What a mess!  </p>\n<p>And beyond that, with <a href=\"https://www.youtube.com/watch?v=PoRJizFvM7s\">async/await</a>,<br><a href=\"https://www.youtube.com/watch?v=9A_jkh2AKR8\">JavaScript</a> has become a heavy weight.  </p>\n<p>I always tell people if you make for the web,<br>use the <a href=\"https://www.youtube.com/watch?v=nGvA92h9IbU\">language, of the web</a>.</p>\n<p>They then look at me accusingly,<br>parading <a href=\"https://www.youtube.com/watch?v=Y8Tko2YC5hA\">Python</a>, <a href=\"https://www.youtube.com/watch?v=mBL9Athx7ms\">PHP</a> or <a href=\"https://www.youtube.com/watch?v=5KlnlCq2M5Q\">Dart</a>, maybe <a href=\"https://www.youtube.com/watch?v=2Xa3Y4xz8_s\">Java</a>?! amusingly.  </p>\n<p>Come on people, this is not our first rodeo,<br>Time took out Perl with a torpedo.  </p>\n<p>This is war, and those who fall behind lose,<br>If you write for the web, use the <a href=\"https://www.youtube.com/watch?v=nGvA92h9IbU\">language, of the web</a>.</p>\n<p>Your utilities will hang around longer,<br>and your accomplishments will be that much stronger.  </p>\n"
+  },
+  {
     "id": "id127",
     "title": "Color Themes in Bootstrap, and Post Templates in Bash.",
     "category": "research",
