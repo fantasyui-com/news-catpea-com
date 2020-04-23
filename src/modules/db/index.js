@@ -1,6 +1,16 @@
 
 const data = [
   {
+    "id": "id129",
+    "title": "Cat Pea News can be used with JavaScript disabled, and launch of Styleguide.",
+    "category": "research",
+    "tags": "Programming",
+    "date": "2020-04-23T17:41:21.529Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>It has been a long road to create an application like this.</p>\n<p>While Cat Pea News is written in JavaScript,\nand JavaScript enhances the features,\nit is not required for operation.</p>\n<p>When JavaScript is disabled, the sub navigation menu is displayed in a non-interactive mode.\nEverything still works, except for collapsing menus and and little future extras like that.</p>\n<p>This is an advanced feature that most programmers don&#39;t even try to think about.\nI remember once reading a complaint by a programmer, and I paraphrase:</p>\n<blockquote>\n<p>&quot;Imagine if someone was allowed to disable the electrical system in you car, and then complained nothing works.&quot;</p>\n</blockquote>\n<p>Yeah, imagine... If we delivered base functionality without bloat and <a href=\"https://en.wikipedia.org/wiki/Feature_creep\">Feature Creep</a>.</p>\n<p>Tiny program, big feature. If I aimed to create a fast website for browsing content, I could actually pull it off.</p>\n<p>Google created a whole technology for less bloated internet, but it is also designed for serving ads. It takes so little to create something like Cat Pea for no java-script browsers, that Google Amp&#39;s CDN networks layout/HTML worries kind of add up to creating a new ad platform. As their other benefits are easily reproducible with some foresight the non-js part of <a href=\"https://getbootstrap.com/\">Bootstrap</a> and basic <a href=\"https://sapper.svelte.dev/\">Svelte Sapper</a>.</p>\n<p>I kind of consider this little-big milestone the completion of the coding behind Catpea&#39;s News Site. Today is the real launch date.</p>\n<p>Yesterday, I added that little <a href=\"https://github.com/fantasyui-com/news/blob/master/add.sh\">templating system</a> that just helped me to create this post by running <code>add research</code>, and I like that too. This is a third post that I created with it.</p>\n<p>I also begun work on documenting changes I make to Bootstrap. This is a project that is happening on catpea.com, rather than the news site, and it is under <a href=\"https://catpea.com/styleguide/\">https://catpea.com/styleguide/</a> It is a horrible mess right now, with sample code. This will become the primary documentation for the Cat Pea Theme. The big deal behind it is that I keep graphic instructions next to structure of content the graphic instructions decorate. It will quickly become a long document with useful little recipes for UI building.</p>\n"
+  },
+  {
     "id": "id128",
     "title": "I Miss Old Programming Languages",
     "category": "quarantine",

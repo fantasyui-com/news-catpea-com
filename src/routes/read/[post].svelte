@@ -110,7 +110,7 @@
 
       <div class="row mb-5">
         <div class="{conf.column}">
-        <Sub description="Post# {collection.length - (index )}: Navigating All  {collection.length} Post{collection.length==1?'':'s'}" posts tags></Sub>
+        <Sub description="Post# {collection.length - (index )}: Navigating All  {collection.length} Post{collection.length==1?'':'s'}" opened posts tags></Sub>
         </div>
       </div>
 

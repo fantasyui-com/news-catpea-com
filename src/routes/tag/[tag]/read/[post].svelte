@@ -114,7 +114,7 @@
       </div>
       <div class="row mb-5">
         <div class="{conf.column}">
-          <Sub post={post} description="Navigating {collection.length} Post{collection.length==1?'':'s'} Tagged With {tag}" posts categories tags untag></Sub>
+          <Sub post={post} description="Navigating {collection.length} Post{collection.length==1?'':'s'} Tagged With {tag}" opened posts categories tags untag></Sub>
         </div>
       </div>
     </div>

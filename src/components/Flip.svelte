@@ -18,15 +18,15 @@
   <ul class="pagination" class:pagination-sm={!lg} class:pagination-lg={lg}>
 
     {#if hasNext}
-      <li class="page-item"><a class="page-link bg-dark border-0" title={prev.title} href="{base}/{next.id}">&laquo; Older</a></li>
+      <li class="page-item"><a class="page-link bg-dark border-0 focus-0" title={prev.title} href="{base}/{next.id}">&laquo; Older</a></li>
     {:else}
-      <li class="page-item disabled"><span class="page-link bg-dark border-0"><s>&times; Older</s></span></li>
+      <li class="page-item disabled"><span class="page-link bg-dark border-0 focus-0"><s>&times; Older</s></span></li>
     {/if}
 
     {#if hasPrev}
-      <li class="page-item"><a class="page-link bg-dark border-0" title={prev.title} href="{base}/{prev.id}">Newer &raquo;</a></li>
+      <li class="page-item"><a class="page-link bg-dark border-0 focus-0" title={prev.title} href="{base}/{prev.id}">Newer &raquo;</a></li>
     {:else}
-      <li class="page-item disabled"><span class="page-link bg-dark border-0"><s>Newer &times;</s></span></li>
+      <li class="page-item disabled"><span class="page-link bg-dark border-0 focus-0"><s>Newer &times;</s></span></li>
     {/if}
 
   </ul>

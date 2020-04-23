@@ -139,7 +139,7 @@
       <div class="row mb-5">
         <div class="{conf.column}">
         <span class="text-warning small"></span>
-        <Sub description="Listing Of All {list.length} Categories" posts tags></Sub>
+        <Sub description="Listing Of All {list.length} Categories" opened posts tags></Sub>
         </div>
       </div>
 

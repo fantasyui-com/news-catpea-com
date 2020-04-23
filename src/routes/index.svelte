@@ -44,7 +44,7 @@
 
       <div class="row mt-5">
         <div class="{conf.column}">
-        <Sub description="Showing All {collection.length} Posts" categories=true tags=true></Sub>
+        <Sub description="Showing All {collection.length} Posts" opened categories=true tags=true></Sub>
         </div>
       </div>
 
@@ -58,7 +58,7 @@
 
       <div class="row mt-5">
         <div class="{conf.column}">
-        <Sub description="Showing All {collection.length} Posts" categories=true tags=true></Sub>
+        <Sub description="Showing All {collection.length} Posts" opened categories=true tags=true></Sub>
         </div>
       </div>
 

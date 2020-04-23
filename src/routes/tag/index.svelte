@@ -95,7 +95,7 @@
 
       <div class="row mb-5">
         <div class="{conf.column}">
-        <Sub description="Listing Of All {list.length} Tags" posts categories></Sub>
+        <Sub description="Listing Of All {list.length} Tags" opened posts categories></Sub>
         </div>
       </div>
 
