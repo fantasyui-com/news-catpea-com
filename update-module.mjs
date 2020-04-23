@@ -39,10 +39,29 @@ list = list.sort(function(a,b){
   return new Date(b.date) - new Date(a.date);
 });
 let meta = `
+import {readable} from 'svelte/store';
+import moment from 'moment';
 const data = ${JSON.stringify(list, null, '  ')};
 
+// Generated via update-module.mjs
 export default function main(){
-  return data;
+  const collection = data.map(i=>{
+    i.published = moment(i.date).format('ddd MMM Do YYYY, h:mm A');
+    i.ago = readable( moment(i.date).from(moment()) , (set)=>{
+      const recalculate = () => set( moment(i.date).from(moment()) );
+      const interval = setInterval(recalculate, 60*1000);
+      recalculate();
+      return () => clearInterval(interval);
+    });
+    i.today = readable( false , (set)=>{
+      const recalculate = () => set( (moment().diff(moment(i.date), 'days') < 1) );
+      const interval = setInterval(recalculate, 60*1000);
+      recalculate();
+      return () => clearInterval(interval);
+    });
+    return i;
+  });
+  return collection;
 }
 `;
 fs.writeFileSync(`src/modules/db/index.js`,  meta);

@@ -1,5 +1,17 @@
 
+import {readable} from 'svelte/store';
+import moment from 'moment';
 const data = [
+  {
+    "id": "id130",
+    "title": "Proper Time-stamps",
+    "category": "research",
+    "tags": "Programming",
+    "date": "2020-04-23T23:37:00.693Z",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>I had to rewrite a bunch of code to prefix variables with a dollar sign, that is a huge problem for Svelte adoption.</p>\n<p>This person ran into the <a href=\"https://stackoverflow.com/questions/60045404/svelte-read-nested-store\">same problem</a>, it is hard to form an opinion on the matter as I am still learning svelte.</p>\n<p>There are other much smaller anomalies.</p>\n<p>And then the issue of the graphic language (CSS) not being dynamically editable.</p>\n<p>Svelte is still the best framework, but I think another one will evolve from Svelte.</p>\n<p>The two or three leading Svelte ancestors (in general, not approach wise) <a href=\"https://angular.io/\">Angular</a>, <a href=\"https://reactjs.org/\">React</a> and <a href=\"https://vuejs.org/\">Vue</a>, are even worse.</p>\n<p>This small svelte problem, is still nothing compared to the mess <a href=\"https://reactjs.org/\">React</a>, <a href=\"https://vuejs.org/\">Vue</a>, and <a href=\"https://angular.io/\">Angular</a> are creating.</p>\n<p>Svelte is an important experience, because it has unearthed the future of all programming.</p>\n<p>But, today writing code for Svelte, is just that. I will not be able to use Svelte code in future JavaScript code.</p>\n<p>Someone did a nice write up <a href=\"https://github.com/feltcoop/why-svelte\">here</a>, much better analysis than mine.</p>\n<p>It is 2020, things should be further along than this.</p>\n<p>Anyway, 98% of Svelte+Sapper is good, my concern is that they will fail to follow JavaScript development path, and conventions, and the newer version will have more of the <a href=\"https://stackoverflow.com/questions/60045404/svelte-read-nested-store\">same problem problems</a>.</p>\n<p>Cat Pea News, however is doing great, not when JavaScript is disabled the <em>Time ago time-stamps</em> fall back on normal dates, as they can&#39;t be calculated since dynamic programming is off. This took very little work. It is the same code-base, but when there is no programming in the browser, dynamic features fall back, and look great!</p>\n<p>Here is an example of the &quot;ago time&quot; calculation:</p>\n<p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"research/nojs-1.png\" alt=\"research/nojs-1.png\"></p>\n<p>And here is what hapends when that catculation can&#39;t be made the browser has disabled JavaScript:</p>\n<p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"research/nojs-2.png\" alt=\"research/nojs-2.png\"></p>\n"
+  },
   {
     "id": "id129",
     "title": "Cat Pea News can be used with JavaScript disabled, and launch of Styleguide.",
@@ -1317,6 +1329,23 @@ const data = [
   }
 ];
 
+// Generated via update-module.mjs
 export default function main(){
-  return data;
+  const collection = data.map(i=>{
+    i.published = moment(i.date).format('ddd MMM Do YYYY, h:mm A');
+    i.ago = readable( moment(i.date).from(moment()) , (set)=>{
+      const recalculate = () => set( moment(i.date).from(moment()) );
+      const interval = setInterval(recalculate, 60*1000);
+      recalculate();
+      return () => clearInterval(interval);
+    });
+    i.today = readable( false , (set)=>{
+      const recalculate = () => set( (moment().diff(moment(i.date), 'days') < 1) );
+      const interval = setInterval(recalculate, 60*1000);
+      recalculate();
+      return () => clearInterval(interval);
+    });
+    return i;
+  });
+  return collection;
 }

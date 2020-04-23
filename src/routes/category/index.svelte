@@ -19,7 +19,8 @@
 </script>
 
 <script>
-  import { onDestroy } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
+  import { get } from 'svelte/store';
 
   import Sub from '../../components/Sub.svelte';
   import Tail from '../../components/Tail.svelte';
@@ -54,13 +55,15 @@
 
   }
 
-  let list = [];
+
   function reducer(accumulator,current){
     if(!accumulator[current.category]){
       accumulator[current.category] = {
         id: current.category,
+        name: startCase(current.category),
         count: 0,
-        latest:new Date(current.date)
+        latest:new Date(current.date),
+        published: current.published,
       };
     }
     accumulator[current.category].count++;
@@ -73,18 +76,18 @@
 
   let typeOverview = collection.reduce((a,c)=>reducer(a,c),{});
 
-  Object.keys(typeOverview).forEach(function(key){
-    let {count, latest, id} = typeOverview[key];
-    let name = startCase(key);
-    list.push({id, name, count, latest});
-  })
+  // Object.keys(typeOverview).forEach(function(key){
+  //   let {count, latest, id} = typeOverview[key];
+  //   let name = startCase(key);
+  //   list.push({id, name, count, latest});
+  // })
+  const list = Object.keys(typeOverview).map(key=>typeOverview[key])
+
 
   function recalculateTimestamps(){
-    collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
-    collection.map(i=>{ i.today = (moment().diff(moment(i.date), 'days') < 1); return i; })
 
     list.map(i=>{ i.ago = moment(i.latest).from(moment()); return i; })
-    list.map(i=>{ i.today = collection.filter(o=>o.category === i.id).filter(o=>o.today).length; return i; });
+    list.map(i=>{ i.today = collection.filter(o=>o.category === i.id).filter(o=>get(o.today)).length; return i; });
   }
 
   let intervalId = null;
@@ -95,6 +98,10 @@
     clearInterval(intervalId);
   });
 
+  let live = false;
+  onMount(() => {
+    live = true;
+  });
 
 </script>
 
@@ -116,17 +123,15 @@
       <div class="row mt-5">
         <div class="{conf.column}">
           {#each list as type}
-            <div class="card mb-5 article-link shadow" class:border-danger={type.today}>
+            <div class="card mb-5 article-link shadow" class:border-danger={live && type.today}>
               <div class="card-body py-4 px-3">
-                <h5 class="card-title pb-2"><a class="text-light" href="/category/{type.id}">{type.name} &raquo; {#if type.today}<span class="badge badge-danger badge-pill float-right">{type.today}</span>{/if}</a></h5>
-                <h6 class="card-subtitle ml-3 mb-3"><img src="/icons/envelope.svg" alt="" width="16" height="16" style="filter: invert(1);"> Updated {type.ago}.</h6>
+                <h5 class="card-title pb-2"><a class="text-light" href="/category/{type.id}">{type.name} &raquo; {#if live && type.today}<span class="badge badge-danger badge-pill float-right">{type.today}</span>{/if}</a></h5>
+                <h6 class="card-subtitle ml-3 mb-3"><img src="/icons/envelope.svg" alt="" width="16" height="16" style="filter: invert(1);"> Updated {live?type.ago:type.published}.</h6>
                 <p class="card-text ml-3">
                   {#if metadata[type.id]}
-                    <p class="">
                     {metadata[type.id].about}
                     {metadata[type.id].note}
-                    Contains {type.count} post{type.count==1?'':'s'}, {type.today} in the last 24 hours.
-                    </p>
+                    Contains {type.count} post{type.count==1?'':'s'}{#if live}, {type.today} in the last 24 hours.{:else}.{/if}
                   {/if}
                 </p>
                 <a class="btn btn-outline-info ml-3" href="/category/{type.id}">Browse {type.name} &raquo;</a>

@@ -1,5 +1,6 @@
 <script>
-  import { onDestroy } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
+  import { get } from 'svelte/store';
   import Sub from '../../components/Sub.svelte';
   import Tail from '../../components/Tail.svelte';
 
@@ -14,42 +15,29 @@
   let collection = db();
 
   function reducer(accumulator, current){
-
     for(const tag of current.tags.split(' ')){
-
       if(!accumulator[tag]){
         accumulator[tag] = {
           id: tag,
           name: tag,
           count: 0, // uniformly incremented below
-          latest: new Date(current.date) // temporarily assuming first known date being the latest
+          latest: new Date(current.date), // temporarily assuming first known date being the latest
+          published: current.published,
         };
       }
-
       accumulator[tag].count++;
       if( (new Date(current.date) - new Date(accumulator[tag].latest)) > 0 ){
         accumulator[tag].latest = new Date(current.date);
       }
-
     } // for tag
-
     return accumulator;
   };
 
   const overview = collection.reduce((a,c)=>reducer(a,c),{});
-  // const list = [];
-  // Object.keys(overview).forEach(function(key){ list.push(overview[key]); })
   const list = Object.keys(overview).map(key=>overview[key])
-
-
   function recalculateTimestamps(){
-
-    collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
-    collection.map(i=>{ i.today = (moment().diff(moment(i.date), 'days') < 1); return i; })
-
-    list.map(i=>{i.ago = moment(i.latest).from(moment()); return i; })
-    list.map(i=>{ i.today = collection.filter(o=>o.tags.split(' ').includes(i.id)).filter(o=>o.today).length; return i; });
-
+    list.map(i=>{ i.ago = moment(i.latest).from(moment()); return i; })
+    list.map(i=>{ i.today = collection.filter(o=>o.tags.split(' ').includes(i.id)).filter(o=>get(o.today)).length; return i; });
   }
 
   let intervalId = null;
@@ -57,6 +45,11 @@
   recalculateTimestamps();
   onDestroy(() => {
     clearInterval(intervalId);
+  });
+
+  let live = false;
+  onMount(() => {
+    live = true;
   });
 
 
@@ -79,12 +72,12 @@
       <div class="row mt-5">
         <div class="{conf.column}">
           {#each list as tag}
-            <div class="card mb-5 article-link shadow" class:border-danger={tag.today}>
+            <div class="card mb-5 article-link shadow" class:border-danger={live && tag.today}>
               <div class="card-body py-4 px-3">
-                <h5 class="card-title pb-2"><a class="text-light" href="/tag/{tag.id}">{tag.name} &raquo; {#if tag.today}<span class="badge badge-danger badge-pill float-right">{tag.today}</span>{/if}</a></h5>
-                <h6 class="card-subtitle ml-3 mb-3"><img src="/icons/envelope.svg" alt="" width="16" height="16" style="filter: invert(1);"> Updated {tag.ago}.</h6>
+                <h5 class="card-title pb-2"><a class="text-light" href="/tag/{tag.id}">{tag.name} &raquo; {#if live && tag.today}<span class="badge badge-danger badge-pill float-right">{tag.today}</span>{/if}</a></h5>
+                <h6 class="card-subtitle ml-3 mb-3"><img src="/icons/envelope.svg" alt="" width="16" height="16" style="filter: invert(1);"> Updated {live?tag.ago:tag.published}.</h6>
                 <p class="card-text ml-3">
-                   Contains {tag.count} post{tag.count==1?'':'s'}, {tag.today} in the last 24 hours.
+                   Contains {tag.count} post{tag.count==1?'':'s'}{#if live}, {tag.today} in the last 24 hours.{:else}.{/if}
                 </p>
                 <a class="btn btn-outline-info ml-3" href="/tag/{tag.id}">Browse {tag.name} &raquo;</a>
               </div>

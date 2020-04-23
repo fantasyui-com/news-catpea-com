@@ -22,7 +22,7 @@
   export let category;
   export let post;
 
-  import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
+  import { onMount } from 'svelte';
   import Sub from '../../../../components/Sub.svelte';
   import Tail from '../../../../components/Tail.svelte';
   import Read from '../../../../components/Read.svelte';
@@ -38,15 +38,6 @@
 
   let collection = db().filter(o=>o.category === category);
 
-  function recalculateTimestamps(){
-    collection = collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
-  }
-
-  let intervalId = null;
-  intervalId = setInterval(recalculateTimestamps,60000)
-  recalculateTimestamps();
-
-
   function idToIndex(id){
     let response = 0;
     let filtered = collection.filter(o=>o.id===id);
@@ -57,8 +48,6 @@
     return response;
   }
 
-
-
   $: index = idToIndex(post);
   $: item = collection[index];
 
@@ -67,21 +56,6 @@
 
   $: next = hasNext?collection[index+1]:collection[0];
   $: prev = hasPrev?collection[index-1]:collection[0];
-
-
-
-
-
-  onDestroy(() => {
-    clearInterval(intervalId);
-  });
-
-  onMount(() => {
-
-  });
-
-
-
 
 </script>
 

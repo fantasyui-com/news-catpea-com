@@ -1,6 +1,6 @@
 <script>
 
-  import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
+  import { onMount } from 'svelte';
   import moment from "moment";
 
   import Post from '../components/Post.svelte';
@@ -12,20 +12,10 @@
   const conf = configuration();
 
   let collection = db();
-  function recalculateTimestamps(){
-    collection = collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
-    collection.map(i=>{ i.today = (moment().diff(moment(i.date), 'days') < 1); return i; })
-  }
 
-  let intervalId = null;
-  intervalId = setInterval(recalculateTimestamps,60000)
-  onDestroy(() => {
-    clearInterval(intervalId);
-  });
-
-  recalculateTimestamps();
-
+  let live = false;
   onMount(() => {
+    live = true;
   });
 
 </script>

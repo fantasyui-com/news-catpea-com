@@ -19,17 +19,14 @@
 </script>
 
 <script>
+
   export let tag;
   export let post;
 
-  import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
   import Sub from '../../../../components/Sub.svelte';
   import Tail from '../../../../components/Tail.svelte';
   import Read from '../../../../components/Read.svelte';
   import Flip from '../../../../components/Flip.svelte';
-
-  import moment from "moment";
-  import startCase from "lodash/startCase.js";
 
   import db from '../../../../modules/db/index.js';
   import configuration from '../../../../modules/configuration/index.js';
@@ -37,15 +34,6 @@
   const conf = configuration();
 
   let collection = db().filter(o=>o.tags.split(' ').includes(tag));
-
-  function recalculateTimestamps(){
-    collection = collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
-  }
-
-  let intervalId = null;
-  intervalId = setInterval(recalculateTimestamps,60000)
-  recalculateTimestamps();
-
 
   function idToIndex(id){
     let response = 0;
@@ -57,8 +45,6 @@
     return response;
   }
 
-
-
   $: index = idToIndex(post);
   $: item = collection[index];
 
@@ -67,21 +53,6 @@
 
   $: next = hasNext?collection[index+1]:collection[0];
   $: prev = hasPrev?collection[index-1]:collection[0];
-
-
-
-
-
-  onDestroy(() => {
-    clearInterval(intervalId);
-  });
-
-  onMount(() => {
-
-  });
-
-
-
 
 </script>
 

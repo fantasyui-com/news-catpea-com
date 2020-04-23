@@ -27,7 +27,7 @@
 <div class="card mb-3 shadow">
   <div class="card-header" on:click={()=>opened=!opened}>
     <div class="text-truncate small">
-    {#if live}<button class="btn btn-outline-info btn-sm d-inline mr-3 focus-0"><img src="/icons/{opened?'arrows-collapse':'arrows-expand'}.svg" alt="" width="16" height="16" style="filter: invert(1);"></button>{/if}
+    {#if live}<button class="btn btn-outline-info btn-sm d-inline mr-2 focus-0"><img src="/icons/{opened?'arrows-collapse':'arrows-expand'}.svg" alt="" width="16" height="16" style="filter: invert(1);"></button>{/if}
     {description}
     </div>
   </div>

@@ -37,14 +37,6 @@
 
   let collection = db();
 
-  function recalculateTimestamps(){
-    collection = collection.map(i=>{ i.ago = moment(i.date).from(moment()); return i; })
-  }
-
-  let intervalId = null;
-  intervalId = setInterval(recalculateTimestamps,60000)
-  recalculateTimestamps();
-
 
   function idToIndex(id){
     let response = 0;
@@ -56,20 +48,12 @@
     return response;
   }
 
-
-
   $: index = idToIndex(post);
   $: item = collection[index];
 
-
-
-
-  onDestroy(() => {
-    clearInterval(intervalId);
-  });
-
+  let live = false;
   onMount(() => {
-
+    live = true;
   });
 
 
@@ -98,7 +82,7 @@
 
       <div class="row">
         <div class="{conf.column}">
-          <Read data={item}/>
+          <Read data={item} {...{item}}/>
         </div>
       </div>
 
