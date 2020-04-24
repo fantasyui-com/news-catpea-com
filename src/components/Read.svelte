@@ -6,9 +6,8 @@
 
   export let data;
 
-  let { id, title, category, tags, audio, date, draft, deleted, html, published, ago, today } = data;
-
   let live = false;
+
   onMount(() => {
     live = true;
   });
@@ -19,31 +18,31 @@
 
 
 
-<a href={audio} class="btn btn-lg btn-outline-info mb-4" class:d-inline-block={audio} class:d-none={!audio}><img src="/icons/play.svg" alt="" width="16" height="16" style="filter: invert(1);"> Listen</a>
+<a href={data.audio} class="btn btn-lg btn-outline-info mb-4" class:d-inline-block={data.audio} class:d-none={!data.audio}><img src="/icons/play.svg" alt="" width="16" height="16" style="filter: invert(1);"> Listen</a>
 
 <div class="small">
-    Posted {live?$ago:published}
+    Posted {live?data.ago:data.published}
 
-    in <a href="/category/{category}">{startCase(category)}</a>.
-    {#if tags.length}
+    in <a href="/category/{data.category}">{startCase(data.category)}</a>.
+    {#if data.tags.length}
       Tagged with
-      {#each tags.split(' ') as tag, index}
-        <a href="/tag/{tag}">{tag}</a>{#if tags.split(' ').length !== (index+1)},&nbsp;{:else}.{/if}
+      {#each data.tags.split(' ') as tag, index}
+        <a href="/tag/{tag}">{tag}</a>{#if data.tags.split(' ').length !== (index+1)},&nbsp;{:else}.{/if}
       {/each}
     {/if}
 </div>
 
-<hr class="border-info mb-5">
+<hr class="mb-5" class:border-info={!data.today} class:border-danger={data.today}>
 
 <div class="mb-4">
-  <h1 class="lead">{title}</h1>
+  <h1 class="lead">{data.title}</h1>
 </div>
 
 <div class="ml-3">
-  <p>{@html html}</p>
+  <p>{@html data.html}</p>
 </div>
 
 
 
 
-<hr class="border-info my-5">
+<hr class="my-5" class:border-info={!data.today} class:border-danger={data.today}>

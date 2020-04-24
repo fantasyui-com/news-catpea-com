@@ -35,7 +35,27 @@
 
   const conf = configuration();
 
+
+  let live = false;
+  let intervalId = null;
+
   let collection = db();
+
+  function recalculateTimestamps(){
+    collection = collection.map(o=>{ o.ago = moment(o.date).from(moment()); return o; });
+    collection = collection.map(o=>{ o.today = (moment().diff(moment(o.date), 'days') < 1); return o; });
+
+    if(conf.blinkenlighten){
+      collection = collection.map(o=>{ o.ago = moment(  moment(o.date).subtract(parseInt(31*Math.random()), 'days')  ).from(moment()); return o; });
+      collection = collection.map((o,i)=>{ o.today = (Math.random() < 0.5); return o; });
+    }
+  }
+
+  recalculateTimestamps();
+
+  onDestroy(() => {
+    clearInterval(intervalId);
+  });
 
 
   function idToIndex(id){
@@ -51,9 +71,10 @@
   $: index = idToIndex(post);
   $: item = collection[index];
 
-  let live = false;
+
   onMount(() => {
     live = true;
+    intervalId = setInterval(recalculateTimestamps, conf.recalculateInterval)
   });
 
 

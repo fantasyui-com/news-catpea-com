@@ -4,6 +4,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import byKey from '../natural-sort-by-key/index.js';
 import marked from 'marked';
+import moment from 'moment';
 import markedHelpers from 'marked/src/helpers.js';
 const { cleanUrl, escape } = markedHelpers;
 // Get reference
@@ -33,38 +34,49 @@ for( let id of files){
   content = content.replace(/\[download audio version\]\([^)]+\)/g,'');
 
   const html = marked(content, { renderer });
-  list.push(Object.assign({},data,{html}));
+  let published = moment(data.date).format('ddd MMM Do YYYY, h:mm A');
+  list.push(Object.assign({},data,{published, html}));
 }
 list = list.sort(function(a,b){
   return new Date(b.date) - new Date(a.date);
 });
-let meta = `
-import {readable} from 'svelte/store';
-import moment from 'moment';
-const data = ${JSON.stringify(list, null, '  ')};
+let metaJSON = JSON.stringify(list);
 
+// let metaModule = `
+// import {readable} from 'svelte/store';
+// import moment from 'moment';
+// const data = ${JSON.stringify(list, null, '  ')};
+//
+// // Generated via update-module.mjs
+// export default function main(){
+//   const collection = data.map(i=>{
+//     i.ago = readable( moment(i.date).from(moment()) , (set)=>{
+//       const recalculate = () => set( moment(i.date).from(moment()) );
+//       const interval = setInterval(recalculate, 60*1000);
+//       recalculate();
+//       return () => clearInterval(interval);
+//     });
+//     i.today = readable( false , (set)=>{
+//       const recalculate = () => set( (moment().diff(moment(i.date), 'days') < 1) );
+//       const interval = setInterval(recalculate, 60*1000);
+//       recalculate();
+//       return () => clearInterval(interval);
+//     });
+//     return i;
+//   });
+//   return collection;
+// }
+// `;
+let metaModuleSimple = `
+const data = ${JSON.stringify(list, null, '  ')};
 // Generated via update-module.mjs
 export default function main(){
-  const collection = data.map(i=>{
-    i.published = moment(i.date).format('ddd MMM Do YYYY, h:mm A');
-    i.ago = readable( moment(i.date).from(moment()) , (set)=>{
-      const recalculate = () => set( moment(i.date).from(moment()) );
-      const interval = setInterval(recalculate, 60*1000);
-      recalculate();
-      return () => clearInterval(interval);
-    });
-    i.today = readable( false , (set)=>{
-      const recalculate = () => set( (moment().diff(moment(i.date), 'days') < 1) );
-      const interval = setInterval(recalculate, 60*1000);
-      recalculate();
-      return () => clearInterval(interval);
-    });
-    return i;
-  });
-  return collection;
+  return data;
 }
 `;
-fs.writeFileSync(`src/modules/db/index.js`,  meta);
+fs.writeFileSync(`src/modules/db/index.js`,  metaModuleSimple);
+// fs.writeFileSync(`src/modules/db/index.js`,  metaModule);
+fs.writeFileSync(`static/database.json`,  metaJSON);
 
 for( let id of dirs){
   fs.copySync(id, `./static/${path.basename(id)}`, {preserveTimestamps:true})

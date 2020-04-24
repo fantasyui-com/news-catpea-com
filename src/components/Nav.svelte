@@ -1,26 +1,39 @@
 <script>
-
   import { onMount, onDestroy } from 'svelte';
   import { slide } from 'svelte/transition';
   import { get } from 'svelte/store';
-
-
+  import moment from "moment";
   import db from '../modules/db/index.js';
-
   import configuration from '../modules/configuration/index.js';
-
-  const conf = configuration();
-
   export let segment;
-
   export let opened = false;
 
-  let collection = db();
-  $: today = collection.filter(o=>get(o.today)).length;
-
   let live = false;
+  let intervalId = null;
+  const conf = configuration();
+  let collection = db();
+  $: today = collection.filter(o=>o.today).length;
+
+  function recalculateTimestamps(){
+    collection = collection.map(o=>{ o.ago = moment(o.date).from(moment()); return o; });
+    collection = collection.map(o=>{ o.today = (moment().diff(moment(o.date), 'days') < 1); return o; });
+
+    if(conf.blinkenlighten){
+      collection = collection.map(o=>{ o.ago = moment(  moment(o.date).add(parseInt(31*Math.random()), 'days')  ).from(moment()); return o; });
+      collection = collection.map((o,i)=>{ o.today = (Math.random() < 0.5); return o; });
+    }
+  }
+
+  recalculateTimestamps();
+
+  onDestroy(() => {
+    clearInterval(intervalId);
+  });
+
   onMount(() => {
     live = true;
+
+    intervalId = setInterval(recalculateTimestamps,1000)
   });
 
 </script>
