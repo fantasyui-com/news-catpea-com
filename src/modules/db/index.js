@@ -3,6 +3,17 @@ import {readable} from 'svelte/store';
 import moment from 'moment';
 const data = [
   {
+    "id": "id131",
+    "title": "Amazing Diet",
+    "category": "quarantine",
+    "tags": "Poem Listen",
+    "date": "2020-04-24T01:36:49.000Z",
+    "audio": "poems/day38.mp3",
+    "draft": false,
+    "deleted": false,
+    "html": "<p>Captain&#39;s Log, Quarantine, Day Thirty Eight,<br>My salads are working great!  </p>\n<p>I have lost even more weight,<br>and I can&#39;t even count how many I ate.  </p>\n<p>It is a marvelous diet of incredible proportions,<br>I don&#39;t track my calories, or even my portions.  </p>\n<p>I just make a salad once or twice,<br>and with strawberry jam, it tastes like paradise.  </p>\n<p>And yes, I still continue improving and experimenting,<br>Today, I added Jalapenos for a little spicy augmenting.  </p>\n<p>It is a strange magical thing,<br>but Sugary Jam and Jalapenos are king.  </p>\n<p>It is not all sugar and spice, as yesterday I cried,<br>I added and ate an whole onion so angry, I almost died.  </p>\n<p>So it is not just strawberry jam anymore,<br>blueberry works just as well, maybe even more.  </p>\n<p>To all the diet people out there,<br>join me in my venture,<br>add a spoon jam,<br>and taste the adventure.  </p>\n"
+  },
+  {
     "id": "id130",
     "title": "Proper Time-stamps",
     "category": "research",
