@@ -1,6 +1,6 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
-  import { get } from 'svelte/store';
+
   import Sub from '../../components/Sub.svelte';
   import Tail from '../../components/Tail.svelte';
 
@@ -13,6 +13,9 @@
   const conf = configuration();
 
   let collection = db();
+
+  let overview = {};
+  let list = []
 
   function reducer(accumulator, current){
     for(const tag of current.tags.split(' ')){
@@ -33,16 +36,32 @@
     return accumulator;
   };
 
-  const overview = collection.reduce((a,c)=>reducer(a,c),{});
-  const list = Object.keys(overview).map(key=>overview[key])
+
   function recalculateTimestamps(){
+
+    collection = collection.map(o=>{ o.ago = moment(o.date).from(moment()); return o; });
+    collection = collection.map(o=>{ o.today = (moment().diff(moment(o.date), 'days') < 1); return o; });
+
+    if(conf.blinkenlighten){
+      //collection = collection.map(o=>{ o.date = moment(o.date).add(parseInt(31*Math.random()), 'days'); return o; });
+      collection = collection.map(o=>{ o.ago = moment(  moment(o.date).add(parseInt(31*Math.random()), 'days')  ).from(moment()); return o; });
+      collection = collection.map((o,i)=>{ o.today = (Math.random() < 0.5); return o; });
+    }
+
+    overview = collection.reduce((a,c)=>reducer(a,c),{});
+    list = Object.keys(overview).map(key=>overview[key])
+    
     list.map(i=>{ i.ago = moment(i.latest).from(moment()); return i; })
-    list.map(i=>{ i.today = collection.filter(o=>o.tags.split(' ').includes(i.id)).filter(o=>get(o.today)).length; return i; });
+    list.map(i=>{ i.today = collection.filter(o=>o.tags.split(' ').includes(i.id)).filter(o=>o.today).length; return i; });
+
+
   }
 
   let intervalId = null;
-  intervalId = setInterval(recalculateTimestamps,60000)
+  intervalId = setInterval(recalculateTimestamps, conf.recalculateInterval)
+
   recalculateTimestamps();
+
   onDestroy(() => {
     clearInterval(intervalId);
   });

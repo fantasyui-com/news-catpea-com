@@ -22,7 +22,8 @@
   export let category;
   export let post;
 
-  import { onMount } from 'svelte';
+  import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
+
   import Sub from '../../../../components/Sub.svelte';
   import Tail from '../../../../components/Tail.svelte';
   import Read from '../../../../components/Read.svelte';
@@ -35,8 +36,23 @@
   import configuration from '../../../../modules/configuration/index.js';
 
   const conf = configuration();
+  $: index = idToIndex(post);
+  $: item = collection[index];
 
   let collection = db().filter(o=>o.category === category);
+
+  let live = false;
+  let intervalId = null;
+
+  function recalculateTimestamps(){
+    collection = collection.map(o=>{ o.ago = moment(o.date).from(moment()); return o; });
+    collection = collection.map(o=>{ o.today = (moment().diff(moment(o.date), 'days') < 1); return o; });
+
+    if(conf.blinkenlighten){
+      collection = collection.map(o=>{ o.ago = moment(  moment(o.date).subtract(parseInt(31*Math.random()), 'days')  ).from(moment()); return o; });
+      collection = collection.map((o,i)=>{ o.today = (Math.random() < 0.5); return o; });
+    }
+  }
 
   function idToIndex(id){
     let response = 0;
@@ -48,14 +64,16 @@
     return response;
   }
 
-  $: index = idToIndex(post);
-  $: item = collection[index];
+  onDestroy(() => {
+    clearInterval(intervalId);
+  });
 
-  $: hasNext = (((index+1)+1) <= collection.length);
-  $: hasPrev = ((index-1) >= 0);
+  onMount(() => {
+    live = true;
+    intervalId = setInterval(recalculateTimestamps, conf.recalculateInterval)
+  });
 
-  $: next = hasNext?collection[index+1]:collection[0];
-  $: prev = hasPrev?collection[index-1]:collection[0];
+  recalculateTimestamps();
 
 </script>
 

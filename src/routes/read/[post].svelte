@@ -34,12 +34,13 @@
   import configuration from '../../modules/configuration/index.js';
 
   const conf = configuration();
+  $: index = idToIndex(post);
+  $: item = collection[index];
 
+  let collection = db();
 
   let live = false;
   let intervalId = null;
-
-  let collection = db();
 
   function recalculateTimestamps(){
     collection = collection.map(o=>{ o.ago = moment(o.date).from(moment()); return o; });
@@ -51,13 +52,6 @@
     }
   }
 
-  recalculateTimestamps();
-
-  onDestroy(() => {
-    clearInterval(intervalId);
-  });
-
-
   function idToIndex(id){
     let response = 0;
     let filtered = collection.filter(o=>o.id===id);
@@ -68,16 +62,16 @@
     return response;
   }
 
-  $: index = idToIndex(post);
-  $: item = collection[index];
-
+  onDestroy(() => {
+    clearInterval(intervalId);
+  });
 
   onMount(() => {
     live = true;
     intervalId = setInterval(recalculateTimestamps, conf.recalculateInterval)
   });
 
-
+  recalculateTimestamps();
 
 
 </script>

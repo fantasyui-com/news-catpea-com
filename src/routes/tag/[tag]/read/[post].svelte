@@ -23,36 +23,58 @@
   export let tag;
   export let post;
 
+  import { onMount, beforeUpdate, afterUpdate, onDestroy } from 'svelte';
+
   import Sub from '../../../../components/Sub.svelte';
   import Tail from '../../../../components/Tail.svelte';
   import Read from '../../../../components/Read.svelte';
   import Flip from '../../../../components/Flip.svelte';
 
+  import moment from "moment";
+
   import db from '../../../../modules/db/index.js';
   import configuration from '../../../../modules/configuration/index.js';
 
   const conf = configuration();
-
-  let collection = db().filter(o=>o.tags.split(' ').includes(tag));
-
-  function idToIndex(id){
-    let response = 0;
-    let filtered = collection.filter(o=>o.id===id);
-    if(filtered.length > 0){
-      let selected = filtered.pop();
-      response = collection.indexOf(selected);
-    }
-    return response;
-  }
-
   $: index = idToIndex(post);
   $: item = collection[index];
 
-  $: hasNext = (((index+1)+1) <= collection.length);
-  $: hasPrev = ((index-1) >= 0);
+  let collection = db().filter(o=>o.tags.split(' ').includes(tag));
 
-  $: next = hasNext?collection[index+1]:collection[0];
-  $: prev = hasPrev?collection[index-1]:collection[0];
+
+    let live = false;
+    let intervalId = null;
+
+    function recalculateTimestamps(){
+      collection = collection.map(o=>{ o.ago = moment(o.date).from(moment()); return o; });
+      collection = collection.map(o=>{ o.today = (moment().diff(moment(o.date), 'days') < 1); return o; });
+
+      if(conf.blinkenlighten){
+        collection = collection.map(o=>{ o.ago = moment(  moment(o.date).subtract(parseInt(31*Math.random()), 'days')  ).from(moment()); return o; });
+        collection = collection.map((o,i)=>{ o.today = (Math.random() < 0.5); return o; });
+      }
+    }
+
+    function idToIndex(id){
+      let response = 0;
+      let filtered = collection.filter(o=>o.id===id);
+      if(filtered.length > 0){
+        let selected = filtered.pop();
+        response = collection.indexOf(selected);
+      }
+      return response;
+    }
+
+    onDestroy(() => {
+      clearInterval(intervalId);
+    });
+
+    onMount(() => {
+      live = true;
+      intervalId = setInterval(recalculateTimestamps, conf.recalculateInterval)
+    });
+
+    recalculateTimestamps();
 
 </script>
 

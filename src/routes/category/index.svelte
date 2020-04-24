@@ -20,7 +20,7 @@
 
 <script>
   import { onMount, onDestroy } from 'svelte';
-  import { get } from 'svelte/store';
+
 
   import Sub from '../../components/Sub.svelte';
   import Tail from '../../components/Tail.svelte';
@@ -36,6 +36,8 @@
   export let slug;
 
   let collection = db();
+  let typeOverview = {};
+  let list = [];
   let metadata = {
 
     quarantine:{
@@ -55,7 +57,6 @@
 
   }
 
-
   function reducer(accumulator,current){
     if(!accumulator[current.category]){
       accumulator[current.category] = {
@@ -67,31 +68,38 @@
       };
     }
     accumulator[current.category].count++;
-
     if( (new Date(current.date) - new Date(accumulator[current.category].latest)) > 0 ){
       accumulator[current.category].latest = new Date(current.date);
     }
     return accumulator;
   }
 
-  let typeOverview = collection.reduce((a,c)=>reducer(a,c),{});
-
-  // Object.keys(typeOverview).forEach(function(key){
-  //   let {count, latest, id} = typeOverview[key];
-  //   let name = startCase(key);
-  //   list.push({id, name, count, latest});
-  // })
-  const list = Object.keys(typeOverview).map(key=>typeOverview[key])
 
 
   function recalculateTimestamps(){
 
+    collection = collection.map(o=>{ o.ago = moment(o.date).from(moment()); return o; });
+    collection = collection.map(o=>{ o.today = (moment().diff(moment(o.date), 'days') < 1); return o; });
+
+    if(conf.blinkenlighten){
+      collection = collection.map(o=>{ o.date = moment(o.date).add(parseInt(31*Math.random()), 'days'); return o; });
+      collection = collection.map(o=>{ o.ago = moment(  moment(o.date).add(parseInt(31*Math.random()), 'days')  ).from(moment()); return o; });
+      collection = collection.map((o,i)=>{ o.today = (Math.random() < 0.5); return o; });
+    }
+
+    typeOverview = collection.reduce((a,c)=>reducer(a,c),{});
+    list = Object.keys(typeOverview).map(key=>typeOverview[key])
+
     list.map(i=>{ i.ago = moment(i.latest).from(moment()); return i; })
-    list.map(i=>{ i.today = collection.filter(o=>o.category === i.id).filter(o=>get(o.today)).length; return i; });
+    list.map(i=>{ i.today = collection.filter(o=>o.category === i.id).filter(o=>o.today).length; return i; });
+
+
   }
 
   let intervalId = null;
-  intervalId = setInterval(recalculateTimestamps,60000)
+
+  intervalId = setInterval(recalculateTimestamps, conf.recalculateInterval);
+
   recalculateTimestamps();
 
   onDestroy(() => {
