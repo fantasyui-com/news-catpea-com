@@ -26,6 +26,7 @@
   import Read from '../../components/Read.svelte';
   import Tail from '../../components/Tail.svelte';
   import Flip from '../../components/Flip.svelte';
+  import Side from '../../components/Side.svelte';
 
   import moment from "moment";
   import startCase from "lodash/startCase.js";
@@ -80,9 +81,12 @@
   <title>{conf.title}</title>
 </svelte:head>
 
+<!-- <Side {index} {collection} base="/read"/> -->
+
 <main role="main">
   <section>
     <div class="container">
+
       <div class="row mt-5">
         <div class="{conf.column}">
         <Sub description="Post# {collection.length - (index )}: Navigating All {collection.length} Post{collection.length==1?'':'s'}" posts tags></Sub>
