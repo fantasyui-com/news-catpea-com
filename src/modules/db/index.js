@@ -1,6 +1,30 @@
 
 const data = [
   {
+    "id": "id136",
+    "title": "Unbreakable and Unlimited",
+    "category": "quarantine",
+    "tags": "Poem Listen",
+    "date": "2020-04-26T00:28:14.602Z",
+    "audio": "poems/day40b.mp3",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Apr 25th 2020, 8:28 PM",
+    "html": "<p>Captain&#39;s Log Supplemental, Quarantine, Forty.  </p>\n<p>We are born to run our fingers through infinity,<br>be it Wright Brothers or Yuri Gagarin, Galileo Galilei.</p>\n<p>It is our right to touch the greatest of heights,<br>and it is our privilege to cheer for each other in triumph.</p>\n<p>We have no flaws, no ugliness, no weakness, and no limit,<br>be it Tenzing and Hillary, or Viktor Emil Frankl.</p>\n<p>Nothing can stop us,<br>there are no bars thick enough,<br>there are no bars strong enough,</p>\n<p>&quot;We are the Captains of our Souls,<br>And The Masters of Out Fate&quot;</p>\n<p>However, there is a culture that we must never let go of,</p>\n<p>The culture of, Love of Wisdom,<br>The culture of, Inheritance of Knowledge.</p>\n<p>If we are tricked to reject Wisdom,<br>and if there is no teacher or parent,<br>or friend left to remind us,<br>then all will be lost.</p>\n<p>Your work will not set you free,<br>it is a lie as old as slavery.</p>\n<p>Your teachers can only remind,<br>but they cannot reach into your mind.</p>\n<p>Fight for your right to knowledge,<br>there is no university,<br>there is no college,<br>you have to use your heart to learn,<br>only you can do that.</p>\n<p>Without Inheritance of Wisdom,<br>you will become cursed to start at zero.</p>\n<p>As magnificent as your battle will be,<br>you will only reach a path, that was walked countless times before.</p>\n<p>You must start,<br>where the greatest minds <a href=\"https://en.wikipedia.org/wiki/Category:Science_communicators\">left off</a>.</p>\n"
+  },
+  {
+    "id": "id135",
+    "title": "Flight and Light",
+    "category": "quarantine",
+    "tags": "Poem Listen",
+    "date": "2020-04-25T21:23:19.000Z",
+    "audio": "poems/day40.mp3",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Apr 25th 2020, 5:23 PM",
+    "html": "<p>Captain&#39;s Log, Quarantine, Day Forty.  </p>\n<p>Everything is all right, except for our flight.<br>But had we been given infinite light,<br>our wings would <em>fail</em> in flight.</p>\n<p>What gives us the right to learn, and rise to height,<br>is the <em>limit</em> of the duration of our light.</p>\n<p>What makes it <em>precious</em>, and <em>worth</em> the flight,<br>is precisely the limits in duration of our light.  </p>\n<p>It is by our limits that we look to light,<br>had we been given infinite flight,<br>our intelligence would fail to light.</p>\n"
+  },
+  {
     "id": "id134",
     "title": "Code Density Failures",
     "category": "research",
