@@ -1,6 +1,42 @@
 
 const data = [
   {
+    "id": "id140",
+    "title": "School Is Not For Us - Run, Child. Run From The Bus.",
+    "category": "poetry quarantine",
+    "tags": "Poem Listen",
+    "date": "2020-04-26T23:10:06.000Z",
+    "audio": "poems/id140.mp3",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Apr 26th 2020, 7:10 PM",
+    "html": "<p>Don&#39;t let them put you on a school bus.<br>Tell you parents, school is crazy!</p>\n<p>And anyway,<br>they shouldn&#39;t be so lazy.</p>\n<p>You will need all the games,<br>and you memorize <em>no</em> presidential names.</p>\n<p>You demand a trip to every national park.<br>because you will not spend you life in the dark.</p>\n<p>You will need every audio-book ever made,<br>and only then will you go through life unafraid.</p>\n"
+  },
+  {
+    "id": "id139",
+    "title": "Yearn To Learn",
+    "category": "poetry quarantine",
+    "tags": "Poem Listen",
+    "date": "2020-04-26T22:51:16.000Z",
+    "audio": "poems/id139.mp3",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Apr 26th 2020, 6:51 PM",
+    "html": "<p>Did you know, that we can&#39;t grow,<br>unless our lessons connect together?<br>We learn the way we navigate cities.</p>\n<p>If we leap from one city center, to another...<br>we will not know, where to go, or what to do.<br>None of the roads will make any sense.</p>\n<p>To divide knowledge into subjects,<br>and encourage cramming, and memorization,<br>and force remembering over understanding.</p>\n<p>That is not Education, or Knowledge.<br>We can no more leap between subjects,<br>than hobbies, or families.</p>\n<p>What connects two things together,<br>is as important as the things themselves.</p>\n<p>We only learn when two connect,<br>and, then the two connect to a third one,<br>and next one, to no end.</p>\n<p>We need a pleasant memorable,<br>unbroken chain of curiosities,<br>that we can slide up and down,\nwhen need be.</p>\n<p>Disconnected snippets,<br>that we not know what to do with,<br>are not useful to us.</p>\n"
+  },
+  {
+    "id": "id138",
+    "title": "Trickster Fool",
+    "category": "poetry quarantine",
+    "tags": "Poem Listen",
+    "date": "2020-04-26T20:31:13.000Z",
+    "audio": "poems/id138.mp3",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Apr 26th 2020, 4:31 PM",
+    "html": "<p>Think of a trickster, a real bad fool.  </p>\n<p>What a great robbery it would be.<br>If your parents sent you to college.<br>And teachers sold disconnected snippets.<br>And called it knowledge.</p>\n<p>And wouldn&#39;t it be convenient,<br>if you could chose you next batch.<br>Wouldn&#39;t the trickster rejoice,<br>had you called, that, a choice.</p>\n<p>And then at the end of the day.<br>When hard earned money was taken.<br>You wouldn&#39;t even be shaking,<br>even though it was worse than a break-in.</p>\n<p>Think of a trickster, a real bad fool,<br>that took away your very own school.</p>\n<p>The moral of this story,<br>is that you should think through,<br>when someone offers to teach you.</p>\n<p>Education, requires that you learn on your own,<br>that something that teaching can only postpone.</p>\n"
+  },
+  {
     "id": "id137",
     "title": "Svelte is not a component system, look to pre-processors (PostHTML) for such.",
     "category": "research",
@@ -21,7 +57,7 @@ const data = [
     "draft": false,
     "deleted": false,
     "published": "Sat Apr 25th 2020, 8:28 PM",
-    "html": "<p>Captain&#39;s Log Supplemental, Quarantine, Forty.  </p>\n<p>We are born to run our fingers through infinity,<br>be it Wright Brothers or Yuri Gagarin, Galileo Galilei.</p>\n<p>It is our right to touch the greatest of heights,<br>and it is our privilege to cheer for each other in triumph.</p>\n<p>We have no flaws, no ugliness, no weakness, and no limit,<br>be it Tenzing and Hillary, or Viktor Emil Frankl.</p>\n<p>Nothing can stop us,<br>there are no bars thick enough,<br>there are no bars strong enough,</p>\n<p>&quot;We are the Captains of our Souls,<br>And The Masters of Out Fate&quot;</p>\n<p>However, there is a culture that we must never let go of,</p>\n<p>The culture of, Love of Wisdom,<br>The culture of, Inheritance of Knowledge.</p>\n<p>If we are tricked to reject Wisdom,<br>and if there is no teacher or parent,<br>or friend left to remind us,<br>then all will be lost.</p>\n<p>Your work will not set you free,<br>it is a lie as old as slavery.</p>\n<p>Your teachers can only remind,<br>but they cannot reach into your mind.</p>\n<p>Fight for your right to knowledge,<br>there is no university,<br>there is no college,<br>you have to use your heart to learn,<br>only you can do that.</p>\n<p>Without Inheritance of Wisdom,<br>you will become cursed to start at zero.</p>\n<p>As magnificent as your battle will be,<br>you will only reach a path, that was walked countless times before.</p>\n<p>You must start,<br>where the greatest minds <a href=\"https://en.wikipedia.org/wiki/Category:Science_communicators\">left off</a>.</p>\n"
+    "html": "<p>Captain&#39;s Log Supplemental, Quarantine, Day Forty.  </p>\n<p>We are born to run our fingers through infinity,<br>be it Wright Brothers or Yuri Gagarin, Galileo Galilei.</p>\n<p>It is our right to touch the greatest of heights,<br>and it is our privilege to cheer for each other in triumph.</p>\n<p>We have no flaws, no ugliness, no weakness, and no limit,<br>be it Tenzing and Hillary, or Viktor Emil Frankl.</p>\n<p>Nothing can stop us,<br>there are no bars thick enough,<br>there are no bars strong enough,</p>\n<p>&quot;We are the Captains of our Souls,<br>And The Masters of Out Fate&quot;</p>\n<p>However, there is a culture that we must never let go of,</p>\n<p>The culture of, Love of Wisdom,<br>The culture of, Inheritance of Knowledge.</p>\n<p>If we are tricked to reject Wisdom,<br>and if there is no teacher or parent,<br>or friend left to remind us,<br>then all will be lost.</p>\n<p>Your work will not set you free,<br>it is a lie as old as slavery.</p>\n<p>Your teachers can only remind,<br>but they cannot reach into your mind.</p>\n<p>Fight for your right to knowledge,<br>there is no university,<br>there is no college,<br>you have to use your heart to learn,<br>only you can do that.</p>\n<p>Without Inheritance of Wisdom,<br>you will become cursed to start at zero.</p>\n<p>As magnificent as your battle will be,<br>you will only reach a path, that was walked countless times before.</p>\n<p>You must start,<br>where the greatest minds <a href=\"https://en.wikipedia.org/wiki/Category:Science_communicators\">left off</a>.</p>\n"
   },
   {
     "id": "id135",
