@@ -1,6 +1,19 @@
 
 const data = [
   {
+    "id": "id143",
+    "title": "At the Center of The Being",
+    "category": "poetry quarantine",
+    "tags": "Poem Listen",
+    "date": "2020-04-28T23:27:30.660Z",
+    "image": "poems/id143.png",
+    "audio": "poems/id143.mp3",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Apr 28th 2020, 7:27 PM",
+    "html": "<p>At the center of our being,<br>we each have a collection.  </p>\n<p>It makes us unique,<br>but we never lose our connection.  </p>\n<p>As with all things in life,<br>it is too easy to get lost in strife.  </p>\n<p>We have to protect what makes us unique,<br>if you fail, your future will be bleak.  </p>\n<p>With all things we do,<br>sometimes the bad guys slip through.  </p>\n<p>This is what we need courage for,<br>to look them in the eyes, and slam the door.  </p>\n<p>The unique collection at our center, is our power.<br>It transforms, and evolves, hour after hour.  </p>\n<p>We start with just the Ocean, Skies, Mountains, Stars, Earth and Mars,<br>maybe Flowers, Gardens, Kittens, Dogs, Horses and Frogs.  </p>\n<p>But then it grows, call it soul, or spirit, personality or vitality,<br>it becomes... Beauty, Endurance, Authenticity, Nobility, Love and Dignity.  </p>\n<p>And it keeps growing, so as long as you Love Yourself,  </p>\n<p>It creates Leaders, Protectors, Guides, Teachers, Dreamers,<br>Adventurers, Explorers and Discoverers,<br>Intellectuals, Humanitarians, Philosophers,<br>Scientists, Astronomers,<br>Dancers, Athletes, Bodybuilders,<br>Chefs, Blacksmiths, and Makers,<br>Musicians, Poets, Sculptors, Photographers and Filmmakers,<br>Artists and Designers,<br>Hackers and Programmers,<br>Genius...<br>Visionaries...<br>Founders....  </p>\n<p>You have to protect what makes you unique at all cost,<br>if you start letting go, you will become lost.  </p>\n<p>And many will come, and many with care and kindness,<br>and they will try to change you, in their blindness.  </p>\n<p>You cannot grow up, if you start letting go,<br>you need an unbroken chain, you need that flow.  </p>\n<p>You have to learn to say,<br>that it&#39;s either you, the one one who stands and is true,<br>or you are through.  </p>\n<p>To grow up, into who you need to be,<br>is your right, and your dignity.  </p>\n<p>To let bullies push you around,<br>is to fail, and falter,<br>and run aground.  </p>\n<p>Decades, decades after they are long gone, do not let go,<br>do not take their turns, do not change your view,<br>you must aim to become worthy of you.  </p>\n<p>Whether you believe in Heroes,<br>on that we are only Human.  </p>\n<p>It is the same height,<br>just a maximum of our might.  </p>\n<p>Push, and stand up, and aim up, and rise,<br>Open your eyes,<br>it is the only way to become wise.  </p>\n<p>Fight for who you are,<br>because in time,<br>that fight is also for who you need to be.  </p>\n<p>For who you need to be,<br>to be strong and healthy,<br>and unbreakable and worthy.  </p>\n"
+  },
+  {
     "id": "id142",
     "title": "Meta-programming Layer for Reactive Systems",
     "category": "research",
@@ -14,7 +27,7 @@ const data = [
   {
     "id": "id141",
     "title": "Amazing Grace",
-    "category": "poetry",
+    "category": "poetry quarantine",
     "tags": "Poem Listen",
     "date": "2020-04-27T18:50:43.242Z",
     "audio": "poems/id141.mp3",
