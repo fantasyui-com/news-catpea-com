@@ -1,6 +1,17 @@
 
 const data = [
   {
+    "id": "id142",
+    "title": "Meta-programming Layer for Reactive Systems",
+    "category": "research",
+    "tags": "Programming",
+    "date": "2020-04-28T19:32:39.556Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Apr 28th 2020, 3:32 PM",
+    "html": "<p>For the past few weeks, I have been looking over reactive &quot;languages&quot;, languages that automatically react when their data changes, and most often update their UI.</p>\n<p>They each have a different way of connecting with the programmer. And this &quot;way&quot; is the problem, that I&#39;ve been attempting to research.</p>\n<p>So I finally came up with an idea worth trying out and that is creating a meta-front-end, a sugar layer on top. Here is a very rough sketch of a syntax conducive to creating reactive applications.</p>\n<pre><code class=\"language-xml\">\n&lt;application&gt;\n\n\n  &lt;database id=bodybuilding url=&quot;bodybuilding.json&quot;/&gt;\n  &lt;interval seconds=&quot;{interval}&quot; min=&quot;0&quot; max=&quot;{bodybuilding.length}&quot; step=&quot;1&quot;/&gt;\n\n  &lt;card&gt;\n\n    &lt;header array=&quot;Advice, Preferences&quot;/&gt;\n\n    &lt;body if=&quot;advice&quot;&gt;\n      &lt;text string=&quot;message&quot;/&gt;\n    &lt;/body&gt;\n\n    &lt;body if=&quot;preferences&quot;&gt;\n      &lt;range id=&quot;interval&quot; min=0 max=&quot;120&quot; step=&quot;1&quot;/&gt;\n    &lt;/body&gt;\n\n    &lt;tail&gt;\n      Showing body building advice #1, out of 50.\n    &lt;/tail&gt;\n\n  &lt;/card&gt;\n\n&lt;/application&gt;\n</code></pre>\n<p>This &quot;code&quot; represents about 90% o that little bodybuilding advice application on catpea.com.</p>\n<p>And I think that is as far as I would like to go. From here the programmer would click a button and generate code for Svelte, possibly React. This would solve all Component problems, stuff like re-usability, and nesting, and template slots.</p>\n<p>What I like about this is that it is basically a code generator, and not a language. It is trivial to make, and the end result would be a huge folder full of files, and properly setup configuration stuff.</p>\n<p>It seems to be a fair bet that this Meta-programming layer would target Angular, React, Svelte, Vue and few others.</p>\n<p>And that would be very useful for presenting Small Application Starters in multiple languages. Here I am thinking about Bootstrap Themes, again.</p>\n<p>Anyhow, this solves my only problem with Reactive Programming, lack of a fast programmable front-end language. Rather than looking to research another Svelte like framework/compiler, I can focus now on creating little snippets of code that will give me the brevity I want, and give Svelte/React the jumps they need for their hoops.</p>\n<p>I&#39;ve been meaning to create a new program on Catpea, <a href=\"https://getbootstrap.com/docs/4.0/components/card/\">The Bootstrap Card</a> Builder, and since I am going to be dealing with little snippets of code, I maybe running some tests of what it would take to turn &lt;card nav tabs&gt; into <a href=\"https://getbootstrap.com/docs/4.0/components/card/#navigation\">actual nav tab card code</a></p>\n<p>One thing that comes to mind is creating an editor where I can easily store composable snippets and connect them to <a href=\"https://getbootstrap.com/docs/versions/\">specific versions of Bootstrap</a>, for example.</p>\n"
+  },
+  {
     "id": "id141",
     "title": "Amazing Grace",
     "category": "poetry",
