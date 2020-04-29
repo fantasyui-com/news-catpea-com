@@ -3,7 +3,7 @@ const data = [
   {
     "id": "id143",
     "title": "At the Center of The Being",
-    "category": "poetry quarantine",
+    "category": "quarantine",
     "tags": "Poem Listen",
     "date": "2020-04-28T23:27:30.660Z",
     "image": "poems/id143.png",
@@ -27,7 +27,7 @@ const data = [
   {
     "id": "id141",
     "title": "Amazing Grace",
-    "category": "poetry quarantine",
+    "category": "quarantine",
     "tags": "Poem Listen",
     "date": "2020-04-27T18:50:43.242Z",
     "audio": "poems/id141.mp3",
@@ -39,7 +39,7 @@ const data = [
   {
     "id": "id140",
     "title": "School Is Not For Us - Run, Child. Run From The Bus.",
-    "category": "poetry quarantine",
+    "category": "quarantine",
     "tags": "Poem Listen",
     "date": "2020-04-26T23:10:06.000Z",
     "audio": "poems/id140.mp3",
@@ -63,7 +63,7 @@ const data = [
   {
     "id": "id138",
     "title": "Trickster Fool",
-    "category": "poetry quarantine",
+    "category": "quarantine",
     "tags": "Poem Listen",
     "date": "2020-04-26T20:31:13.000Z",
     "audio": "poems/id138.mp3",
