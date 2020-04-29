@@ -51,7 +51,7 @@ const data = [
   {
     "id": "id139",
     "title": "Yearn To Learn",
-    "category": "poetry quarantine",
+    "category": "quarantine",
     "tags": "Poem Listen",
     "date": "2020-04-26T22:51:16.000Z",
     "audio": "poems/id139.mp3",
