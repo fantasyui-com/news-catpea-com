@@ -10,7 +10,7 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
-    "make": "sapper export --legacy; ./bugfix-dont-delete-everything.sh; cp -fr __sapper__/export/* ./docs/; cp -f domain.txt docs/CNAME; ./bugfix-underscore-filenames.sh; ./bootlint.sh",
+    "make": "sapper export --legacy; ./bugfix-dont-delete-everything.sh; cp -fr __sapper__/export/* ./docs/; cp -f domain.txt docs/CNAME;",
     "upload": "git add .; git commit -m \"New Release\"; git push;",
     "pub": "npm run make; npm run upload;"
   },
