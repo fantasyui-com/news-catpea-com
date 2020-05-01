@@ -1,6 +1,18 @@
 
 const data = [
   {
+    "id": "id145",
+    "title": "A Warrior is She that thrives and triumphs where’er She be",
+    "category": "poetry",
+    "tags": "Poem Listen",
+    "date": "2020-05-01T00:39:24.000Z",
+    "audio": "poems/id145.mp3",
+    "draft": false,
+    "deleted": false,
+    "published": "Thu Apr 30th 2020, 8:39 PM",
+    "html": "<p>from <a href=\"https://westland-valhalla.github.io/warrior/\">The Warrior Book</a></p>\n<p>A Warrior is She that thrives and triumphs where’er She be.<br>You cannot be broken, you must use your misfortune to light your way.</p>\n<p>You can learn anything you want, there are no smarter.<br>They are just actors, with a handful of fragile lessons, crafted to impress.</p>\n<p>There is nothing that can break you, there are no stronger.<br>Look to the source of the pain, it comes from Innocence.</p>\n<p>Nothing rooted in Innocence is ugly, all lessons that come from being tricked,<br>add up to make you more beautiful, enable your insight and foresight, and fuel your authenticity.</p>\n<p>When the regrets come at night, that&#39;s just you brain asking you,<br>to think harder, to comprehend your beauty in full,</p>\n<p>No one can trick you, not for long enough. So, don&#39;t be scared.<br>Memoirs, Audio-books, Lectures will show you how many better people there are.</p>\n<p>We all have to Enlarge our Worlds daily.<br>Audiobooks, and Lectures, will show you that all you have met thus far were just the same type of person.</p>\n<p>Do not be afraid to rise.</p>\n<p>The people, or person you have long though about, exist.<br>But before they can see you, you have to rise, and shine, and be seen.</p>\n<p>Don&#39;t be scared.</p>\n<p>Those who will use your Love, Innocence, Endurance and Generosity against you,<br>have long been lost, they are blinded, and fractured, and damaged, and broken.</p>\n<p>They hold no power over you.</p>\n<p>If their attacks continue they will grind themselves to dust,<br>and all the experiences that will be left in their wake, will make you stronger and better.</p>\n<p>Battles make you stronger, smarter, more beautiful.<br>You are a Warrior, that&#39;s the oldest name for it.</p>\n<p>A Warrior is She that uses the harm that came her way as energy,<br>who understands none can stay a child and all must grow, and enlarge their worlds.</p>\n<p>A Warrior can never be damaged, or hurt -- a Warrior Learns.<br>A Warrior resists tears in the rain, just like she can resist weakness.</p>\n<p>We live in a fragile world, full of fragile people, with fragile egos,<br>they speak fragile advice, with fragile words; from their fragile hills.</p>\n<p>A Warrior does not wait to be taught.<br>A Warrior learns fastest on her own.</p>\n<p>Learn in the sequence that fits you best,<br>learn at the pace that helps you most.</p>\n<p>Push the dark imaginings back,<br>and rise.</p>\n<p>Move your hand.<br>And push up.<br>And stand up.</p>\n<p>Get ready to walk,<br>and then run, day, after day, slightly longer.</p>\n<p>And then lift your weights, the way you learned to run,<br>and then lift for longer, and never rest.</p>\n<p>And then, with your sweetest audio-book.</p>\n<p>Step.<br>Step Up.<br>Rise Up.<br>To No End.</p>\n<p>This is The Life Of A Warrior.</p>\n<p>Nothing Can Crush You,<br>Nothing Can Hold You.</p>\n<p>Don&#39;t You See?</p>\n<p>Everything Makes You Stronger,<br>Everything Makes You Fight Longer.</p>\n<p>You,<br>Are A Warrior.</p>\n"
+  },
+  {
     "id": "id144",
     "title": "I Could Talk About Them All Day",
     "category": "poetry",
