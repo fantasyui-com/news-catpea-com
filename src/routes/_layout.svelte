@@ -16,4 +16,8 @@
 <Nav {segment} opened={false}/>
 
 <slot></slot>
-<Spinner style="position: fixed; top:5rem; left:50%; transform: translate(-50%, 0);" class={live?'d-none':''}/>
+<!--
+  Fails when JavaScript is turned off, it keeps spinning....
+  this website requires that the static version is fully functional...
+  <Spinner style="position: fixed; top:5rem; left:50%; transform: translate(-50%, 0);" class={live?'d-none':''}/>
+-->
