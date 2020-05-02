@@ -5,6 +5,7 @@
   import Post from '../components/Post.svelte';
   import Sub from '../components/Sub.svelte';
   import Tail from '../components/Tail.svelte';
+  import Spinner from '../components/Spinner.svelte';
 
   import db from '../modules/db/index.js';
   import configuration from '../modules/configuration/index.js';
@@ -75,3 +76,5 @@
 </main>
 
 <Tail/>
+
+<!-- <Spinner style="position: absolute; top:1rem; right:1rem;" class={live?'d-none':''}/> -->

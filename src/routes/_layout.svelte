@@ -1,8 +1,12 @@
 <script>
+  import { onMount, onDestroy } from 'svelte';
   import Nav from '../components/Nav.svelte';
-
+  import Spinner from '../components/Spinner.svelte';
   export let segment;
-
+  let live = false;
+  onMount(() => {
+    live = true;
+  });
 </script>
 
 <style lang="scss" global>
@@ -12,3 +16,4 @@
 <Nav {segment} opened={false}/>
 
 <slot></slot>
+<Spinner style="position: fixed; top:5rem; left:50%; transform: translate(-50%, 0);" class={live?'d-none':''}/>
