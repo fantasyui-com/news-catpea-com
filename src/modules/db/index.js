@@ -1,6 +1,19 @@
 
 const data = [
   {
+    "id": "id149",
+    "title": "Convergence",
+    "category": "poetry",
+    "tags": "Poem Listen",
+    "date": "2020-05-05T02:52:08.130Z",
+    "audio": "poems/id149.mp3",
+    "image": "poems/id149.jpg",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon May 4th 2020, 10:52 PM",
+    "html": "<p>Every way of thinking about the world,<br>\nbrings us closer together, despite, what we are told.</p>\n<p>There is just one little thing to keep in mind,<br>\nwe have to leave all the bad ideas, behind.</p>\n<p>Exchange of ideas came a long way,<br>\nbut we still need to eliminate foul play.</p>\n<p>Because not everyone is educated,<br>\nand without wisdom life gets complicated.</p>\n<p>Misinformed people are easily swayed,<br>\nthey are often unprepared, and very scared.</p>\n<p>If we build to remove their fears,<br>\nthey will love us... to tears.</p>\n<p>The most powerful early-tool is the Audiobook,<br>\nwisdom delivered in a way that&#39;s hard to overlook.</p>\n<p>It is private, and comes with no shame,<br>\nit can take a person from poverty to Hall of Fame.</p>\n<p>And the best type of things to listen to,<br>\nare memoirs or lectures, that enlarge a world view.</p>\n<p>We must stop bad education from tearing us apart,<br>\nwe each have to learn, and become smart.</p>\n<p>This day of Wisdom, and Peace that we yearn,<br>\ncomes closer each day that we learn.</p>\n"
+  },
+  {
     "id": "id148",
     "title": "Harold and Wally",
     "category": "poetry",
