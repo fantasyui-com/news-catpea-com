@@ -1,5 +1,6 @@
 /_trash/
-/news/
+/poetry/
+/research/
 .DS_Store
 /node_modules/
 /src/node_modules/@sapper/
