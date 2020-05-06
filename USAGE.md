@@ -1,52 +1,57 @@
-# sapper-template
+# Cat Pea News
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+## Update Cycle
 
+```sh
 
-## Getting started
+./update.sh # to pull updates from other repos
 
+npm run pub # to publish
 
-### Using `degit`
-
-[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
-
-```bash
-# for Rollup
-npx degit "sveltejs/sapper-template#rollup" my-app
-# for webpack
-npx degit "sveltejs/sapper-template#webpack" my-app
 ```
 
+Take a look at dev mode preview before you publish.
 
-### Using GitHub templates
+```sh
 
-Alternatively, you can use GitHub's template feature with the [sapper-template-rollup](https://github.com/sveltejs/sapper-template-rollup) or [sapper-template-webpack](https://github.com/sveltejs/sapper-template-webpack) repositories.
+./update.sh # to pull updates from other repos
 
+npm run dev # to preview what you are about to publish
+
+npm run pub # to publish
+
+```
+
+## Commands
+
+```sh
+
+npm run dev # development mode
+npm run pub # publish to repository
+./update.sh # pull poetry and research, interpret markdown, create module
+
+```
 
 ### Running the project
 
-However you get the code, you can install dependencies and run the project in development mode with:
-
 ```bash
-cd my-app
+
 npm install # or yarn
 npm run dev
+
 ```
 
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 
-
 ## Structure
 
 Sapper expects to find two directories in the root of your project —  `src` and `static`.
 
-
 ### src
 
 The [src](src) directory contains the entry points for your app — `client.js`, `server.js` and (optionally) a `service-worker.js` — along with a `template.html` file and a `routes` directory.
-
 
 #### src/routes
 
@@ -80,7 +85,6 @@ import { files } from '@sapper/service-worker';
 
 Sapper uses Rollup or webpack to provide code-splitting and dynamic imports, as well as compiling your Svelte components. With webpack, it also provides hot module reloading. As long as you don't do anything daft, you can edit the configuration files to add whatever plugins you'd like.
 
-
 ## Production mode and deployment
 
 To start a production version of your app, run `npm run build && npm start`. This will disable live reloading, and activate the appropriate bundler plugins.
@@ -93,19 +97,3 @@ now
 ```
 
 If your app can't be exported to a static site, you can use the [now-sapper](https://github.com/thgh/now-sapper) builder. You can find instructions on how to do so in its [README](https://github.com/thgh/now-sapper#basic-usage).
-
-
-## Using external components
-
-When using Svelte components installed from npm, such as [@sveltejs/svelte-virtual-list](https://github.com/sveltejs/svelte-virtual-list), Svelte needs the original component source (rather than any precompiled JavaScript that ships with the component). This allows the component to be rendered server-side, and also keeps your client-side app smaller.
-
-Because of that, it's essential that the bundler doesn't treat the package as an *external dependency*. You can either modify the `external` option under `server` in [rollup.config.js](rollup.config.js) or the `externals` option in [webpack.config.js](webpack.config.js), or simply install the package to `devDependencies` rather than `dependencies`, which will cause it to get bundled (and therefore compiled) with your app:
-
-```bash
-npm install -D @sveltejs/svelte-virtual-list
-```
-
-
-## Bugs and feedback
-
-Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
