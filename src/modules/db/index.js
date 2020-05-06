@@ -1,6 +1,18 @@
 
 const data = [
   {
+    "id": "id150",
+    "title": "Authenticity",
+    "category": "poetry",
+    "tags": "Poem Listen",
+    "date": "2020-05-06T01:47:17.000Z",
+    "audio": "poems/id150.mp3",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue May 5th 2020, 9:47 PM",
+    "html": "<p>While not everything can be planned,<br>\nauthenticity and learning go hand in hand.</p>\n<p>Some lessons can get pretty tough,<br>\nbut will fix us, sure enough.</p>\n<p>When life gets sad or feels no good,<br>\nit may be something you misunderstood.</p>\n<p>And our views will shift,<br>\nand we&#39;ll convert that bad into a gift.</p>\n<p><br><br></p>\n<p>Pretenders, can&#39;t learn this way,<br>\nalways in the dark, be it night or day.</p>\n<p>They walk an alien path,<br>\ndarkness and wrath.</p>\n<p>There is nothing there to fix,<br>\nit&#39;s all an incomprehensible mix.</p>\n<p><br><br></p>\n<p>To live on a spectrum opposite of devious,<br>\nmakes each day connect with the previous,</p>\n<p>And as days add up, they make you stronger,<br>\nand your steps travel even longer.</p>\n<p>Each day turns into a gifts and rewards,<br>\nyou stop being played, and create your own chords.</p>\n<p><br><br></p>\n<p>Authenticity is a superpower,<br>\nit will help you rise, and you&#39;ll never cower.</p>\n<p>Day after day you become more powerful,<br>\nthis is how we become truly beautiful.</p>\n<p>It will help you finish what you start,<br>\nand your life, will become, a work of art.</p>\n"
+  },
+  {
     "id": "id149",
     "title": "Convergence",
     "category": "poetry",
@@ -11,7 +23,7 @@ const data = [
     "draft": false,
     "deleted": false,
     "published": "Mon May 4th 2020, 10:52 PM",
-    "html": "<p>Every way of thinking about the world,<br>\nbrings us closer together, despite, what we are told.</p>\n<p>There is just one little thing to keep in mind,<br>\nwe have to leave all the bad ideas, behind.</p>\n<p>Exchange of ideas came a long way,<br>\nbut we still need to eliminate foul play.</p>\n<p>Because not everyone is educated,<br>\nand without wisdom life gets complicated.</p>\n<p>Misinformed people are easily swayed,<br>\nthey are often unprepared, and very scared.</p>\n<p>If we build to remove their fears,<br>\nthey will love us... to tears.</p>\n<p>The most powerful early-tool is the Audiobook,<br>\nwisdom delivered in a way that&#39;s hard to overlook.</p>\n<p>It is private, and comes with no shame,<br>\nit can take a person from poverty to Hall of Fame.</p>\n<p>And the best type of things to listen to,<br>\nare memoirs or lectures, that enlarge a world view.</p>\n<p>We must stop bad education from tearing us apart,<br>\nwe each have to learn, and become smart.</p>\n<p>This day of Wisdom, and Peace that we yearn,<br>\ncomes closer each day that we learn.</p>\n<p>(image courtesy <a href=\"https://en.wikipedia.org/wiki/Opte_Project\">Opte Project</a>)</p>\n"
+    "html": "<p>Every way of thinking about the world,<br>\nbrings us closer together, despite, what we are told.</p>\n<p>There is just one little thing to keep in mind,<br>\nwe have to leave all the bad ideas, behind.</p>\n<p>Exchange of ideas came a long way,<br>\nbut we still need to eliminate foul play.</p>\n<p>Because not everyone is educated,<br>\nand without wisdom life gets complicated.</p>\n<p>Misinformed people are easily swayed,<br>\nthey are often unprepared, and very scared.</p>\n<p>If we build to remove their fears,<br>\nthey will love us... to tears.</p>\n<p>The most powerful early-tool is the Audiobook,<br>\nwisdom delivered in a way that&#39;s hard to overlook.</p>\n<p>It is private, and comes with no shame,<br>\nit can take a person from poverty to Hall of Fame.</p>\n<p>And the best type of things to listen to,<br>\nare memoirs or lectures, that enlarge a world view.</p>\n<p>We must stop bad education from tearing us apart,<br>\nwe each have to learn, and become smart.</p>\n<p>This day of Wisdom, and Peace that we yearn,<br>\ncomes closer each day that we learn.</p>\n<p>(image courtesy of <a href=\"https://en.wikipedia.org/wiki/Opte_Project\">Opte Project</a>)</p>\n"
   },
   {
     "id": "id148",
@@ -181,7 +193,7 @@ const data = [
     "draft": false,
     "deleted": false,
     "published": "Sat Apr 25th 2020, 5:23 PM",
-    "html": "<p>Captain&#39;s Log, Quarantine, Day Forty.  </p>\n<p>Everything is all right, except for our flight.<br>But had we been given infinite light,<br>our wings would <em>fail</em> in flight.</p>\n<p>What gives us the right to learn, and rise to height,<br>is the <em>limit</em> of the duration of our light.</p>\n<p>What makes it <em>precious</em>, and <em>worth</em> the flight,<br>is precisely the limits in duration of our light.  </p>\n<p>It is by our limits that we look to light,<br>had we been given infinite flight,<br>our intelligence would fail to light.</p>\n"
+    "html": "<p>Captain&#39;s Log, Quarantine, Day Forty.  </p>\n<p>Everything is all right, except for our flight.<br>But had we been given infinite light,<br>our wings would fail in flight.</p>\n<p>What gives us the right to learn, and rise to height,<br>is the limit of the duration of our light.</p>\n<p>What makes it precious, and worth the flight,<br>is precisely the limits in duration of our light.  </p>\n<p>It is by our limits that we look to light,<br>had we been given infinite flight,<br>our intelligence would fail to light.</p>\n"
   },
   {
     "id": "id134",
