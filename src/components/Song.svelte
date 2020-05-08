@@ -27,7 +27,7 @@
 
   .clickable {
     cursor: pointer;
-    transition: background 1s, color .5s;
+    transition: filter .5s, -webkit-filter .5s, background 1s, color .5s;
   }
 
   .clickable:hover:not(.active){
@@ -36,32 +36,26 @@
   }
 
   .illustration {
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      color:#FFF;
-      font-family: Arial, Helvetica, sans-serif;
+    border-width: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
+
 </style>
 
 {#if data.image}
-  <div class="card mb-2 clickable" class:active={active} style="min-height: 100px;">
-    <div class="row no-gutters">
-      <div class="col-8">
-        <div class="card-body">
-          <p class="card-title"><img src="/icons/volume-up.svg" alt="" width="32" height="32" style="filter: invert(1);">&nbsp;{data.title}</p>
-          <p class="card-text">
-          {#if live}
-            <small>{data.published}</small><br>
-            <small>{data.ago}</small>
-          {:else}
-            <small>{data.published}</small>
-          {/if}
-          </p>
-        </div>
-      </div>
-      <div class="col-4 rounded illustration" style="background-image:url('{img.md(data.image)}');">
-      </div>
+  <div class="card mb-2 clickable bg-image illustration" class:active={active} style="min-height: 100px; background-image: linear-gradient(135deg, rgba(33,33,33,0.55) 0%, rgba(0,43,54,1) 100%), url('{img.md(data.image)}');">
+    <div class="card-body">
+      <p class="card-title"><img src="/icons/volume-up.svg" alt="" width="32" height="32" style="filter: invert(1);">&nbsp;{data.title}</p>
+      <p class="card-text">
+      {#if live}
+        <small>{data.published}</small><br>
+        <small>{data.ago}</small>
+      {:else}
+        <small>{data.published}</small>
+      {/if}
+      </p>
     </div>
   </div>
 {:else}
