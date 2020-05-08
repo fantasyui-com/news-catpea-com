@@ -13,7 +13,6 @@
   import Spinner from '../components/Spinner.svelte';
 
   import Song from '../components/Song.svelte';
-  import Cover from '../components/Cover.svelte';
   import Album from '../components/Album.svelte';
 
   import db from '../modules/db/index.js';
@@ -229,7 +228,7 @@
         </div>
 
         <div class="row d-none d-lg-flex my-3">
-          <div class="col-8"> </div>
+          <div class="col-6"> </div>
           <div class="col">
           <button on:click={doRepeatAll} type="button" class="btn btn-sm btn-block" class:bg-dark={!repeatAll} class:text-dark={repeatAll} class:bg-warning={repeatAll}><img src="/icons/arrow-repeat.svg" alt="Repeat All" width="16" height="16" style="filter: invert(1);"> All</button>
           </div>
