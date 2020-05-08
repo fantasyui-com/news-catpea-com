@@ -34,6 +34,7 @@
 
   {#if (live?opened:true) }
     <div class="card-body" in:slide={{ duration: 1500 }} out:slide={{ duration: 100 }}>
+      <a class="btn btn-sm btn-primary mt-1" href="/radio"><img src="/icons/volume-up.svg" alt="" width="16" height="16" style="filter: invert(1);"> Radio Meow</a>
       {#if posts}<a class="btn btn-sm btn-outline-info mt-1" href="/"><img src="/icons/view-stacked.svg" alt="" width="16" height="16" style="filter: invert(1);"> All Posts</a>{/if}
       {#if categories}<a class="btn btn-sm btn-outline-info mt-1" href="/category"><img src="/icons/card-list.svg" alt="" width="16" height="16" style="filter: invert(1);"> Browse Categories</a>{/if}
       {#if tags}<a class="btn btn-sm btn-outline-info mt-1" href="/tag"><img src="/icons/tag.svg" alt="" width="16" height="16" style="filter: invert(1);"> Browse Tags</a>{/if}
