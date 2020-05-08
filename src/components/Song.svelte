@@ -18,30 +18,84 @@
   });
 
 
-  const icons = [
-    'radio-icon-a.jpg',
-    'radio-icon-b.jpg',
-    'radio-icon-c.jpg',
-    'radio-icon-d.jpg'
-  ]
+
 
 
 </script>
 
-<div class="media mb-3 rounded" class:bg-dark={!active} class:bg-info={active} style="cursor: pointer;">
-  <div style="width: 64px; overflow: hidden;" class="mr-3">
-  {#if data.image}
-  <img src={img.sm(data.image)} style="height: 64px; width: auto;" class="rounded" alt={data.title}>
-  {:else}
-  <img src="{oneof(icons)}" style="height: 64px; width: auto;" class="rounded" alt={data.title}>
-  {/if}
+
+<style>
+
+.illustration {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+</style>
+
+{#if data.image}
+
+  <div class="card mb-2" class:bg-dark={!active} class:bg-info={active} style="cursor: pointer; min-height: 100px;">
+    <div class="row no-gutters">
+
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-title" class:text-muted={!active} class:text-white={active}>{data.title}</p>
+          <p class="card-text">
+          {#if live}
+            <small class:text-muted={!active} class:text-white={active}>{data.published}</small><br>
+            <small class:text-muted={!active} class:text-white={active}>{data.ago}</small>
+          {:else}
+            <small class:text-muted={!active} class:text-white={active}>{data.published}</small>
+          {/if}
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 rounded illustration" style="background-image:url('{img.md(data.image)}');">
+        <!-- <img src={img.sm(data.image)} class="card-img shadow" alt={data.title}> -->
+      </div>
+
+    </div>
   </div>
-  <div class="media-body pt-2">
-    <h6 class="mt-0 mb-0" class:text-white={active}>{data.title}</h6>
+
+{:else}
+
+  <div class="card mb-2" class:bg-dark={!active} class:bg-info={active} style="cursor: pointer; min-height: 100px;">
+    <div class="card-body">
+      <h5 class="card-title" class:text-muted={!active} class:text-white={active}>{data.title}</h5>
+      <p class="card-text">
+      {#if live}
+        <small class:text-muted={!active} class:text-white={active}>{data.published}</small><br>
+        <small class:text-muted={!active} class:text-white={active}>{data.ago}</small>
+      {:else}
+        <small class:text-muted={!active} class:text-white={active}>{data.published}</small>
+      {/if}
+      </p>
+    </div>
+  </div>
+
+{/if}
+
+<!--
+<div class="media mb-3 rounded" class:bg-dark={!active} class:bg-info={active} style="cursor: pointer; min-height: 100px;">
+
+  <div class="media-body p-4">
+    <div class="text-truncate">
+      <h6 class="mt-0 mb-0" class:text-white={active}> {data.title} </h6>
+    </div>
     {#if live}
-      <small class:text-muted={!active} class:text-white={active}>{data.published} &middot; {data.ago}</small>
+      <small class:text-muted={!active} class:text-white={active}>{data.ago}</small>
     {:else}
       <small class:text-muted={!active} class:text-white={active}>{data.published}</small>
     {/if}
   </div>
-</div>
+
+  {#if data.image}
+    <img src={img.sm(data.image)} class="rounded" alt={data.title}>
+  {/if}
+
+</div> -->
