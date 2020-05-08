@@ -1,11 +1,12 @@
 <script>
 
+  import img from '../modules/img/index.js';
+
   import { onMount } from 'svelte';
   import { get } from 'svelte/store';
 
   import startCase from "lodash/startCase.js";
   import oneof from "oneof";
-
    export let read;
    export let data;
    export let active;
@@ -18,8 +19,8 @@
 
 
   const icons = [
-    //'radio-icon-a.jpg',
-    //'radio-icon-b.jpg',
+    'radio-icon-a.jpg',
+    'radio-icon-b.jpg',
     'radio-icon-c.jpg',
     'radio-icon-d.jpg'
   ]
@@ -30,7 +31,7 @@
 <div class="media mb-3 rounded" class:bg-dark={!active} class:bg-info={active} style="cursor: pointer;">
   <div style="width: 64px; overflow: hidden;" class="mr-3">
   {#if data.image}
-  <img src={data.image} style="height: 64px; width: auto;" class="rounded" alt={data.title}>
+  <img src={img.sm(data.image)} style="height: 64px; width: auto;" class="rounded" alt={data.title}>
   {:else}
   <img src="{oneof(icons)}" style="height: 64px; width: auto;" class="rounded" alt={data.title}>
   {/if}

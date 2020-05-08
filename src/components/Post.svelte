@@ -2,8 +2,8 @@
 
   import { onMount } from 'svelte';
   import { get } from 'svelte/store';
-
   import startCase from "lodash/startCase.js";
+  import img from '../modules/img/index.js';
 
    export let read;
    export let data;
@@ -37,11 +37,11 @@
           </small>
         </p>
         <a href={read} class="btn btn-outline-success btn-sm ml-3"><img src="/icons/file-earmark-text.svg" alt="" width="16" height="16" style="filter: invert(1);"> Read</a>
-        <a href={data.audio} class="btn btn-outline-info btn-sm ml-3" class:d-none={!data.audio}><img src="/icons/play.svg" alt="" width="16" height="16" style="filter: invert(1);"> Listen</a>
+        <a href={data.audio} target="_blank" class="btn btn-outline-info btn-sm ml-3" class:d-none={!data.audio}><img src="/icons/play.svg" alt="" width="16" height="16" style="filter: invert(1);"> Listen</a>
       </div>
     </div>
     <div class="col-md-4">
-      <a href={read}><img src="{data.image}" class="card-img" alt="Illustration"></a>
+      <a href={read}><img src="{img.md(data.image)}" class="card-img" alt="Illustration"></a>
     </div>
   </div>
 </div>

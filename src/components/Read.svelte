@@ -19,7 +19,7 @@
 
 <div class="pb-4" class:d-block={data.image} class:d-none={!data.image}><img src={data.image} class="rounded bg-info img-fluid" style="smax-width: 25rem; height:auto;"></div>
 
-<a href={data.audio} class="btn btn-lg btn-outline-info mb-4" class:d-inline-block={data.audio} class:d-none={!data.audio}><img src="/icons/play.svg" alt="" width="16" height="16" style="filter: invert(1);"> Listen</a>
+<a href={data.audio} target="_blank" class="btn btn-lg btn-outline-info mb-4" class:d-inline-block={data.audio} class:d-none={!data.audio}><img src="/icons/play.svg" alt="" width="16" height="16" style="filter: invert(1);"> Listen</a>
 
 
 <div class="small">
