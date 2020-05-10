@@ -1,6 +1,18 @@
 
   const data = [
   {
+    "id": "poetry-0065",
+    "title": "Unique Greatness",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-09T21:48:56.291Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat May 9th 2020, 5:48 PM",
+    "html": "<p>Each day we must learn,<br>\nand what we&apos;ve forgotten re-lean.</p><p>Our life depends on clarity,<br>\nour visions must be sharp.</p><p>A lesson learned, begets a wisdom.<br>\nTwo create a kingdom.</p><p>Our might comes from knowledge,<br>\nand you can&apos;t find that in college.</p><p>Life is too short to lean in slices,<br>\nleave them to their own devices.</p><p>You are a powerful being,<br>\nyou learn fastest on your own.</p><p>As few teachers there are,<br>\nso there are but a handful of books.</p><p>It will be hard work,<br>\nto fill all the notebooks.</p><p>But your mind is unique, anyway,<br>\nthere is no substitute for your own way.</p><p>At first it will be gibberish,<br>\nat last, they will read it feverish.</p><p>You must not be tired,<br>\nyour mind cannot be stressed.</p><p>You must resist what they desired,<br>\ntell them you can&apos;t be hired.</p><p>You are not a dime a dozen,<br>\nthere is no other like you.</p><p>You have to tend to your mind,<br>\nall the forgotten lessons remind.</p><p>There cannot be anyone like you,<br>\nlearn to reach your own breakthrough.</p><p>Set your self free from the silly sting,<br>\nyou are not just a little thing.</p><p>No retreat, no surrender.\nYou are a meant to become a Great Being.</p>",
+    "audio": "audio/poetry-0065.mp3"
+  },
+  {
     "id": "poetry-0064",
     "title": "The Jogger",
     "category": "poetry",

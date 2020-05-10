@@ -1,6 +1,8 @@
 <script>
   import { onMount } from 'svelte';
   import startCase from "lodash/startCase.js";
+  import img from '../modules/img/index.js';
+
   export let data;
   export let duration;
   export let seek;
@@ -76,8 +78,8 @@
 
   <div style="max-height: 20rem; overflow: hidden;">
   {#if data.image}
-    <img src={data.image} class="card-img d-lg-none" alt={data.title} style="filter: saturate(20%) brightness(20%);">
-    <img src={data.image} class="card-img d-none d-lg-block" alt={data.title} style="position: relative; top: -50%; filter: saturate(20%) brightness(20%);">
+    <img src={img.lg(data.image)} class="card-img d-lg-none" alt={data.title} style="filter: saturate(20%) brightness(20%);">
+    <img src={img.lg(data.image)} class="card-img d-none d-lg-block" alt={data.title} style="position: relative; top: -50%; filter: saturate(20%) brightness(20%);">
   {:else}
     <div class="card-img header" alt={data.title}></div>
   {/if}
