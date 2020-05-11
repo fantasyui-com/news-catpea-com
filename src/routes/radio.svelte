@@ -46,21 +46,23 @@
     intervalId = setInterval(recalculateTimestamps, conf.recalculateInterval)
   });
 
-
-
-
-  const song = {
-    load:function(){}
-
-    playProgress:0,
-    loadProgress:0,
-  };
-
-
-  const player = {
-    start:function(){}
-    stop:function(){}
-  };
+  // 
+  // // Abstraction layer
+  // const player = {
+  //   load:function(){
+  //
+  //   },
+  //   start:function(){
+  //
+  //   },
+  //   stop:function(){
+  //
+  //   },
+  //   song: {
+  //     playProgress:0,
+  //     loadProgress:0,
+  //   }
+  // };
 
 
 
