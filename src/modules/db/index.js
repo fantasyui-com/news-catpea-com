@@ -1,6 +1,17 @@
 
   const data = [
   {
+    "id": "research-0094",
+    "title": "Meow Radio Woes",
+    "category": "research",
+    "tags": "Programming",
+    "date": "2020-05-11T15:20:13.344Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon May 11th 2020, 11:20 AM",
+    "html": "<p>I knew that Meow Radio will create problems.</p><p>I published it because it kind of works, and to get an idea of what I am dealing with here.</p><p>The <strong>first issue</strong> I came across was two poems playing at the same time, this is a class of problems called race conditions. And it arises here due to how long it takes to load a file.</p><p>The <strong>second issue</strong> is the pause between poems, that comes from loading it on a slow connection.</p><p>There is a another issue, playing audio in browsers can be tricky.\nThere are solutions and different approaches, but they are not mutually compatible and trying to make it so will ruin them all.</p><p>I have to find a framework and stick with it. The browser offers a thing called <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio\">Audio() class</a>,\nand I have thus far been using <a href=\"https://github.com/goldfire/howler.js#documentation\">Howler.js</a></p><p>I think what I need is a library that has been programmed with playlists in mind.\nMany Browsers <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/AudioTrackList\">have that</a> except for Samsung Internet, and I just want to create something that works everywhere. I remember using Samsung Internet before, as obscure and old as that thing may be, I want to solve problems not create them. And I think, I want the Playlist to be like the main concept, when somone plays poem #7 I want poem #8 to start preloading, and if the user hits shuffle, then I want the system to smartly preload the new next poem.</p><p>Once I create a fully working player, I may consider <a href=\"https://codecanyon.net/search/player\">selling it</a>.</p><p>Plus this would make a neat Portfolio item as well.</p><p>I am now looking over <a href=\"https://github.com/notthetup/awesome-webaudio\">Awesome Webaudio</a> to check is someone coded a popular smart play-list aware player, if not I&apos;ll probably make it myself.</p>"
+  },
+  {
     "id": "poetry-0066",
     "title": "We Are Not Robots",
     "category": "poetry",

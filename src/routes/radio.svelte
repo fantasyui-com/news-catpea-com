@@ -48,6 +48,23 @@
 
 
 
+
+  const song = {
+    load:function(){}
+
+    playProgress:0,
+    loadProgress:0,
+  };
+
+
+  const player = {
+    start:function(){}
+    stop:function(){}
+  };
+
+
+
+
   let active = 0;
   let data = collection[0];
 
