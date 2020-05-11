@@ -5,11 +5,12 @@
     "title": "We Are Not Robots",
     "category": "poetry",
     "tags": "Listen Poem",
-    "date": "2020-05-11T01:29:57.620Z",
+    "date": "2020-05-11T01:57:32.195Z",
     "draft": false,
     "deleted": false,
-    "published": "Sun May 10th 2020, 9:29 PM",
+    "published": "Sun May 10th 2020, 9:57 PM",
     "html": "<p>We are not robots, to be taught,<br>\nwe are humans powered by inventive and original thought.</p><p>This is why life has no instruction book,<br>\nif it did, it could only ever tell us where to look.</p><p>For the sake of this poem,<br>\nlet us image that this book does, exist.</p><p>Here is how I imagine it would read,<br>\nand let me start with the opening creed:</p><ul>\n<li>If someone is attacking you call for help, until it comes.</li>\n<li>If school is treating you unfairly, go hang out with the Principal.</li>\n<li>You need to build your Content of Character.</li>\n<li>Your Body of Wisdom is a Key To Happiness.</li>\n<li>You Must Grow All The Way Up.</li>\n<li>You are to Become a Great Being.</li>\n<li>You Are Beautiful, You Were Beautiful All Along.</li>\n</ul><p>It would point to learn from The Greats<br>\nas they managed to lift impossible weights.<br></p><p>It would also say that we are delicate,<br>\nand our minds are extremely intricate.</p><p>It would add, Hey!<br>\nYou can not grow up in places that weigh.</p><p>You have to find you own place in the world,<br>\nand you have to quit doing what you are told.</p><p>Above all it would state,<br>\nthat you are Free,<br>\nand Full of Beauty.<br>\nand searching for Wisdom is your duty.</p>",
+    "audio": "audio/poetry-0066.mp3",
     "image": "image/poetry-0066-illustration.jpg"
   },
   {
