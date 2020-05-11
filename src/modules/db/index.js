@@ -1,6 +1,18 @@
 
   const data = [
   {
+    "id": "poetry-0066",
+    "title": "We Are Not Robots",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-11T01:29:57.620Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun May 10th 2020, 9:29 PM",
+    "html": "<p>We are not robots, to be taught,<br>\nwe are humans powered by inventive and original thought.</p><p>This is why life has no instruction book,<br>\nif it did, it could only ever tell us where to look.</p><p>For the sake of this poem,<br>\nlet us image that this book does, exist.</p><p>Here is how I imagine it would read,<br>\nand let me start with the opening creed:</p><ul>\n<li>If someone is attacking you call for help, until it comes.</li>\n<li>If school is treating you unfairly, go hang out with the Principal.</li>\n<li>You need to build your Content of Character.</li>\n<li>Your Body of Wisdom is a Key To Happiness.</li>\n<li>You Must Grow All The Way Up.</li>\n<li>You are to Become a Great Being.</li>\n<li>You Are Beautiful, You Were Beautiful All Along.</li>\n</ul><p>It would point to learn from The Greats<br>\nas they managed to lift impossible weights.<br></p><p>It would also say that we are delicate,<br>\nand our minds are extremely intricate.</p><p>It would add, Hey!<br>\nYou can not grow up in places that weigh.</p><p>You have to find you own place in the world,<br>\nand you have to quit doing what you are told.</p><p>Above all it would state,<br>\nthat you are Free,<br>\nand Full of Beauty.<br>\nand searching for Wisdom is your duty.</p>",
+    "image": "image/poetry-0066-illustration.jpg"
+  },
+  {
     "id": "poetry-0065",
     "title": "Unique Greatness",
     "category": "poetry",
@@ -9,7 +21,7 @@
     "draft": false,
     "deleted": false,
     "published": "Sat May 9th 2020, 5:48 PM",
-    "html": "<p>Each day we must learn,<br>\nand what we&apos;ve forgotten re-lean.</p><p>Our life depends on clarity,<br>\nour visions must be sharp.</p><p>A lesson learned, begets a wisdom.<br>\nTwo create a kingdom.</p><p>Our might comes from knowledge,<br>\nand you can&apos;t find that in college.</p><p>Life is too short to lean in slices,<br>\nleave them to their own devices.</p><p>You are a powerful being,<br>\nyou learn fastest on your own.</p><p>As few teachers there are,<br>\nso there are but a handful of books.</p><p>It will be hard work,<br>\nto fill all the notebooks.</p><p>But your mind is unique, anyway,<br>\nthere is no substitute for your own way.</p><p>At first it will be gibberish,<br>\nat last, they will read it feverish.</p><p>You must not be tired,<br>\nyour mind cannot be stressed.</p><p>You must resist what they desired,<br>\ntell them you can&apos;t be hired.</p><p>You are not a dime a dozen,<br>\nthere is no other like you.</p><p>You have to tend to your mind,<br>\nall the forgotten lessons remind.</p><p>There cannot be anyone like you,<br>\nlearn to reach your own breakthrough.</p><p>Set your self free from the silly sting,<br>\nyou are not just a little thing.</p><p>No retreat, no surrender.\nYou are a meant to become a Great Being.</p>",
+    "html": "<p>Each day we must learn,<br>\nand what we&apos;ve forgotten re-lean.</p><p>Our life depends on clarity,<br>\nour visions must be sharp.</p><p>A lesson learned, begets a wisdom.<br>\nTwo create a kingdom.</p><p>Our might comes from knowledge,<br>\nand you can&apos;t find that in college.</p><p>Life is too short to lean in slices,<br>\nleave them to their own devices.</p><p>You are a powerful being,<br>\nyou learn fastest on your own.</p><p>As few teachers there are,<br>\nso there are but a handful of books.</p><p>It will be hard work,<br>\nto fill all the notebooks.</p><p>But your mind is unique, anyway,<br>\nthere is no substitute for your own way.</p><p>At first it will be gibberish,<br>\nat last, they will read it feverish.</p><p>You must not be tired,<br>\nyour mind cannot be stressed.</p><p>You must resist what they desired,<br>\ntell them you can&apos;t be hired.</p><p>You are not a dime a dozen,<br>\nthere is no other like you.</p><p>You have to tend to your mind,<br>\nall the forgotten lessons remind.</p><p>There cannot be anyone like you,<br>\nlearn to reach your own breakthrough.</p><p>Set your self free from the silly sting,<br>\nyou are not just a little thing.</p><p>No retreat, no surrender.<br>\nYou are a meant to become a Great Being.</p>",
     "audio": "audio/poetry-0065.mp3"
   },
   {
