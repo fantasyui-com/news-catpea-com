@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0068",
+    "title": "Riding The Trail",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-13T01:28:17.718Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue May 12th 2020, 9:28 PM",
+    "html": "<p>I like riding around on my bicycle,<br>\nbut today I felt like an icicle.</p><p>Just got back from this years first long ride,<br>\nI feel cheerful and mighty satisfied.</p><p>All the cute creatures are still there,<br>\nand thankfully, still no signs of angry bear.</p><p>Riding alone, I reminisced about a warmer time,<br>\nwhen a car slowed down and screamed like there was some crime.</p><p>I had no idea what they were saying,<br>\nbut waiving their hands, it was a danger they were portraying.</p><p>But, I was like, &quot;Oh, whopped do, who knows...&quot;<br>\nand in the next moment, I had to take off most of my clothes.</p><p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0068-noclothes.jpg\" alt=\"Illustration\"></p><p>I have never been in such great rain,<br>\nit was like standing next to a burst water main.</p><p>I loved it, the rain was fragrant, fresh and warm,<br>\nI could never call that a storm.</p><p>The sun came out instantly, I was like &quot;K. rain, thanks, bye.&quot;,<br>\nand then I had to hang out all my clothes to dry.</p><p>The 13 mile ride back home was full of mud,<br>\nI had to lift my legs, and will my bike across a flood.</p><p><img class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0068-mud.jpg\" alt=\"Illustration\"></p><p>I am so glad no one will ever know about this,<br>\nbut still, these are the memorable moments\nthat make me reminisce.</p>",
+    "audio": "audio/poetry-0068.mp3",
+    "image": "image/poetry-0068-illustration.jpg"
+  },
+  {
     "id": "poetry-0067",
     "title": "Helping The World Really Learn",
     "category": "poetry",
