@@ -1,6 +1,17 @@
 
   const data = [
   {
+    "id": "research-0096",
+    "title": "Radio Meow 2.0",
+    "category": "research",
+    "tags": "Programming",
+    "date": "2020-05-14T19:24:11.393Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Thu May 14th 2020, 3:24 PM",
+    "html": "<p>I&apos;ve been working on it for a few days, it works but the internal architecture could be better. The code is clear though.</p><p>It should work on slow connections now, it has less buttons (less confusion), and a seekable progress bar so one can skip around a poem/song.</p><p>It initially preloads the first poem, and once it starts playing it caches the one that follows, so eventually it grabs all the poems.</p><p>I am going to have to look into memory use and try to unload some poems but I need some experimental data for that.</p><p>I&apos;ll keep playing with it for now, see what else maybe broken.</p><p>I&apos;ll listen to it on a cheap phone on my bicycle adventures to see what problems may arise.</p><p>The UI came out a lot simpler than I expected, there is nothing exciting there, this is both good and odd.</p>"
+  },
+  {
     "id": "poetry-0069",
     "title": "Whoop De Doo at Nordhouse Dunes",
     "category": "poetry",
@@ -25,6 +36,17 @@
     "html": "<p>I like riding around on my bicycle,<br>\nbut today I felt like an icicle.</p><p>Just got back from this years first long ride,<br>\nI feel cheerful and mighty satisfied.</p><p>All the cute creatures are still there,<br>\nand thankfully, still no signs of angry bear.</p><p>Riding alone, I reminisced about a warmer time,<br>\nwhen a car slowed down and screamed like there was some crime.</p><p>I had no idea what they were saying,<br>\nbut waiving their hands, it was a danger they were portraying.</p><p>But, I was like, &quot;Oh, whopped do, who knows...&quot;<br>\nand in the next moment, I had to take off most of my clothes.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0068-noclothes.jpg\" alt=\"Illustration\"></p><p>I have never been in such great rain,<br>\nit was like standing next to a burst water main.</p><p>I loved it, the rain was fragrant, fresh and warm,<br>\nI could never call that a storm.</p><p>The sun came out instantly, I was like &quot;K. rain, thanks, bye.&quot;,<br>\nand then I had to hang out all my clothes to dry.</p><p>The 13 mile ride back home was full of mud,<br>\nI had to lift my legs, and will my bike across a flood.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0068-mud.jpg\" alt=\"Illustration\"></p><p>I am so glad no one will ever know about this,<br>\nbut still, these are the memorable moments\nthat make me reminisce.</p>",
     "audio": "audio/poetry-0068.mp3",
     "image": "image/poetry-0068-illustration.jpg"
+  },
+  {
+    "id": "research-0095",
+    "title": "Radio Meow Updates and Svelte Woes",
+    "category": "research",
+    "tags": "Programming",
+    "date": "2020-05-12T21:44:48.316Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue May 12th 2020, 5:44 PM",
+    "html": "<p>I just got the poem/audio file download tracking done.</p><p>I simulated a slow 3G connection and downloading those little files took a while.</p><p>I am now getting full download feedback information (bytes downloaded thus far, and total bytes to be downloaded, delivered at reasonable time intervals) as I use a generic file loader, not one with a concept of skipping around a long video file and downloading little snippets here and there.</p><hr><p>I am running into issues with svelte, limitations.</p><p>Svelte is still great for making apps, but application brains need more.</p><p>It may just be that all we can do with Svelte, React, Vue, and Angular is User Interfaces, no more, never more.</p><p>In that case, the code inside Svelte is not JavaScript but Memory Programming Code, or Application State Programming Code.</p><p>Downloading Files, Performing Operations would be best handled by external libraries, and ones that behave like those that come with the web browser (very standard and boring).</p><p>And then, once data is ready, over in Svelte side one simply says:</p><pre><code class=\"language-JavaScript\">mitt.on(&apos;complex-processing-got-done&apos;, hereisthedata =&gt; {\n  playlist[5].data = hereisthedata\n})</code></pre><p>Svelte will understand &quot;playlist[5].data&quot; and update the User Interface automatically, but the process of creating &quot;hereisthedata&quot; needs to be far and away from Svelte as it gets confused.</p><p>This sounds very resonable, but now I have to add,</p><pre><code class=\"language-JavaScript\">mitt.on(&apos;complex-processing-got-done-download-progress&apos;, {total, thusfar} =&gt; {\n  playlist[5].meta.total = total;\n  playlist[5].meta.bytes = thusfar;\n})</code></pre><p>And the promise of Svelte was that I never had to worry about any of this, it was supposed to happen automatically.</p>"
   },
   {
     "id": "poetry-0067",
