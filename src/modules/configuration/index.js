@@ -6,6 +6,6 @@ export default function main(){
 
     recalculateInterval: 666,
     blinkenlighten:false,
-    
+
   };
 }
