@@ -20,7 +20,7 @@ renderer.image = function(href, title, text) {
     if (href === null) {
       return text;
     }
-    let out = '<img class="img-fluid rounded shadow mt-5 mb-2" src="' + href + '" alt="' + text + '"';
+    let out = '<img loading="lazy" class="img-fluid rounded shadow mt-5 mb-2" src="' + href + '" alt="' + text + '"';
     if (title) {
       out += ' title="' + title + '"';
     }
