@@ -31,6 +31,9 @@ export default class Song extends EventEmitter2 {
         const duration = that.audio.duration;
         that.emit('loadeddata', {duration});
       });
+      that.audio.addEventListener('ended', (event) => {
+        that.emit('ended', event);
+      });
       that.emit('load', this);
     });
 

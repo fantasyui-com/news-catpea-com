@@ -17,7 +17,9 @@
 
   let playing = false;
   let selected = 0;
+  $: upcoming = (selected+2<playlist.length)?selected+1:0;
   let track = playlist[0];
+  $: next = playlist[upcoming];
 
   async function play({index}){
     stop();
@@ -47,14 +49,20 @@
     if(!playlist[index].song){
       const aural = new Aural(playlist[index].info.audio);
       aural.on('load', ()=>{
+
         if(autoplay) load({index: (index+2<playlist.length)?index+1:0, autoplay:false}); // PREFETCH NEXT
+
         aural.on('timeupdate', (event)=>{
           playlist[index].meta.currentTime = event.currentTime;
         })
         aural.on('loadeddata', (event)=>{
           playlist[index].meta.duration = event.duration;
         })
-        if(autoplay) play({index});
+        aural.on('ended', (event)=>{
+          select({index:upcoming})
+        })
+
+        if(autoplay) play({index}); // PLAY
       })
       aural.on('progress', (event)=>{
         playlist[index].meta.loaded = event.loaded;
@@ -77,9 +85,12 @@
   onMount(() => {
     setInterval(function(){
       track = playlist[selected];
+      next = playlist[upcoming];
       // playlist = playlist;
     },300)
+    load({index:0, autoplay:false});
   });
+
 
 </script>
 
@@ -107,24 +118,17 @@
   {/if}
 
 
-  Loading
+  Loading ({track.info.title}) #{selected}
   <Progress color="warning" val={track.meta.loaded} max={track.meta.total}/>
+
+  Preloading Next Track ({next.info.title}) #{upcoming}
+  <Progress color="warning" val={next.meta.loaded} max={next.meta.total}/>
 
   Playing
   <Progress color="warning" val={track.meta.currentTime} max={track.meta.duration}/>
-
-
-
   <hr>
-
   <ol>{@html Object.keys(track.meta).map(k=>`${k}: ${track.meta[k]}`).map(s=>`<li>${s}</li>`).join('')}</ol>
   <ol>{@html Object.keys(track.info).map(k=>`${k}: ${track.info[k]}`).map(s=>`<li>${s}</li>`).join('')}</ol>
-
-
-
-
-
-
   </div>
 
 
