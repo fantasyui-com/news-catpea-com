@@ -21,7 +21,9 @@
   let live = false;
   let intervalId = null;
 
-  let collection = db().filter(o=>o.audio);
+  let collection = db()
+    .filter(o=>o.audio)
+    .filter(o=>o.tags.split(' ').includes('Listen'));
 
   function recalculateTimestamps(){
     collection = collection.map(o=>{ o.ago = moment(o.date).from(moment()); return o; });
