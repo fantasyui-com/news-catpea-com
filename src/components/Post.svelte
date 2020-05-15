@@ -21,7 +21,7 @@
     <div class="row no-gutters">
       <div class="col-md-6 col-lg-8 col-xl-9">
         <div class="card-body">
-          <h5 class="card-title pb-4"><a class="text-light" href={read}>{data.title}</a></h5>
+          <h4 class="card-title pb-4"><a class="text-light" href={read}>{data.title}</a></h4>
           <h6 class="card-subtitle ml-3 pb-2"><img src="/icons/envelope.svg" alt="" width="16" height="16" style="filter: invert(1);"> Posted {live?data.ago:data.published} in <a href="/category/{data.category}">{startCase(data.category)}</a>.</h6>
           <p class="card-text mb-4">
             <small class="ml-3 d-block">
@@ -46,7 +46,7 @@
 {:else}
   <div class="card mb-5 article-link shadow" class:border-danger={live && data.today}>
     <div class="card-body py-4 px-3">
-      <h5 class="card-title pb-4"><a class="text-light" href={read}>{data.title}</a></h5>
+      <h4 class="card-title pb-4"><a class="text-light" href={read}>{data.title}</a></h4>
       <h6 class="card-subtitle ml-3 pb-2"><img src="/icons/envelope.svg" alt="" width="16" height="16" style="filter: invert(1);"> Posted {live?data.ago:data.published} in <a href="/category/{data.category}">{startCase(data.category)}</a>.</h6>
       <p class="card-text mb-4">
         <small class="ml-3 d-block">

@@ -293,7 +293,7 @@
             <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: {calculatePercent(track.meta.currentTime,track.meta.duration,1)}%" aria-valuenow="{calculatePercent(track.meta.currentTime,track.meta.duration,1)}" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
-        <Lyrics {track}/>
+        <Lyrics {track} read="/read/{track.info.id}"/>
         <div class:invisible={upcoming.meta.loaded==upcoming.meta.total}>
           Preloading Upcoming ({upcoming.info.title}) #{next(selected)}
           <Progress color="warning" val={upcoming.meta.loaded} max={upcoming.meta.total}/>

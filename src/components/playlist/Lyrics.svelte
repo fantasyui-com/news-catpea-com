@@ -4,6 +4,7 @@
 
   import startCase from "lodash/startCase.js";
 
+  export let read;
   export let track;
 
   let live = false;
@@ -23,6 +24,8 @@
 </div> -->
 
 <div class="small">
+    <a class="text-light" href={read}>{track.info.title}</a>,
+
     Posted {live?track.info.ago:track.info.published}
 
     in <a href="/category/{track.info.category}">{startCase(track.info.category)}</a>.

@@ -3,6 +3,7 @@
 
   import startCase from "lodash/startCase.js";
   import img from '../../modules/img/index.js';
+  import calculatePercent from 'calculate-percent';
 
   export let track;
   export let upcoming;
@@ -35,7 +36,7 @@
 
 
 
-<div class="card bg-dark text-white mb-5 shadow">
+<div class="card bg-dark text-white mb-5 shadow" style="min-height: 10rem;">
 
   <div style="max-height: 20rem; overflow: hidden;">
   {#if track.info.image}
@@ -48,13 +49,13 @@
 
   <div class="card-img-overlay">
 
-    <h5 class="card-title d-lg-none">Now playing:</h5>
-    <h3 class="card-title text-center d-lg-none">{@html track.info.title.replace(/ ([^ ]+$)/, '&nbsp;$1')}</h3>
+    <h5 class="card-title text-muted d-lg-none">Now playing:</h5>
+    <h3 class="card-title text-center d-lg-none pb-3">{@html track.info.title.replace(/ ([^ ]+$)/, '&nbsp;$1')}</h3>
 
-    <h3 class="card-title d-none d-lg-block">Now playing:</h3>
-    <h1 class="card-title text-center d-none d-lg-block">{@html track.info.title.replace(/ ([^ ]+$)/, '&nbsp;$1')}</h1>
+    <h2 class="card-title text-muted d-none d-lg-block">Now playing:</h2>
+    <h1 class="card-title text-center d-none d-lg-block pb-3">{@html track.info.title.replace(/ ([^ ]+$)/, '&nbsp;$1')}</h1>
 
-    <p class="card-title text-center text-muted">Upcoming: {@html upcoming.info.title.replace(/ ([^ ]+$)/, '&nbsp;$1')}</p>
+    <p class="card-title text-center text-muted py-4">Upcoming: {@html upcoming.info.title.replace(/ ([^ ]+$)/, '&nbsp;$1')} <small class:d-none={calculatePercent(upcoming.meta.loaded,upcoming.meta.total) == 100}>({calculatePercent(upcoming.meta.loaded,upcoming.meta.total)}%)<small></p>
 
     <slot/>
 
