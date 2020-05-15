@@ -235,7 +235,15 @@
     select(next(selected));
   }
 
-  function seek(at){
+  function seek(at, e, t){
+    // console.log();
+    // console.log();
+    // console.log();
+    // console.log();
+    // console.log('offsetX:', e.offsetX);
+    // console.log('getBoundingClientRect:', t.getBoundingClientRect().width);
+    // console.log('offsetWidth:', t.offsetWidth);
+    // console.log('at:', at);
      select(selected, at);
   }
 
@@ -290,7 +298,7 @@
         <Cover {track} {upcoming} {playing}/>
         <div class="mb-5">
           <small class="text-info">Seek: {displayTime(track.meta.currentTime, track.meta.duration)} (click to interact)</small>
-          <div class="progress bg-danger" on:click={function(e){ seek(calculatePercent(e.offsetX, this.getBoundingClientRect().width)) }} style="height: 3rem; cursor: pointer;">
+          <div class="progress bg-danger" on:click={function(e){ seek(calculatePercent(e.offsetX, this.getBoundingClientRect().width), e,this) }} style="height: 3rem; cursor: pointer;">
             <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: {calculatePercent(track.meta.currentTime,track.meta.duration,1)}%" aria-valuenow="{calculatePercent(track.meta.currentTime,track.meta.duration,1)}" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
