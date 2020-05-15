@@ -161,6 +161,7 @@
         aural.on('loadeddata', (event)=>{
           //console.log('loadeddata index=%d selected=%d duration=%d', index, selected, event.duration);
           playlist[index].meta.duration = event.duration;
+          if(index == selected) track.meta.duration = event.duration;
         })
         aural.on('ended', (event)=>{
           // now that playing has ended select & play the next one
