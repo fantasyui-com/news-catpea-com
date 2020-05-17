@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0072",
+    "title": "Enlarging Your World",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-16T23:23:17.993Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat May 16th 2020, 7:23 PM",
+    "html": "<p>We must make time, to enlarge our view,<br>\nand in everything we do, we must first think things through.</p><p>Above all, to thine own self be true,<br>\nbut also your own world, should fit like a good shoe.</p><p><br><br></p><p>With each step you took your mind grew,<br>\nwith all new things, we never really start anew.</p><p>Where ever we go, whatever we go through,<br>\nwe learn and our wisdom evolves, as we continue.</p><p><br><br></p><p>Sure, sometimes it feels like we don&apos;t know what to do,<br>\nbut when you get sad, the whole Universe becomes slightly more blue,</p><p>We may not know exactly what you are going through,<br>\nbut many of us have been there, we too got stuck until we grew.</p><p><br><br></p><p>Many great beings get hurt, but all plow on through,<br>\nyou are not alone, in our own thoughts, we sit right next to you.</p><p>Please push trough the pain, and look through the zoo,<br>\nwhen all is writ, and said and done, we all still need you,</p><p><br><br></p><p>There is a blinding beauty to who you already are - I wish you knew,<br>\nwith each step forward, you become a brighter star, and we love you.</p><p>Don&apos;t worry, so as long as to your own self you stay true,<br>\nit will all pass, and when looking back you&apos;ll say - &quot;I Grew.&quot;</p>",
+    "audio": "audio/poetry-0072.mp3",
+    "image": "image/poetry-0072-illustration.jpg"
+  },
+  {
     "id": "poetry-0071",
     "title": "Epoch by Epoch",
     "category": "poetry",
