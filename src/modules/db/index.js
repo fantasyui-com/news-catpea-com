@@ -1,6 +1,32 @@
 
   const data = [
   {
+    "id": "poetry-0075",
+    "title": "Untitled no. 75",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-19T02:31:34.609Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon May 18th 2020, 10:31 PM",
+    "html": "<p>&#x201C;The Internet?  Is that thing still around?&#x201D;  (Homer Simpson)</p>",
+    "audio": "audio/poetry-0075.mp3",
+    "image": "image/poetry-0075-illustration.jpg"
+  },
+  {
+    "id": "poetry-0074",
+    "title": "Let Mother Nature Schedule Your Rest",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-19T01:40:09.277Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon May 18th 2020, 9:40 PM",
+    "html": "<p>It was a very rainy day,<br>\nthe sky was completely gray.</p><p>I took a nap come afternoon,<br>\nfell into my bed with a big swoon.</p><p>I woke up rested, and ran to the door,<br>\nbut it only seemed to rain more.</p><p><br><br></p><p>I resumed my endurance training a week back,<br>\nIt was a warm-up week, so I ran like a Mac truck.</p><p>I actually sprinted yesterday,<br>\nsomewhat frightening myself along the way.</p><p>I felt like I was all muscle,<br>\nI moved like red lightening, without a hustle.</p><p><br><br></p><p>Even though yesterday I ran in the rain,<br>\nI rained only a bit, so I had to train.</p><p>Today, the rain seemed like too much trouble,<br>\nI rested, but tomorrow I&apos;ll have to train double.</p><p>I always tell people not to rest,<br>\nlet Mother Mature decide, she knows best.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0074-waiting.jpg\" alt=\"Illustration\"></p>",
+    "audio": "audio/poetry-0074.mp3",
+    "image": "image/poetry-0074-illustration.jpg"
+  },
+  {
     "id": "poetry-0073",
     "title": "None Who Wandered Were Lost",
     "category": "poetry",
