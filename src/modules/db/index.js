@@ -1,19 +1,6 @@
 
   const data = [
   {
-    "id": "poetry-0075",
-    "title": "Untitled no. 75",
-    "category": "poetry",
-    "tags": "Listen Poem",
-    "date": "2020-05-19T02:31:34.609Z",
-    "draft": false,
-    "deleted": false,
-    "published": "Mon May 18th 2020, 10:31 PM",
-    "html": "<p>&#x201C;The Internet?  Is that thing still around?&#x201D;  (Homer Simpson)</p>",
-    "audio": "audio/poetry-0075.mp3",
-    "image": "image/poetry-0075-illustration.jpg"
-  },
-  {
     "id": "poetry-0074",
     "title": "Let Mother Nature Schedule Your Rest",
     "category": "poetry",
