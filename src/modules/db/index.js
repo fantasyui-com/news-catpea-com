@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0076",
+    "title": "Little Treasures in Our Hearts",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-20T23:38:58.563Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed May 20th 2020, 7:38 PM",
+    "html": "<p>With each little triumph, we add to our treasures,<br>\nand it grows over time, it grows beyond measures.</p><p>Sometimes, it all starts in loneliness,<br>\nbut it quickly fills up as it reaches silliness.</p><p>And so, we carry our fancy treasure chest,<br>\nwe take it with us on every quest.</p><p>It is not possible for it to get lost,<br>\nand nobody else can touch it - at any cost.</p><p>In no way could it ever be sacrificed,<br>\nand no robbers could ever stage a big enough heist.</p><p><br><br></p><p>Little chest in a safe place deep in out heart,<br>\nit serves to light the fire that fuels our art.</p><p>It prevents us from walking in reverse,<br>\nit helps to make our existence more diverse.</p><p>It also adds a great deal unto our beauty,<br>\nas it drives us to create out of love, and not mere duty.</p><p>All those petite little things that make us proud,<br>\nalso make us stand out in a crowd.</p><p>So it also serves as a lighthouse with a bright beam<br>\nthat lights the way betwixt us, and our dream.</p><p><br><br></p><p>I think one reason why nobody ever mentions it,<br>\nis because it is too sacred, to just talk about it.</p><p>But I want to remind you, my Dear Friends,<br>\nthat sometimes we need to look through this lens.</p><p>Your treasure chest will show you,<br>\na picture of you that is most true.</p><p><br><br></p><p>Oh, don&apos;t worry if you have only one thing,<br>\nit is still a treasure, it still makes you a Queen or King.</p><p>We all have a few simple treasures when we start,<br>\nbut they grow as we use our heart to turn our life to art.</p>",
+    "audio": "audio/poetry-0076.mp3",
+    "image": "image/poetry-0076-illustration.jpg"
+  },
+  {
     "id": "poetry-0075",
     "title": "The Harmony of Growing Up",
     "category": "poetry",
