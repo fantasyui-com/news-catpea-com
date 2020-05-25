@@ -1,6 +1,30 @@
 
   const data = [
   {
+    "id": "research-0097",
+    "title": "Programming, Bodybuilding and Jogging",
+    "category": "research",
+    "tags": "Programming",
+    "date": "2020-05-25T02:10:14.460Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun May 24th 2020, 10:10 PM",
+    "html": "<p><a href=\"https://news.catpea.com/read/poetry-0079\">Visit The Holy Guacamole Poem</a> inspired by the program below.</p><p>Programming,\nis similar to Painting, Sculpting, Writing Music, and Learning Wisdom.</p><p>Ability to write computer software,\nis like having a strange transforming microscope built into your fingertips.</p><p>You can access the most confusing things,\nand built pathways to things that have not yet been accessed before.</p><p>Programming, like Philosophy, Mathematics,\ndemands that we are kind to ourselves, and take good care of our Intellectual Hygiene.</p><p>Little programs, for your own self, are much better than huge programs for others,\nand with each program you write, you learn.</p><p>My bodybuilding, has been driven by computer software,\nthe speed of my lifting was controlled by a computer.</p><p>Just now, I spent a week preparing for a leap between Shuffling, and Jogging,\nrather than using <a href=\"https://westland-valhalla.github.io/warrior/the-jogger.html\">Couch to 5K</a>, I chose to employ my own software.</p><p>I have written a program I wistfully titled <a href=\"https://github.com/fantasyui-com/ultra\">ultra</a>,\nand just thinking about it, makes me breathe heavily.</p><p>A lot of art went into this tiny afternoon project,\nfirst of all I chose to create a Linux command, wrapped in an <a href=\"https://en.wikipedia.org/wiki/RPM_Package_Manager\">rpm package</a>.</p><p>All the programs my program uses, are listed in the <a href=\"https://github.com/fantasyui-com/ultra/blob/74675678b7f0f62881a1e3d57e85d08651748148/ultra.spec\">package specification file</a>,\nso if a user decides to install ultra, the program will also install <a href=\"https://github.com/fantasyui-com/ultra/blob/74675678b7f0f62881a1e3d57e85d08651748148/ultra.spec#L9\">those dependencies</a>.</p><p>I chose <a href=\"https://en.wikipedia.org/wiki/RPM_Package_Manager\">RPM</a> as I am a <a href=\"https://en.wikipedia.org/wiki/Fedora_(operating_system)\">Linux RedHat Fedora</a> user,\nthis my Linux distribution of choice, making a command that works on RedHat is a fun little bonus.</p><p>Where my Bodybuilding program slowly increases my workout speed,\ncurrently I am at 160 beats per minute, meaning I lift 80 times in a minute.</p><p>&quot;I fear not the man who has practiced 10,000 kicks once,\nbut I fear the man who has practiced one kick 10,000 times.&quot; -- Bruce Lee</p><p>Staying true to that quote,\nI lift over 14,000 times.</p><p>My jogging program accepts a range of beats per minute,\nduring my testing I set it 130 BPM - 150 BPM.</p><p>I am excited as heck, I have no idea if this is too slow or too fast,\nI know that Runners are encouraged to take 180 steps er minute (SPM),</p><p>So all my favorite songs, had their beats per minute shuffled,\nbetween 130 and 150, and as I run tonight, I will be matching the beat of the song with my feet.</p><p>Programming is a form of creation, and invention, it helps you explore,\nand it can be extremely exciting.</p><p>Programming, Bodybuilding and Jogging, go really well together,\nyou don&apos;t sit at the desk all day.</p><p>Jogging with this program will be wonderful,\nit does not feel like a challenge, it feels like a fun fame.</p>"
+  },
+  {
+    "id": "poetry-0080",
+    "title": "Holy Guacamole",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-25T02:05:06.582Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun May 24th 2020, 10:05 PM",
+    "html": "<p><a href=\"https://youtu.be/9XTjAm9H-vA\">Watch The Jogging Video</a> on YouTube</p><p><a href=\"https://news.catpea.com/read/research-0097\">Visit The Research Post</a> that explains the program behind this little poem.</p><p>I wrote a new workout program, Holy Molly,\nsurely this will turn out to be another folly.</p><p>It will make me jog fast like lightening,\nI think a lot of people will find my wobbles very frightening.</p><p>Certainly it will make me dance in the streets,\nas I shuffle and jog to my favorite beats.</p><p>And it already crossed my mind to jog with a tail,\nbut I don&apos;t want all the quarantined people to go even more pale.</p><p>I just executed the program and it said: play-list done,\nso I am already stretching my drumsticks for the run.</p><p>The play-list is several hours long,\nit will surely make me very strong.</p>",
+    "audio": "audio/poetry-0080.mp3",
+    "image": "image/poetry-0080-illustration.jpg"
+  },
+  {
     "id": "poetry-0079",
     "title": "Consilio et Prudentia",
     "category": "poetry",
