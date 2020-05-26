@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0082",
+    "title": "Tolerance of Negativity",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-26T22:10:52.333Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue May 26th 2020, 6:10 PM",
+    "html": "<p>Not Until This, Not Until That<br>\nDon&apos;t let anybody push you around,</p><p>If you allow negativity towards you for long enough,<br>\nit will make you very ill.</p><p>Tolerance of negativity will push you to cross lines,<br>\nit will derail you the same way that lies derail liars.</p><p>It is like the lines that addicts cross,<br>\nuntil there is no way to come back.</p><p><br><br></p><p>Take a look into the mind of the person negative towards you,<br>\ndo they even see you as a person?</p><p>If their ultimate aim is not to rob you of yourself to turn you into a tool,<br>\nthen are you not some disposable mean to their shortcuts.</p><p>Nothing is found in servitude, it won&apos;t make you stronger,<br>\nit won&apos;t make you nobler, or enlightened, or worthy.</p><p>Protect your mind, reject being pushed around,<br>\nstand up, rise, do not follow, no one has any control over you.</p><p><br><br></p><p>You become Stronger when you rise,<br>\nwhen you put your feet down on the ground, and push up - to the mountains.</p><p>You become Nobler when you break away,<br>\nwhen you let go of those ahead of you, and take your own path to the side.</p><p>You become Wise and Enlightened when you stand your ground Memoirs in hand,<br>\nwhen you learn from the lessons on your own path, and by subtle analogy to other paths.</p><p>You become Worthy, of Yourself, of Love, of Wisdom, of a house you can call Home,<br>\nwhen you grow protecting who you are, onward to becoming the best You.</p><p><br><br></p><p>Do not be scared, because if you stay scared, nothing will change,<br>\ndo not let sadness keep you in bed, go to the library first.</p><p>Do not let the sick thick stickiness to keep you bound,<br>\nmost of it is illusion, including the few pleasures you found.</p><p>Do net let alligator tears, and hollow souls void of any content howl you back,<br>\nyou are not part of that world, you never were.</p><p>Do not go slowly wandering down their own paths, that&apos;s how <em>they</em> were created,<br>\nand you can still reject that agony and become free.</p><p><br><br></p><p>Look to the best within you, your Beautiful Treasures,<br>\nyour Innocence, your Sweetness, your Love, your Cuteness, your Generosity, your Might, your Endurance.</p><p>Those are powerful treasures meant to help you become a Great Being,<br>\ntreasures that they have forsaken in their own selves.</p><p>Now they are trying to forsaken your own treasures, to fuhrer the dark path they dig,<br>\ndo not let them take what is irreplaceable within you.</p><p>You cannot aid them in any way, that can only feed their evil,<br>\nand take away from your Beautiful Treasures.</p><p><br><br></p><p>Let the world see you, read at the Library, visit Museums and Art Galleries,<br>\ngo see someone singing with their beautiful voice.</p><p>Write in your journal, record on your phone, sharpen your pencil,<br>\nuse tracing paper to learn how to draw.</p><p>Step after step courageously walk down the isles to get your first air dry clay,<br>\nand sculpt, sculpt your world, and touch, and feeling, show the world.</p><p>Do not hide, reject the bad, and shine among the crowds,<br>\ndo not let your older-self cry that you were never seen.</p>",
+    "audio": "audio/poetry-0082.mp3",
+    "image": "image/poetry-0082-illustration.jpg"
+  },
+  {
     "id": "poetry-0081",
     "title": "We Grow To No End",
     "category": "poetry",
