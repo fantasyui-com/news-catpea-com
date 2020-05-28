@@ -1,6 +1,32 @@
 
   const data = [
   {
+    "id": "poetry-0084",
+    "title": "Loomings, from The Whale by Herman Melville",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-28T02:23:32.589Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed May 27th 2020, 10:23 PM",
+    "html": "<p>Call me Ishmael.</p><p>Some years ago&#x2014;never mind how long precisely&#x2014;having\nlittle or no money in my purse, and nothing particular to interest me\non shore, I thought I would sail about a little and see the watery part\nof the world. It is a way I have of driving off the spleen and\nregulating the circulation.</p><p>Whenever I find myself growing grim about\nthe mouth; whenever it is a damp, drizzly November in my soul; whenever\nI find myself involuntarily pausing before coffin warehouses, and\nbringing up the rear of every funeral I meet; and especially whenever\nmy hypos get such an upper hand of me, that it requires a strong moral\nprinciple to prevent me from deliberately stepping into the street, and\nmethodically knocking people&#x2019;s hats off&#x2014;then, I account it high time to\nget to sea as soon as I can.</p><p>This is my substitute for pistol and ball.\nWith a philosophical flourish Cato throws himself upon his sword; I\nquietly take to the ship. There is nothing surprising in this. If they\nbut knew it, almost all men in their degree, some time or other,\ncherish very nearly the same feelings towards the ocean with me.</p><p><a href=\"https://www.youtube.com/watch?v=782PEqyjvzI\">Moby Dick, or The Whale A BBC Radio Classic Drama</a></p><p><a href=\"https://www.gutenberg.org/ebooks/2701\">Moby Dick; The Whale by Herman Melville Audiobook on Librivox</a></p><p><a href=\"https://www.gutenberg.org/ebooks/2701\">Moby Dick; The Whale by Herman Melville on Project Gutenberg</a></p>",
+    "audio": "audio/poetry-0084.mp3",
+    "image": "image/poetry-0084-illustration.jpg"
+  },
+  {
+    "id": "poetry-0083",
+    "title": "Uh Oh",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-05-28T00:59:04.633Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed May 27th 2020, 8:59 PM",
+    "html": "<p>I&apos;ve been sitting here for half an hour,<br>\ntrying to conjure up my poetic power.</p><p>But nothing seems to be coming out,<br>\nI think I am going through a poetic drought.</p><p>I guess this happens every once in a while,<br>\nso it is not a reason not to smile.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0083-guess.jpg\" alt=\"Illustration\"></p><p>But I thought I was already better than that,<br>\nI felt like the world&apos;s most poetic cat.</p><p>Now I struggle to come up with the next line,<br>\nthough I promise not to whine.</p><p>Maybe, there is way to break through by block,<br>\nperhaps I should stop staring at the clock.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0083-amaze.jpg\" alt=\"Illustration\"></p><p>Oh yes, this worked, I feel much better meow!<br>\nI remembered every word, wow!</p><p>Wig, pig, pear, bear, sled, bed, boat, goat,<br>\ntop, mop, wall, ball, duck, truck, mouse house, and blouse.</p><p>And what a story that would rhyme,<br>\nhad I not ran out of time.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0083-noes.jpg\" alt=\"Illustration\"></p>",
+    "audio": "audio/poetry-0083.mp3",
+    "image": "image/poetry-0083-illustration.jpg"
+  },
+  {
     "id": "poetry-0082",
     "title": "Tolerance of Negativity",
     "category": "poetry",
