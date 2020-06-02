@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0090",
+    "title": "Youniverse Entropie",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-02T23:00:01.894Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Jun 2nd 2020, 7:00 PM",
+    "html": "<p>We have an aversion to being trapped,<br>\nbecause of an innate sense of distance that we must travel.</p><p>The distance begins the moment we gain self-awareness,<br>\nthe end, does not matter - only the distance does.</p><p><br><br></p><p>You are in charge of the direction of your journey,<br>\nif you let it lead you, it will pull you in all directions.</p><p>In letting the life dictate,<br>\nyou will become divided.</p><p><br><br></p><p>In doing the dictating,<br>\nyou, will set the aim.</p><p>If you let yourself become a leader,<br>\nyou will arrive at a singe destination.</p><p><br><br></p><p>In one way, or another,<br>\nyou will, without a doubt, arrive.</p><p>The Universe, cannot stop what you start,<br>\nthe Universe will gently let your existence expand.</p><p><br><br></p><p>It is tough to be led and expect clarity,<br>\nthere will be too much noise from following.</p><p>But in leading, there is no noise,<br>\nthe path is pure, as pure as your imagination.</p><p><br><br></p><p>The steps along your journey,<br>\nextract a price.</p><p>The Universe smiles,<br>\nas you pay your way.</p><p><br><br></p><p>You start as a child,<br>\nand the first step is very difficult.</p><p>And the second, and fourth grade,<br>\nand sixth semester, and eighth book.</p><p><br><br></p><p>Your singular ripple,<br>\nunlike everything else out in the Universe;</p><p>Has a breathtaking order dictated from within,<br>\nnot pushed by the chaos, but dictated by your mind.</p><p><br><br></p><p>Can you imagine how boring chaos becomes,<br>\nand can you see how beautiful your perfect ripple.</p><p>The edge of chaos that surrounds your beauty,<br>\nis pushed out by a kind, of Youniverse.</p><p><br><br></p><p>Let me be clear,<br>\nyou are not a river, nor a snowball, or a butterfly&apos;s wing.</p><p>There is enough of those, already,<br>\nnothing worthy of you, needs you to follow.</p><p><br><br></p><p>It is a Law of The Universe,<br>\nthat no Human should follow.</p><p>A river should flows surely to the sea,<br>\nbut a Human, is meant to Lead.</p><p><br><br></p><p>It is a simple but forgotten lesson,<br>\nit is meant to sit next to; Love of Wisdom.</p><p>That no human should serve nor follow,<br>\nnon should practice resignation.</p><p><br><br></p><p>If you feel weak,<br>\nit is because you resigned for too long.</p><p>And you will have to start in the beginning,<br>\nand your first step will be very difficult.</p>",
+    "audio": "audio/poetry-0090.mp3",
+    "image": "image/poetry-0090-illustration.jpg"
+  },
+  {
     "id": "poetry-0089",
     "title": "Your Superpowers",
     "category": "poetry",
