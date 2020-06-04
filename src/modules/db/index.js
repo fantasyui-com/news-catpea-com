@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0091",
+    "title": "Be Good To Your Elder Self",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-04T03:07:48.407Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed Jun 3rd 2020, 11:07 PM",
+    "html": "<p>Your light must be a true reflection of Yourself,<br>\nso that You may be truly seen and understood.</p><p>Do not hide, emulate, simulate, pretend, or serve;<br>\nthat only disrupts Your light and path.</p><p>You are already special enough,<br>\nYou are a Child of The Universe.</p><p>You are meant to become a Great Being through your own journey,<br>\nYou are meant to bring enlightenment, unseen before.</p><p><br><br></p><p>Please, take good care of Yourself,<br>\nYou are responsible for Your delicate mind and body.</p><p>And take care of Your Elder Self,<br>\nso that You may have no regrets come Your Golden Age.</p><p><br><br></p><p>Your Existence, requires that You walk Your own path,<br>\nthat You lead Your own way.</p><p>But the path is not a straight line,<br>\nit is more of a flat spiral, you are never far from yourself.</p><p>There is so much of You in Your Elder Self,<br>\nand there is so much of Your Elder self in You already.</p><p><br><br></p><p>Be good to Her, love Yourself,<br>\nbe mighty, and authentic.</p><p>Never let Yourself down, always rise,<br>\nand do not slow down.</p><p>Step after step jog mightily forward,<br>\ndecorate Your Beautiful Journey with Wisdom and Triumph.</p><p><br><br></p><p>May Your elder self, perch upon a porch,<br>\nand muse and wonder...</p><p>&quot;What a strange Star Child I was,<br>\nand how impossibly long my Beautiful Life&quot;</p><p>And may You bring Her memories,<br>\nof every year in each decade.</p><p>Of things You noticed for the first time,<br>\nand things You never knew could happen.</p><p>And things, that other people never expected of You,<br>\nlike that year, that you wore a bushy tail - because it made you feel beautiful.</p><p><br><br></p><p>Love Your older self,<br>\nmake Her smile and wonder.</p><p>Make Her love the Younger You,<br>\nbut fill in all the years completely.</p><p>Make sure, that not only is there nothing new to add,<br>\nbut also that there is nowhere anything could fit.</p>",
+    "audio": "audio/poetry-0091.mp3",
+    "image": "image/poetry-0091-illustration.jpg"
+  },
+  {
     "id": "poetry-0090",
     "title": "Youniverse Entropie",
     "category": "poetry",
@@ -22,7 +35,7 @@
     "draft": false,
     "deleted": false,
     "published": "Mon Jun 1st 2020, 9:51 PM",
-    "html": "<p>Your superpowers are not rooted in your wishes,<br>\nas only very few wishes come true.</p><p>Universe has already established its rule and order,<br>\nwe are latecomers to the symphony orchestra.</p><p>Instead, seek your superpowers in what you already own,<br>\nin the things that have already sprung.</p><p>In the incredible adaptability of your body,<br>\nin your raw, unleashed consciousness.</p><p>If you are good to your body, you body will flourish,<br>\nit is a biological system, not that different from a flower.</p><p>If you are good to your mind, it will expand,<br>\nit is a navigational system with landmarks.</p><p>Your mind is especially beautiful,<br>\nit has a large memory capacity.</p><p>You can&apos;t recall letters on a particular page in a book,<br>\nbut you can recall the walls in your home, the streets in your city.</p><p>Your mind does not differentiate between navigating a road,<br>\nor a vast galaxy of star constellations.</p><p>Your mind can encode interconnected knowledge,<br>\nso as long as it is marked with pictures and relative locations on a well connected tree.</p><p><br><br></p><p>It is foolish to think to a particular page,<br>\nand feel ordinary for not being able to recall all the words.</p><p>It is foolish to try to ride a boat,<br>\non a road.</p><p><br><br></p><p>Do not seek to invent your superpowers,<br>\ninstead, recognize the ones you already have - and expand them.</p>",
+    "html": "<p>Your superpowers are not rooted in your wishes,<br>\nas only very few wishes come true.</p><p>Universe has already established its rule and order,<br>\nwe are latecomers to the Symphony Orchestra.</p><p>Instead, seek your superpowers in what you already own,<br>\nin the things that have already sprung.</p><p>In the incredible adaptability of your body,<br>\nin your raw, unleashed consciousness.</p><p>If you are good to your body, you body will flourish,<br>\nit is a biological system, not that different from a flower.</p><p>If you are good to your mind, it will expand,<br>\nit is a navigational system with landmarks.</p><p>Your mind is especially beautiful,<br>\nit has a large memory capacity.</p><p>You can&apos;t recall letters on a particular page in a book,<br>\nbut you can recall the walls in your home, the streets in your city.</p><p>Your mind does not differentiate between navigating a road,<br>\nor a vast galaxy of star constellations.</p><p>Your mind can encode interconnected knowledge,<br>\nso as long as it is marked with pictures and relative locations on a well connected tree.</p><p><br><br></p><p>It is foolish to think to a particular page,<br>\nand feel ordinary for not being able to recall all the words.</p><p>It is foolish to try to ride a boat,<br>\non a road.</p><p><br><br></p><p>Do not seek to invent your superpowers,<br>\ninstead, recognize the ones you already have - and expand them.</p>",
     "audio": "audio/poetry-0089.mp3",
     "image": "image/poetry-0089-illustration.jpg"
   },
