@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0092",
+    "title": "Wise World",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-05T00:44:16.895Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Thu Jun 4th 2020, 8:44 PM",
+    "html": "<p>Don&apos;t take shortcuts,<br>\nall shortcuts end abruptly.</p><p>You can&apos;t pretend,<br>\nwhat you pretend, can&apos;t ever become real.</p><p>A life without Authenticity,<br>\nwill forever feel like chaos.</p><p><br><br></p><p>You have no choice, but to Rise,<br>\nto Emerge, in Majestic Authenticity.</p><p>To build and reinforce your Content of Character,<br>\nto pursue Wisdom and Excellence.</p><p>To Be You.<br>\nTo Feel Meaning.</p><p><br><br></p><p>Growing Up has always been a Great Challenge.<br>\nit has never been easy.</p><p>Growing Up is the first, and foremost, and most important,<br>\nand should life crumble, you will rebuild.</p><p><br><br></p><p>Don&apos;t worry, you are not wasting time Growing Up,<br>\nit matters not how you step forward, just that you do.</p><p>The result is the same, Content of Character, Strength,<br>\nJoy, Love, Happiness, Adventure, and Foolishness,<br>\nto name a few.</p><p><br><br></p><p>Not only is this the only way to live,<br>\nbut it is also the only way for the World to Learn.</p><p>Humans cannot be led outside in,<br>\nthey must be taught to lead, inside out.</p><p>The recipe for your own Growing Up,<br>\nis also the recipe for a Wise World.</p>",
+    "audio": "audio/poetry-0092.mp3",
+    "image": "image/poetry-0092-illustration.jpg"
+  },
+  {
     "id": "poetry-0091",
     "title": "Be Good To Your Elder Self",
     "category": "poetry",
