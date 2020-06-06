@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0093",
+    "title": "The Trainer",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-06T03:32:12.757Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Fri Jun 5th 2020, 11:32 PM",
+    "html": "<p>See Companion Chapter in <a href=\"https://westland-valhalla.github.io/warrior/the-trainer.html\">The Warrior</a></p><p>Take two steps forward,<br>\nand one step back, Jack.</p><p>Jogging is an art,<br>\nand for art you must be smart.</p><p>For each two days of training,<br>\non the third you must pretend it&apos;s raining.</p><p>If you you can&apos;t make it rain,<br>\nalways worrying about your gain;</p><p>then walking is just fine,<br>\nBut, never cross that little line.</p><p>The third day is a day of rest,<br>\nand the fourth your next test.</p><p>Because, you always have to go back,<br>\nand start anew to lay down your track.</p>",
+    "audio": "audio/poetry-0093.mp3",
+    "image": "image/poetry-0093-illustration.jpg"
+  },
+  {
     "id": "poetry-0092",
     "title": "Wise World",
     "category": "poetry",
