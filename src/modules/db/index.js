@@ -1,6 +1,32 @@
 
   const data = [
   {
+    "id": "poetry-0095",
+    "title": "Never Knowing You Are To Rise",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-06T22:36:10.414Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Jun 6th 2020, 6:36 PM",
+    "html": "<p>It is a pretty dark trick,<br>\nand it makes life run out all too quick.</p><p>If all were to be tricked to break the link,<br>\nthat they can&apos;t climb on giants to think;</p><p>And all became mere muscle and bone,<br>\nhumanity would fade in vain, with a deathly moan.</p><p><br><br></p><p>We have to remind each other, so that we don&apos;t forget,<br>\nor we will fade, without feeling a hint of regret.</p><p>You are meant to become a Great Being,<br>\nyou are finely crafted for the Art of Seeing.</p><p>With your unstoppable sight,<br>\nas your greatest might...</p><p>You can understand anything,<br>\nand rise higher than any king,<br>\nit is your right!</p><p><br><br></p><p>You are meant to rise, at least to the status of a Hero,<br>\nkeep people from running themselves into a zero.</p><p>That power is in each and every one of us,<br>\nand we must be Noble and Wise,<br>\nso that no one can stop us.</p><p>Know with certainty that it is always Spring Season,<br>\nto stand up for Truth &amp; Reason.</p><p>Know that Truth and Beauty is always right,<br>\nand yours, is that Power and Might.</p>",
+    "audio": "audio/poetry-0095.mp3",
+    "image": "image/poetry-0095-illustration.jpg"
+  },
+  {
+    "id": "poetry-0094",
+    "title": "Don't Let Anybody Push You Around",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-06T22:19:10.300Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Jun 6th 2020, 6:19 PM",
+    "html": "<p>My Friends, liars happen, because it is easiest to live on the low,<br>\nand never rise, and just hide in the status quo.</p><p>That&apos;s why we often run into a trouble maker,<br>\nit takes no effort to be a faker.</p><p>Leave them, to their own stupid little prison,<br>\nin their web of lies, there cannot be any reason.</p><p><br><br></p><p>That&apos;s our first shaky step in life,<br>\nto lean to see who&apos;s hiding a knife.</p><p>And then cutting with a sword,<br>\nand setting ourselves free to move onward.</p><p><br><br></p><p>I promise You, it gets better after this,<br>\nthe sun will rise, life will become bliss.</p><p>With each step we take we find more light,<br>\nand baby-step by baby-step, add to our might.</p><p>It is as simple as the math of standing-still versus learning,<br>\none goes nowhere, and the other eventually fulfills all yearning.</p><p><br><br></p><p>Walk Your path, don&apos;t let the fakers sway You,<br>\nlook them in the eyes, and see right through.</p><p>Choose the real over the fantasy they sell,<br>\nand move away from their stupid little hell.</p><p>And if someone ever comes pushing You around,<br>\nuse the might of Your wisdom to push them back, and stand Your ground.</p><p><br><br></p><p>There are so many sweet little treasures within You,<br>\nthe one You start with will show You heights You never knew.</p><p>And the higher You rise the more brightly You will glow,<br>\nand You&apos;ll find Your Sweetheart, before You know.</p><p>Life is meant to be lived in Wisdom and Happiness and Laughter,<br>\nHeaven is Right Now - not in some fantasy of after.</p><p><br><br></p><p>All the things that are worthy of the Beautiful You,<br>\nwill never extract a toll, they will only ever add unto You.</p><p>Nobody worthy of You could ever make You feel sad or bad,<br>\nthey will foolishly trot and prance to Your rescue, until You feel glad.</p><p>Don&apos;t let fakers trick You into thinking the world is blue,<br>\nThe sun, is right over the next mountain, and is already shining for You.</p>",
+    "audio": "audio/poetry-0094.mp3",
+    "image": "image/poetry-0094-illustration.jpg"
+  },
+  {
     "id": "poetry-0093",
     "title": "The Trainer",
     "category": "poetry",
