@@ -1,6 +1,45 @@
 
   const data = [
   {
+    "id": "poetry-0098",
+    "title": "Suit of Armour",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-08T01:11:54.737Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Jun 7th 2020, 9:11 PM",
+    "html": "<p>Take all that you are,<br>\nand forge a suit of armor.</p><p>Paint, or sculpt, or cosplay,<br>\nwe are always all to human, but we are unique.</p><p>All your armor decorations, and Your medals of honor,<br>\nwill show you as you are.</p><p><br><br></p><p>Keep growing up, keep adding to your story,<br>\nmay your armor reflect the sun.</p><p><br><br></p><p>And let go of the Poker Face,<br>\nthat&apos;s not really You.</p><p>If you must, show everyone how Mighty you are,<br>\nhow Great and beautiful your Heart Is.</p><p>Keep growing up, book by book,<br>\npoem by poem, art by art, and triumph, and failure.</p><p>Build a mountain of worn out running shoes,<br>\nand torn up bodybuilding gloves.</p><p>Fill Coffee Shops and Galleries with you Art,<br>\nwith your Sculptures, or Music.</p><p>Let who you are protect you from misfortune,<br>\nbe authentic, always lead your own way, and never follow.</p><p>Show The Word,<br>\nWho You Are.</p>",
+    "audio": "audio/poetry-0098.mp3",
+    "image": "image/poetry-0098-illustration.jpg"
+  },
+  {
+    "id": "poetry-0097",
+    "title": "Questions",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-08T00:46:23.735Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Jun 7th 2020, 8:46 PM",
+    "html": "<p>Where do we come from, and why are we here,<br>\nare just silly questions.</p><p>While even silly questions lead to good things,<br>\nthey&apos;re not the primary questions we need to answer - like what makes us unique, and what do we love, and where are going to go, and what great mountains must we face.</p><p>We are here because there was no one to count the failed attempts,<br>\nbecause the universe was running out of other paths.</p><p>There was no plan,<br>\nthere was just a progression forward.</p><p>Universally speaking, there is probably plenty of life out there,<br>\nbut what the Universe will never have, cannot build, is another You.</p><p>If someone tried to take your place,\nit could never work, ever, at all.</p><p>In All This Complexity,<br>\nYou Are One And Only.</p><p>There will never be another you,<br>\never.</p><p>It is because at a certain point, the Universe stops, and your ideas take over,<br>\nyou become the creator, you become a Youniverse within a Universe.</p><p><br><br></p><p>You are plenty special, but if you only move forward,<br>\nyou will not gain the capacity to fully share who you are.</p><p>The universe will know, that you are Majestic, and Adventurous,<br>\nand sometimes, Mischievous. But we need more of you!</p><p>We need Your Sculptures!<br>\nWe need Your Poetry!<br>\nWe Need Your Works,</p><p>So that we may learn,<br>\nand maybe continue your work.</p><p>We Have Questions,</p><p>And you are the only one with your answers,<br>\nso grow up already, build up, create and share your wisdom.</p><p>The Wisdom you will gain from your Pursuits of Excellence,<br>\nwill be unlike anything else the Universe has ever seen before.</p><p>You will speak in your own pictures, with your personal touch,<br>\nand the words you love, and above all the Paths You Took.</p><p>With Your Help and Works,</p><p>Humanity will become Wiser,<br>\nand more beautiful.</p><p>Help Us See.</p><p>Public Domain image of <a href=\"https://en.wikipedia.org/wiki/Anna_Golubkina#/media/File:Golubkina_Fog.JPG\">The Mist, (1899 Sculpture)</a> by <a href=\"https://en.wikipedia.org/wiki/Anna_Golubkina\">Anna Golubkina (1864-1927)</a>.</p>",
+    "audio": "audio/poetry-0097.mp3",
+    "image": "image/poetry-0097-illustration.jpg"
+  },
+  {
+    "id": "poetry-0096",
+    "title": "Not Merely Forward, But Up",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-08T00:12:34.915Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Jun 7th 2020, 8:12 PM",
+    "html": "<p>Don&apos;t just move forward,<br>\nyou have to move up!</p><p>Life is too short,<br>\nYou are too Noble,<br>\nTruth is too Dear.</p><p>Many give away their Time,<br>\nsome even give away Trust.</p><p>Sometimes, because they are tired,<br>\nbecause they had enough,<br>\nor had waited long enough.</p><p>Giving something of yourself away,<br>\nwill not make that other person Nobler.</p><p>And you are not supposed to wait,<br>\nin waiting all your life will pass you by.</p><p><br><br></p><p>You are supposed to learn,<br>\nyou are supposed to move,<br>\nyou are supposed to shine.</p><p><br><br></p><p>You will lose your mind if you do noting,<br>\nand You will lose your self, unless you grow up.</p><p>You&apos;ll never lose the ability to turn around,<br>\nand try again, it maybe harder if you wait too long...</p><p>... but in your waiting,<br>\nyou&apos;ll become tougher too.</p><p>No, there is no point of no return,<br>\nbut all those who rise, would agree:</p><p>&quot;Do it sooner than later&quot;.</p><p><br><br></p><p>Begin, by taking back what you have given away,<br>\nand permanently and meaningfully so, and rise up.</p><p>There is no art to this,<br>\nyou just pick yourself up, and go.</p><p>You&apos;re going to need running shoes,<br>\nand your first battle will be with Fatigue.</p><p>Be good to yourself,<br>\nstrive to be better,<br>\nlet your body rest enough so it may grow stronger.</p><p>And return to point Zero,<br>\ngo all the way back.</p><p>Of all the noble things within You,<br>\nnot a single thing is to be shared unearned.</p><p>And listen carefully, to the words spoken to you,<br>\nby inference re-construct that which drives others.</p><p>And find the Kindred, and the Kin,<br>\ndo not be alone for too long.</p><p>Isolation is as bad as Fatigue,<br>\nit is a state of having fallen, and being lost.</p><p>You are To Thrive,<br>\nYou are To Grow.</p><p><br><br></p><p>Keep searching, keep training,<br>\nstay away from hate, and those who fell behind on growing up.</p><p>Keep learning,<br>\nkeep moving,<br>\nlet yourself shine.</p><p><br><br></p><p>Nothing important in life is found at the foothills,<br>\nyou have to get to the mountains, and carry on climbing.</p><p>Do not stop,<br>\nand keep moving up.</p><p><br><br></p><p>As to what it is all for,<br>\nit is to better yourself.</p><p>To rise above yourself to new thoughts,<br>\nand powers, and insights, and observations.</p><p>If you stay at the foothills,<br>\nyou will never really know who you truly are.</p><p>Never know the extent of your Might,<br>\nyour Unbrekability, your Blinding Light.</p><p>If you stay down,<br>\nyou will blend with all the new people coming and going.</p><p>You&apos;ll never be known, never be recognized,<br>\nyou may even become forgotten, your judgment clouded.</p><p>It will be hard to recognize,<br>\nthe Kindred from the Foe.</p><p><br><br></p><p>You must rise up, and find your self,<br>\nso that you may be seen for the Brilliant Being that really are.</p><p><br><br></p><p>Help us learn from you,<br>\nfrom what you have been through,<br>\nfrom your Great Battles and Works,</p><p>If you hide,<br>\nthe Universe will become darker for it.</p><p>We need your light.</p>",
+    "audio": "audio/poetry-0096.mp3",
+    "image": "image/poetry-0096-illustration.jpg"
+  },
+  {
     "id": "poetry-0095",
     "title": "Never Knowing You Are To Rise",
     "category": "poetry",
@@ -23,7 +62,7 @@
     "deleted": false,
     "published": "Sat Jun 6th 2020, 6:19 PM",
     "html": "<p>My Friends, liars happen, because it is easiest to live on the low,<br>\nand never rise, and just hide in the status quo.</p><p>That&apos;s why we often run into a trouble maker,<br>\nit takes no effort to be a faker.</p><p>Leave them, to their own stupid little prison,<br>\nin their web of lies, there cannot be any reason.</p><p><br><br></p><p>That&apos;s our first shaky step in life,<br>\nto lean to see who&apos;s hiding a knife.</p><p>And then cutting with a sword,<br>\nand setting ourselves free to move onward.</p><p><br><br></p><p>I promise You, it gets better after this,<br>\nthe sun will rise, life will become bliss.</p><p>With each step we take we find more light,<br>\nand baby-step by baby-step, add to our might.</p><p>It is as simple as the math of standing-still versus learning,<br>\none goes nowhere, and the other eventually fulfills all yearning.</p><p><br><br></p><p>Walk Your path, don&apos;t let the fakers sway You,<br>\nlook them in the eyes, and see right through.</p><p>Choose the real over the fantasy they sell,<br>\nand move away from their stupid little hell.</p><p>And if someone ever comes pushing You around,<br>\nuse the might of Your wisdom to push them back, and stand Your ground.</p><p><br><br></p><p>There are so many sweet little treasures within You,<br>\nthe one You start with will show You heights You never knew.</p><p>And the higher You rise the more brightly You will glow,<br>\nand You&apos;ll find Your Sweetheart, before You know.</p><p>Life is meant to be lived in Wisdom and Happiness and Laughter,<br>\nHeaven is Right Now - not in some fantasy of after.</p><p><br><br></p><p>All the things that are worthy of the Beautiful You,<br>\nwill never extract a toll, they will only ever add unto You.</p><p>Nobody worthy of You could ever make You feel sad or bad,<br>\nthey will foolishly trot and prance to Your rescue, until You feel glad.</p><p>Don&apos;t let fakers trick You into thinking the world is blue,<br>\nThe sun, is right over the next mountain, and is already shining for You.</p>",
-    "audio": "audio/poetry-0094.mp3",
+    "audio": "audio/poetry-0094-2.mp3",
     "image": "image/poetry-0094-illustration.jpg"
   },
   {
