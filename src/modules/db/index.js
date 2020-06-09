@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0099",
+    "title": "Growing Up Is Sacred",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-09T01:19:03.578Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon Jun 8th 2020, 9:19 PM",
+    "html": "<p>No one regrets becoming wise,<br>\nno adult ever wished to stay a child.</p><p>All the grownups,<br>\nembrace the powers they developed.</p><p>You can see it in the way<br>\nthey Nobly &amp; Calmly carry themselves.</p><p><br><br></p><p>The time meant for your growing up,<br>\nshould not be disrupted in any way.</p><p>Growing up,<br>\nis not as random as it seems.</p><p>Your own observations,<br>\nwill create questions.</p><p>Questions will sprout affinities,<br>\nand affinities will draw you towards places with answers.</p><p><br><br></p><p>Growing up, begins with simple questions, and simple answers,<br>\nbut we amass a library of twisty little passages.</p><p>Later in life,<br>\nwe apply those passages other things.</p><p><br><br></p><p>We face the Universe,<br>\nand there are consequences to all our actions.</p><p>What do we do when the bullies come?<br>\nWe learn to practice restraint, so that we don&apos;t end up the snarling beasts they are.</p><p>What do we do, when people belittle us, step on us?<br>\nWe expand our own sense of Dignity, and Nobility into an Independent Universe free of their flaws and limitations.</p><p>And how do we stand up against Isolation, or being Cast Away?<br>\nWith Unbreakability, Fortitude, Courage and Honor.</p><p>The meaning of life?<br>\nThe meaning of life is always found in Love.</p><p>And how do we learn to see and rise and better ourselves?<br>\nWith Insight; and Foresight; and Understanding; and Authenticity; and Heroism;</p><p><br><br></p><p>My Dear Friends,</p><p>Your growing up,<br>\nis the very Formation of you.</p><p>This is not a process that anyone is allowed to interrupt,<br>\nyou are not allowed to have anybody step in your way.</p><p>It is like learning to walk,<br>\nno one is allowed to push you to the ground.</p><p>I don&apos;t know if there is anything more sacred,<br>\nthan your growing up.</p><p>You must learn to push what is not important away,<br>\nyou must get comfortable with not following.</p><p>And you must stand your ground, or walk your path...<br>\nYou must, lead.</p><p>You must make sure that you rise a little higher each and every day,<br>\nand that each day adds to the previous.</p><p>Growing Up Is Sacred,<br>\nIt Is Your Right.</p>",
+    "audio": "audio/poetry-0099.mp3",
+    "image": "image/poetry-0099-illustration.jpg"
+  },
+  {
     "id": "poetry-0098",
     "title": "Suit of Armour",
     "category": "poetry",
