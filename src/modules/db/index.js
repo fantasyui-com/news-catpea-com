@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0103",
+    "title": "You Are Divine",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-12T02:46:35.303Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Thu Jun 11th 2020, 10:46 PM",
+    "html": "<p>My Friends, Build Your Mind,<br>\nBuild Your Body.</p><p>Do not ignore your well being,<br>\nyou require Blue Skies, Seas, Mountains, Oceans, Lakes, and Forests.</p><p>Do not ignore your Body,<br>\nit needs care and exercise, and proper diet.</p><p>Do not merely hope to get a job,<br>\nmake companies hope they can hire you.</p><p>Do not ignore the Content of Your Character,<br>\nspend many great adventures in pursuit of wisdom and insight.</p><p>Do not ignore Your Beautiful Heart,<br>\nkeep rising, keep searching, keep shining.</p><p>Build Your Life, like a Sculptor Builds a Sculpture.<br>\nEnsure Strength, Beauty, Authenticity, Dignity, Nobility, and Restraint.</p><p>And when you run out of strength, and it will happen often,<br>\nlaugh as you pick yourself up,<br>\nand your laughter will connect with the laughter of all the other Great Beings who rose before you.</p><p>Your life, is to become a Work of Art,<br>\nday by day you must add to it, make it more beautiful.</p><p>Our civilizations, cultures, and the world, may not be ready to embrace your growing up,<br>\nmany will stand in your way, some even with advice that sounds good.</p><p>Never follow,<br>\nAlways lead.</p><p>Know that all the steps you take toward wisdom and Enlightenment count,<br>\nand you will never regret this journey - as Rising Up, is a Law of the Universe.</p><p>All the Great Beings who have risen before you,<br>\nhad only one regret: &quot;I should have risen faster.&quot;</p><p>So get up,<br>\nand Go!</p>",
+    "audio": "audio/poetry-0103.mp3",
+    "image": "image/poetry-0103-illustration.jpg?"
+  },
+  {
     "id": "poetry-0102",
     "title": "The Sleeping Giant",
     "category": "poetry",
