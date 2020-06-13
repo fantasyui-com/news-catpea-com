@@ -5,10 +5,10 @@
     "title": "Authenticity Helps Us Learn",
     "category": "poetry",
     "tags": "Listen Poem",
-    "date": "2020-06-12T21:22:03.292Z",
+    "date": "2020-06-13T04:05:02.742Z",
     "draft": false,
     "deleted": false,
-    "published": "Fri Jun 12th 2020, 5:22 PM",
+    "published": "Sat Jun 13th 2020, 12:05 AM",
     "html": "<p>Authenticity would be Wonderful on its own,<br>\nit helps with trust, admiration, knowing, feeling.</p><p>But, actually, it is far more than that,<br>\nit reflects Fundamental Principles of The Universe.</p><p>There is a very big difference, between crossing a real bridge,<br>\nand a fake one.</p><p>Or, reading a book for real, and pretending to read.<br>\nOr, studying a Field of Science and, and cramming for a test.<br>\nOr, doing something for a grade, and doing something for your mind.<br>\nOr, doing something for real, and pretend to do something.<br>\nOr, being your complete self, and being what others approve of.<br></p><p>The one thing in common here, is one is a fantasy that ends,<br>\nand the other, just is ... and grows, and alters the course of life ahead.</p><p>It is a testament to our connection with the Universe,<br>\nthat an Authentic Human Being will grow Healthy and Strong, and Keep Expanding.</p><p>The best example of this is getting an education that looks great on paper,<br>\nbut does nothing for interacting with the real word.</p><p>A similar example has to do with a great job that pays well, that goes great,<br>\nbut halts a person&apos;s development, and robs them of their youth, dreams, and hopes,<br>\nrobs them of the highest version of themselves.</p><p>Time, cannot be warped, or faked,<br>\nit ticks away, our bodies grow, day by day, year by year, decade by decade.</p><p>The long-vision of becoming of ourselves, will reveal that the first and foremost,<br>\nand most dominant and meaningful thing, is our acquisition of wisdom.</p><p>Acquisition of Wisdom is deeply connected to Authenticity,<br>\nCourage, Dignity, Nobility, Pursuit of Knowledge, Rising, Growing Up.</p><p>Time helps our bodies progress forward,<br>\nbut it is Wisdom that helps our Minds.</p><p>Authenticity, gives us this incredible power to start something today,<br>\nthat will make us Wiser, Healthier, Happier, Filled with More Insight.</p><p>And not merely tomorrow, but for all our time to come,<br>\nas in Authenticity, each day adds to the previous.</p>",
     "audio": "audio/poetry-0104.mp3",
     "image": "image/poetry-0104-illustration.jpg"
