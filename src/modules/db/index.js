@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0107",
+    "title": "You Are The Best But You Also Need Some Rest",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-15T03:55:32.780Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Jun 14th 2020, 11:55 PM",
+    "html": "<p>Life shouldn&apos;t be about beating your best,<br>\njust as important as rising, is your day of rest.</p><p>No matter how important your athletic quest,<br>\nor how upon your arrival you are going to be blessed.</p><p>Everyone, needs to get some rest,<br>\ndays will only get longer when you are stressed.</p><p><br><br></p><p>If you must,<br>\nimagine you are a Bird of Fantastic Plumage, and your bed is a nest.</p><p>Come morning, fling up your messy crest,<br>\nand puff up your chest.</p><p>And tweet, about how you are not getting dressed,<br>\nbecause you are too stressed, and you are having your rest.</p><p>And explain to those confused, that you are not speaking in jest,<br>\nmake it clear that this is not, a test.</p><p><br><br></p><p>Today is <em>your</em> day of rest,<br>\nat best, you will be having a nice cup of tea, should you feel pressed.</p><p>Allow strength to return to you, so that you are at your best,<br>\ntomorrow, or in few days, you&apos;ll resume your quest.</p><p>Once you are not feeling so stressed,<br>\nyou&apos;ll show the world that You are the Best.</p>",
+    "audio": "audio/poetry-0107.mp3",
+    "image": "image/poetry-0107-illustration.jpg"
+  },
+  {
     "id": "poetry-0106",
     "title": "Life Of Wisdom",
     "category": "poetry",
