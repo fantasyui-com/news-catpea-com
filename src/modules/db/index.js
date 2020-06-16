@@ -1,15 +1,28 @@
 
   const data = [
   {
+    "id": "poetry-0108",
+    "title": "The Journey To The Old End Of The I-275 Bicycle Trail",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-16T02:31:53.705Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon Jun 15th 2020, 10:31 PM",
+    "html": "<p>Every one in a while I bicycle to the <a href=\"https://goo.gl/maps/J7BhcUqsPx1wNJEBA\">south end</a>,<br>\nand check if they did any work, and how it went.</p><p>I always find it old, and full, of bumps thorns and grass,<br>\nno matter how hard I bicycle, there is never a way to pass.</p><p>I work up this morning, and said &quot;It is time for another check!&quot;,<br>\nI got my gear together, and squirted sunblock all around on my neck.</p><p>And as soon as got too far to go back,<br>\nmy bicycle, creaked, and shuddered, and squeaked - and I was like &quot;What the heck?&quot;</p><p>The noise came from the bottom where the pedals are,<br>\nand only the left pedal made noise thus far.</p><p>And the noise would not cease,<br>\nI had the tools but no grease.</p><p>So I said to my self in a deep tone &quot;It is time for Field Repair!,<br>\nand although I have no grease, I will not despair.&quot;&quot;</p><p>First, I checked the pockets of my new red pants, the short ones that I like,<br>\nbut there was nothing there that could fix my bike.</p><p>So I looked to my day pack, and the solution sat right next to my bicycle lock,<br>\nI squeaked! &quot;I do have grease, it is in my sun block!&quot;</p><p>So I squired some on the pedals and the connecting rod,<br>\nand though I admit the solution was a bit odd...</p><p>I was back on the road, riding smoothly and quietly like a pro,<br>\nafter all, I had places to go.</p><p>I made it to the southern edge, it was 15 miles away,<br>\nthey still didn&apos;t fix anything, bumps and shrubs were blocking the way.</p><p>I took a photo to share with you,<br>\njust in case you were thinking about going or pushing through.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0108-end.jpg\" alt=\"Illustration\"></p><p>The <a href=\"https://goo.gl/maps/oRaowTwL1cdz5G549\">actual ancient end of the trail</a> is not that far away,<br>\nabout 2.6 miles south, but you are better off walking the rest of the way.</p><p>Even better than following the ancient end, is to <a href=\"https://goo.gl/maps/j93A21irtxaaRzd96\">go to the park</a>,<br>\nand head for lake Erie, but make sure to leave early, so that you don&apos;t bicycle back after dark.</p><p>The trick to make it to the lake is to <a href=\"https://goo.gl/maps/yDvAJg3dUWX2atPY9\">turn right before</a> the Nature Center,<br>\nand head through Flat Rock, to <a href=\"https://goo.gl/maps/Uq1DXX5HRwXxYtcW7\">Maple Beach</a>, you don&apos;t have to pay to enter.</p><p>I think of it as the real end to the trail,<br>\nreaching it always make for a good tale.</p>",
+    "audio": "audio/poetry-0108.mp3",
+    "image": "image/poetry-0108-illustration.jpg"
+  },
+  {
     "id": "poetry-0107",
     "title": "You Are The Best But You Also Need Some Rest",
-    "category": "poetry",
+    "category": "music",
     "tags": "Listen Poem",
     "date": "2020-06-15T03:55:32.780Z",
     "draft": false,
     "deleted": false,
     "published": "Sun Jun 14th 2020, 11:55 PM",
-    "html": "<p>Life shouldn&apos;t be about beating your best,<br>\njust as important as rising, is your day of rest.</p><p>No matter how important your athletic quest,<br>\nor how upon your arrival you are going to be blessed.</p><p>Everyone, needs to get some rest,<br>\ndays will only get longer when you are stressed.</p><p><br><br></p><p>If you must,<br>\nimagine you are a Bird of Fantastic Plumage, and your bed is a nest.</p><p>Come morning, fling up your messy crest,<br>\nand puff up your chest.</p><p>And tweet, about how you are not getting dressed,<br>\nbecause you are too stressed, and you are having your rest.</p><p>And explain to those confused, that you are not speaking in jest,<br>\nmake it clear that this is not, a test.</p><p><br><br></p><p>Today is <em>your</em> day of rest,<br>\nat best, you will be having a nice cup of tea, should you feel pressed.</p><p>Allow strength to return to you, so that you are at your best,<br>\ntomorrow, or in few days, you&apos;ll resume your quest.</p><p>Once you are not feeling so stressed,<br>\nyou&apos;ll show the world that You are the Best.</p>",
+    "html": "<p>Life shouldn&apos;t be about beating your best,<br>\njust as important as rising, is your day of rest.</p><p>No matter how important your athletic quest,<br>\nor how upon your arrival you are going to be blessed.</p><p>Everyone, needs to get some rest,<br>\ndays will only get longer when you are stressed.</p><p><br><br></p><p>If you must,<br>\nimagine you are a Bird of Fantastic Plumage, and your bed is a nest.</p><p>Come morning, fling up your messy crest,<br>\nand puff up your chest.</p><p>And tweet, about how you are not getting dressed,<br>\nbecause you are too stressed, and you are having your rest.</p><p>And explain to those confused, that you are not speaking in jest,<br>\nmake it clear that this is not, a test.</p><p><br><br></p><p>Today is <em>your</em> day of rest,<br>\nat best, you will be having a nice cup of tea, should you feel pressed.</p><p><br><br></p><p>Allow strength to return to you, so that you are at your best,<br>\ntomorrow, or in few days, you&apos;ll resume your quest.</p><p>Once you are not feeling so stressed,<br>\nyou&apos;ll show the world that You are the Best.</p>",
     "audio": "audio/poetry-0107.mp3",
     "image": "image/poetry-0107-illustration.jpg"
   },
