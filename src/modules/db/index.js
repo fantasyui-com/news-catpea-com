@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0109",
+    "title": "Philosopher Queens, and Philosopher Kings",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-17T02:23:07.783Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Jun 16th 2020, 10:23 PM",
+    "html": "<p>Your Earthly Lineage begun some four billions years ago,<br>\nyou ancestors weren&apos;t human, they couldn&apos;t even breathe Oxygen.</p><p>We gradually adapted to changing conditions,<br>\nto chemical composition of our Little Lonesome Blue Earth.</p><p>In a mere Hundred Million years, we will be as different from who we are today,<br>\nas a Shrew is different from a Great Ape.</p><p><br><br></p><p>But, one thing will never change,<br>\nand that is how special life that begun on Earth is.</p><p>How colorful and unique our good ideas,<br>\nhow different we must be from what life there may be out in space.</p><p>And how incredibly close we all are,<br>\nwe are such a tightly knit family, we share so much.</p><p><br><br></p><p>And we can think without restrictions,<br>\nwe don&apos;t have short memory, we don&apos;t lack imagination.</p><p>Our ideas come from nowhere and everywhere,<br>\nwe dream about anything and everything, here and everywhere.</p><p>And we have poetry, and paintings, and doodles,<br>\nwe have sculptures that are made out of stone and metal.</p><p><br><br></p><p>And above all, we are all born a Royalty, and our proper posture,<br>\nis to rise to the challenge of becoming Philosopher Queens, and Philosopher Kings.</p><p>Our consciousness, makes it so that we must rise to no end,<br>\nstep after step, book after book, work of art, after a work of art.</p><p><br><br></p><p>Do not be scared,<br>\nAbove All, Love Yourself.</p><p>Humanity is in a process of amassing Culture,<br>\nwhether we notice it or not, <strong>it is</strong> abandoning bad ideas.</p><p>And, You Are Born A Royalty,<br>\nAnd Your aim, is to become Philosopher Queens, and Kings.</p><p><br><br></p><p>Say it with me:<br>\nForbearance, Hardihood, Largesse, Benevolence, and Honour.</p><p>Restraint, Dignity, Nobility, Unbreakability, Fortitude, Courage,<br>\nLove; and Insight; and Foresight; and Understanding; and Authenticity; and Heroism;</p><p>And Celebrate<br>\nYour Beautiful Life.</p>",
+    "audio": "audio/poetry-0109.mp3",
+    "image": "image/poetry-0109-illustration.jpg"
+  },
+  {
     "id": "poetry-0108",
     "title": "The Journey To The Old End Of The I-275 Bicycle Trail",
     "category": "poetry",
