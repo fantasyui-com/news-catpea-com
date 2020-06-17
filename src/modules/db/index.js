@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0110",
+    "title": "Point of Convergence",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-17T22:52:28.265Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed Jun 17th 2020, 6:52 PM",
+    "html": "<p>Humanity must not be scared of poverty,<br>\npoverty is just a symptom of immature, shortsighted politics.</p><p>For politics to grow up and begin helping the world heal,<br>\n<strong>we</strong> must begin growing up, and inspire the children to growing up as well.</p><p>Nothing will change, nothing can change,<br>\nunless we begin our lives by resuming where great beings left off.</p><p>There is just one road for all to agree,<br>\nthe road of Reality, Results, Knowledge, Wisdom, Excellence, and Good Ideas.</p><p>We receive a very good impression of the meaning of Wisdom when we are children,<br>\nwe think of Adults as all-knowing, as always correct, and perfect.</p><p>This is our aim now, for in the absence of teachers we must become the teachers,<br>\nwe must become the adults we wished we grew up with.</p><p>This is how we make the World better,<br>\nfor our generation, and moreso for the new generation, and all those yet to come.</p><p>We can&apos;t hope for change,<br>\nand not grow to meet that demand ourselves.</p><p>The change we need,<br>\nis driven by Permanent Inheritance of Culture of Wisdom for all generations to come.</p><p>A Fine Culture, is self repairing, and it always heals,<br>\nit towers over forces of poverty, pain, bondage, fear, anger, hopelessness, shyness, and loneliness.</p><p>And a fine culture is what we expect of the adults that we meet as children,<br>\nonce we become this culture, and the children learn that it is real.</p><p>The children will see it as an actual, realistic aim to grow into,<br>\nand they will enter a culture of beginning their lives, by resuming at the point where we leave off.</p><p>In order for Humanity to Grow,<br>\na Central Universal Culture of Knowledge, Wisdom, and Excellence, should emerge.</p><p>A Central Meeting Point,<br>\nfor all cultures that choose to leave bad ideas behind and converge on Wisdom and Peace.</p>",
+    "audio": "audio/poetry-0110.mp3",
+    "image": "image/poetry-0110-illustration.jpg"
+  },
+  {
     "id": "poetry-0109",
     "title": "Philosopher Queens, and Philosopher Kings",
     "category": "poetry",
