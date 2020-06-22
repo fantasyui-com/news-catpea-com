@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0114",
+    "title": "Learning From Books",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-22T00:56:59.739Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Jun 21st 2020, 8:56 PM",
+    "html": "<p>Nonfiction books are way to share wisdom,<br>\nsome wisdom is in the form of advice, other you have to discover yourself.</p><p>Life is too precious, and we are too intelligent not to inherit wisdom from books,<br>\nthere is only one direction for us all, and that is towards Wisdom.</p><p>Growing up,<br>\nenlarges our worlds.</p><p>Wisdom, helps us see more roads in our Journeys,<br>\nroads that we would not have noticed without it.</p><p><br><br></p><p>How can we be sure if we are traveling on the path that does us justice,<br>\nif we can&apos;t see all the forks and roads ahead?</p><p><br><br></p><p>Let pursuit of wisdom bring you the light needed to enlighten your path,<br>\nto show you all the roads and many of the futures ahead.</p><p>Seek your own wisdom from many books that interest you,<br>\nthat present a coherent path of self education.</p><p>Connect them in harmony,<br>\nmake your road beautiful.</p><p><br><br></p><p>The reasons to break away from waiting to be taught and following others,<br>\nare countless, and the access to books and audio-books, is too easy.</p><p>Nonfiction Best Seller Audio-books are especially powerful at teaching,<br>\nsome represent a near lifetime of knowledge, of rising to success and wisdom.</p><p>We don&apos;t just inherit knowledge that leads to wisdom,<br>\nwe also inherit culture, ways of thinking, and roads towards joy and happiness.</p><p><br><br></p><p>Humanity celebrates those who rise,<br>\nit celebrates wisdom and the struggle for goodness.</p><p>The most beautiful of books and audio-books,<br>\nvery often end up on Best Seller lists, start there.</p><p>Find a way to listen to Nonfiction Best Sellers,<br>\nand inherit the treasures within.</p>",
+    "audio": "audio/poetry-0114.mp3",
+    "image": "image/poetry-0114-illustration.jpg"
+  },
+  {
     "id": "poetry-0113",
     "title": "The Snack Bar",
     "category": "poetry",
