@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0115",
+    "title": "Gradually Increasing Endurance",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-23T02:45:02.767Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon Jun 22nd 2020, 10:45 PM",
+    "html": "<p>All those High and Mighty claims of<br>\n&quot;I am stronger&quot;, &quot;I can run longer&quot;, &quot;You can&apos;t do what I do&quot;, are bunk.</p><p>But they also beautifully underline the importance of Endurance,<br>\nnothing is more important for an Athlete than Proper Endurance.</p><p>Without a solid measure endurance,<br>\nwe probably can&apos;t push out body into adaptation.</p><p>In a way, will run out of the ability to go forward,<br>\njust before our body notices it needs to make some changes.</p><p>Endurance may just be the very core of any and all Athletic pursuits,<br>\nincluding Bodybuilding, Gymnastics, and even Dancing.</p><p>It is easiest to see that in Long Distance running,<br>\nin order to finish the race, we have to gradually increase our distance.</p><p>It is very unhealthy to try to run an ultra-marathon,<br>\nwithout having first worked on our endurance.</p><p>In bodybuilding lifting something 30 times may entertain a muscle,<br>\nbut it is unlikely to influence it to develop to be better.</p><p>Slowly gaining endurance to lift, three hundred times, three thousand times, and fifteen thousand times...<br>\nWill reliably encourage your body to adapt.</p><p>Gradually increasing endurance, and eating a healthy and balanced diet,<br>\nwill slowly send a signal to your body, that it must adapt.</p><p>Endurance is the secret,<br>\nand <strong>gradually</strong> is the method of increasing it.</p>",
+    "audio": "audio/poetry-0115.mp3",
+    "image": "image/poetry-0115-illustration.jpg"
+  },
+  {
     "id": "poetry-0114",
     "title": "Learning From Books",
     "category": "poetry",
@@ -9,7 +22,7 @@
     "draft": false,
     "deleted": false,
     "published": "Sun Jun 21st 2020, 8:56 PM",
-    "html": "<p>Nonfiction books are way to share wisdom,<br>\nsome wisdom is in the form of advice, other you have to discover yourself.</p><p>Life is too precious, and we are too intelligent not to inherit wisdom from books,<br>\nthere is only one direction for us all, and that is towards Wisdom.</p><p>Growing up,<br>\nenlarges our worlds.</p><p>Wisdom, helps us see more roads in our Journeys,<br>\nroads that we would not have noticed without it.</p><p><br><br></p><p>How can we be sure if we are traveling on the path that does us justice,<br>\nif we can&apos;t see all the forks and roads ahead?</p><p><br><br></p><p>Let pursuit of wisdom bring you the light needed to enlighten your path,<br>\nto show you all the roads and many of the futures ahead.</p><p>Seek your own wisdom from many books that interest you,<br>\nthat present a coherent path of self education.</p><p>Connect them in harmony,<br>\nmake your road beautiful.</p><p><br><br></p><p>The reasons to break away from waiting to be taught and following others,<br>\nare countless, and the access to books and audio-books, is too easy.</p><p>Nonfiction Best Seller Audio-books are especially powerful at teaching,<br>\nsome represent a near lifetime of knowledge, of rising to success and wisdom.</p><p>We don&apos;t just inherit knowledge that leads to wisdom,<br>\nwe also inherit culture, ways of thinking, and roads towards joy and happiness.</p><p><br><br></p><p>Humanity celebrates those who rise,<br>\nit celebrates wisdom and the struggle for goodness.</p><p>The most beautiful of books and audio-books,<br>\nvery often end up on Best Seller lists, start there.</p><p>Find a way to listen to Nonfiction Best Sellers,<br>\nand inherit the treasures within.</p>",
+    "html": "<p>Nonfiction books are way to share wisdom,<br>\nsome wisdom is in the form of advice, other you have to discover yourself.</p><p>Life is too precious, and we are far too intelligent not to inherit wisdom from books,<br>\nthere is only one direction for us all, and that is towards Wisdom.</p><p>Growing up,<br>\nenlarges our worlds.</p><p>Wisdom, helps us see more roads in our Journeys,<br>\nroads that we would not have noticed without it.</p><p><br><br></p><p>How can we be sure if we are traveling on the path that does us justice,<br>\nif we can&apos;t see all the forks and roads ahead?</p><p><br><br></p><p>Let pursuit of wisdom bring you the light needed to enlighten your path,<br>\nto show you all the roads and many of the futures ahead.</p><p>Seek your own wisdom from many books that interest you,<br>\nthat present a coherent path of self education.</p><p>Connect them in harmony,<br>\nmake your road beautiful.</p><p><br><br></p><p>The reasons to break away from waiting to be taught and following others,<br>\nare countless, and the access to books and audio-books, is too easy.</p><p>Nonfiction Best Seller Audio-books are especially powerful at teaching,<br>\nsome represent a near lifetime of knowledge, of rising to success and wisdom.</p><p>We don&apos;t just inherit knowledge that leads to wisdom,<br>\nwe also inherit culture, ways of thinking, and roads towards joy and happiness.</p><p><br><br></p><p>Humanity celebrates those who rise,<br>\nit celebrates wisdom and the struggle for goodness.</p><p>The most beautiful of books and audio-books,<br>\nvery often end up on Best Seller lists, start there.</p><p>Find a way to listen to Nonfiction Best Sellers,<br>\nand inherit the treasures within.</p>",
     "audio": "audio/poetry-0114.mp3",
     "image": "image/poetry-0114-illustration.jpg"
   },
