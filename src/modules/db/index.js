@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0116",
+    "title": "Inventing Yourself",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-24T03:39:32.289Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Jun 23rd 2020, 11:39 PM",
+    "html": "<p>Try to imagine yourself born in different places or to different cultures,<br>\nnote how you are influenced by all the surrounding factors.</p><p>Note, how there are parts of you that never do change,<br>\nthat form some kind of a foundation.</p><p>Rather, than than letting your place of birth or culture influence you,<br>\nimagine inventing yourself <strong>independently</strong> of everything.</p><p><br><br></p><p>Look towards Nonfiction Books or Audiobooks, Memoirs and Biographies,<br>\nand see what wisdom you can inherit to help you on your own journey forward.</p><p>Allow those parts of you that never seem to change no matter what culture you are born into,<br>\nto expand, and grow upwards.</p><p><br><br></p><p>See if becoming a Citizen of The World,<br>\nand not any nation in particular, helps you see the World more clearly.</p><p>See if becoming a Lover of all Wisdom, and All Good Ideas,<br>\nand not merely the culture you were born into, helps you understand more about the Human Condition.</p><p>Imagine that you are Made of Stars,<br>\nthat you are a Child of the Universe.</p>",
+    "audio": "audio/poetry-0116.mp3",
+    "image": "image/poetry-0116-illustration.jpg"
+  },
+  {
     "id": "poetry-0115",
     "title": "Gradually Increasing Endurance",
     "category": "poetry",
