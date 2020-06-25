@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0117",
+    "title": "The Way Of The Warrior",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-25T00:59:53.016Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed Jun 24th 2020, 8:59 PM",
+    "html": "<p>In the beginning we discover our Universal Self,<br>\nthe Being we are, regardless, of what Culture or Place we are born into.</p><p>Then we set an aim, by asking our Elder Selves what heir regrets are,<br>\nthe more we advance forward the more we become Ourselves.</p><p>The less regrets our Elder Selves have,<br>\nthe more we become in harmony with ourselves.</p><p>The Way Of The Warrior, is a self correcting path,<br>\neach time we advance we become stronger, wiser, and more powerful.</p><p>Frame after frame, as time ticks away, and our minds and bodies grow,<br>\nwe near, and finally become; our Elder Selves.</p><p>We arrive with Certainty of Knowing that the path we traveled was our own,<br>\nthat we are in Harmony with Universe, that all our Senses are Finely Tuned.</p><p>In moving forward we don&apos;t need to ask what life is for,<br>\nLife is for the Living, for those who grow and advance forward.</p><p>There cannot be any real regrets as we had decades to avoid them,<br>\nand whatever obstacles there were, we never lost our way.</p><p>The Final Aim, is to rise all the way up, and become a Great Being,<br>\nto build a legacy of Wisdom and Good Ideas, Lessons Worth Sharing, and Moving Inspiration.</p>",
+    "audio": "audio/poetry-0117.mp3",
+    "image": "image/poetry-0117-illustration.jpg"
+  },
+  {
     "id": "poetry-0116",
     "title": "Inventing Yourself",
     "category": "poetry",
