@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0120",
+    "title": "Greatness Of Soul",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-28T03:16:50.267Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Jun 27th 2020, 11:16 PM",
+    "html": "<p>Anything that can go wrong may go wrong,<br>\nand there is only one guarantee in life.</p><p>It is a guarantee, precisely because it is within our complete control,<br>\nthe guarantee is The Greatness Of Our Soul, or Spirit, or Being.</p><p>It means you will keep getting up no matter how many times you fall,<br>\nit means you will continue moving forward without stopping.</p><br><p>It means there is no pain, it means there is no weakness,<br>\nthat it is a function and fact of life that we advance forward.</p><p>And on the day of triumph,<br>\nit means that the prize is nothing less than Laughter and Joy of Life.</p><p>The Greatness of Our Soul, our single guarantee in life,<br>\nmay begin in discomfort, but it concludes with something <strong>far</strong> more.</p><br><p>Marvels of the Human Spirit that we can&apos;t directly conjure up within ourselves,<br>\nmarvels that can only come out of our Might and Authenticity.</p><p>Humor and Foolishness, Cheerfulness and Bliss,<br>\nSweetens and Giggles, Joy, Laughter, Wisdom and Delight.</p><p>Greatness of Soul.</p>",
+    "audio": "audio/poetry-0120.mp3",
+    "image": "image/poetry-0120-illustration.jpg"
+  },
+  {
     "id": "poetry-0119",
     "title": "Finding The Northern Part Of The I-275 Bicycle Trail",
     "category": "poetry",
@@ -9,7 +22,7 @@
     "draft": false,
     "deleted": false,
     "published": "Fri Jun 26th 2020, 10:44 PM",
-    "html": "<p>For those of you who had trouble,\nfinding the Northern end of the I-275 Bicycle Tail.</p><p>Hines connects North and South parts,<br>\nbut it is really hard to find the <a href=\"https://goo.gl/maps/AimpKxWarbhiX8zbA\">North Entry Point</a></p><p>I got on my bicycle today,<br>\nand took some pictures.</p><p>You have to find the M-14 Overpass,<br>\nor an Overpass with a huge dark rail beneath.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-ramp-rail.jpg\" alt=\"Ramp Rail\"></p><p>That rail is the support beam,<br>\nfor the Trail On-ramp.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-ramp-hiding.jpg\" alt=\"Ramp Hiding\"></p><p>A bit further down the road,<br>\nthere is a road that leads up to the On-ramp.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-ramp-access.jpg\" alt=\"Ramp Access\"></p><p>It is a ramp specially made,<br>\nfor the Handsome Adventurous Bicyclist.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-ramp-meow.jpg\" alt=\"Ramp Meow\"></p><p>It opens like the door to a secret garden,<br>\nvery few people bicycle there.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-continues.jpg\" alt=\"Continues\"></p><p>The trail continues for many more miles,<br>\nall the way up to 14 Mile Road.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-forever.jpg\" alt=\"Forever\"></p><p>Over at 14 Mile it ends wonderfully unceremoniously,<br>\nit just pops out onto a sidewalk.</p><p>Where motorists jump in their cars slightly,<br>\nas you pop out slightly dehydrated, a little crazed, a bit wild.</p>",
+    "html": "<p>For those of you who had trouble,\nfinding the Northern end of the I-275 Bicycle Tail.</p><p>Hines connects North and South parts,<br>\nbut it is really hard to find the <a href=\"https://goo.gl/maps/AimpKxWarbhiX8zbA\">North Entry Point</a></p><p>I got on my bicycle today,<br>\nand took some pictures.</p><p>You have to find the M-14 Overpass,<br>\nor an Overpass with a huge dark rail beneath.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-ramp-rail.jpg\" alt=\"Ramp Rail\"></p><p>That rail is the support beam,<br>\nfor the Trail On-ramp.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-ramp-hiding.jpg\" alt=\"Ramp Hiding\"></p><p>A bit further down the road,<br>\nthere is a road that leads up to the On-ramp.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-ramp-access.jpg\" alt=\"Ramp Access\"></p><p>It is a ramp specially made,<br>\nfor the Handsome Adventurous Bicyclist.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-ramp-meow.jpg\" alt=\"Ramp Meow\"></p><p>It opens like the door to a secret garden,<br>\nvery few people bicycle there.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-continues.jpg\" alt=\"Continues\"></p><p>The trail continues for many more miles,<br>\nall the way up to 14 Mile Road.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0119-forever.jpg\" alt=\"Forever\"></p><p>Over at 14 Mile it ends wonderfully unceremoniously,<br>\nit just pops out onto a sidewalk.</p><p>Where motorists jump in their cars slightly,<br>\nas you pop out somewhat dehydrated, a little crazed, and a bit wild.</p>",
     "audio": "audio/poetry-0119.mp3",
     "image": "image/poetry-0119-illustration.jpg"
   },
