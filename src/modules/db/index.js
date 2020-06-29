@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0121",
+    "title": "Brilliance and Enlightenment",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-29T03:34:49.241Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Jun 28th 2020, 11:34 PM",
+    "html": "<p>No worries, the only real darkness is the Twilight of Hesitation,<br>\nit is dangerous because it makes time go by all too fast.</p><p>So you just have to make a promise to your self,<br>\nthat each day will be a tiny-tiny itsy-bitsy better; than then previous.</p><p>Other than that, no cloud could ever stop the sun from rising,<br>\nnothing can endanger your brilliance, there is nothing to fear.</p><p><br><br></p><p>And brilliance,<br>\nbrilliance leads to enlightenment.</p><p>So as long as you protect your light,<br>\nknow that wisdom is your right.</p><p>Never stand still and always take to flight,<br>\nyours is enlightenment, the brightest of light.</p><p><br><br></p><p>Never has there been a night,<br>\nthat was wasn&apos;t lit by light.</p><p>Never has there been a fight,<br>\nthat wasn&apos;t won by wisdom&apos;s might.</p><p>Rise, rise in spite of the fright,<br>\nrise to no end in sight.</p>",
+    "audio": "audio/poetry-0121.mp3",
+    "image": "image/poetry-0121-illustration.jpg"
+  },
+  {
     "id": "poetry-0120",
     "title": "Greatness Of Soul",
     "category": "poetry",
