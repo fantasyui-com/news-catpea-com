@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0122",
+    "title": "The Great Being",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-06-30T02:18:42.135Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon Jun 29th 2020, 10:18 PM",
+    "html": "<p>To rise, to become strong, to grow and to break away and become more authentic,<br>\nis our first great responsibility, and our health.</p><p>However, it does go against our nature as children,<br>\nwe have a tendency not to look outside of the culture we are brought into.</p><p>Rite of Passage is about crossing that line,<br>\nthe line between The Child That Follows, and The Adult That Leads.</p><p>The moment we can handle looking at ourselves and our culture,<br>\nfrom the <strong>outside</strong> in, we begin crossing the line into adulthood.</p><p><br><br></p><p>One of the first few thoughts may be, &quot;But what if I was born into a different religion?&quot;<br>\nfollowed by, &quot;What if I was not born into this economic class, into this poverty?&quot;.</p><p>As these questions grow from asking about ourselves, to also including others,<br>\nthey bring us insight into the greater Human Condition.</p><p>Bring us to the question of The Freedom of Will, of how much our Personality is Our Own,<br>\nof internal decision making heavily influenced by external culture or placement.</p><p>As we grow we begin asking even greater questions about others,<br>\n&quot;Would the petty thief stole, had he <strong>not</strong> been fractured by the virus of poverty?&quot;</p><p>Our minds begin scanning for solutions that aim towards a Greater Good,<br>\ntowards Word Peace, International Convergence on Wisdom, Unites States of The World.</p><p>We begin seeing that although there isn&apos;t an answer to every question,<br>\nthere are Dreams that could prevent the worst of World&apos;s Mistakes.</p><p><br><br></p><p>Building schools to help a culture grow,<br>\ninstead of forecasting war and manufacturing enough weapons.</p><p>Preventing the existence of criminals,<br>\nby helping little children to Happy Homes, and to a Universal Basic Income.</p><p>Trading simple schools and grades for Business Success,<br>\nhelping children to become Well Funded Entrepreneurs and Investors.</p><p><br><br></p><p>No matter which questions we begin with and how our path is arranged,<br>\nwe discover how critical Growing Up is, for us, for eveyone.</p><p>How much more we are,<br>\nthan mere followers of the rules that we are born to.</p><p>How important to our mental health,<br>\nit is not to fall a victim to bad ideas or fractures of poverty.</p><p>Our First Great Act in life is lifting ourselves above the culture we are born into,<br>\nthat is the meaning of the words Rising, Growing Up, Breaking Away, Becoming Stronger.</p><p><br><br></p><p>And the acts of independent thinking that are sure to follow,<br>\nare the very foundation of Our Hope in a Better Future.</p><p>Have no fear of Rising, of Breaking Away, of Growing Up, of Growing In Strength,<br>\nfor that is Adulthood, and none can stay children for long.</p><p>Close your eyes, and begin building,<br>\nbecause your next step is to become a Great Being.</p>",
+    "audio": "audio/poetry-0122.mp3",
+    "image": "image/poetry-0122-illustration.jpg"
+  },
+  {
     "id": "poetry-0121",
     "title": "Brilliance and Enlightenment",
     "category": "poetry",
@@ -9,7 +22,7 @@
     "draft": false,
     "deleted": false,
     "published": "Sun Jun 28th 2020, 11:34 PM",
-    "html": "<p>No worries, the only real darkness is the Twilight of Hesitation,<br>\nit is dangerous because it makes time go by all too fast.</p><p>So you just have to make a promise to your self,<br>\nthat each day will be a tiny-tiny itsy-bitsy better; than then previous.</p><p>Other than that, no cloud could ever stop the sun from rising,<br>\nnothing can endanger your brilliance, there is nothing to fear.</p><p><br><br></p><p>And brilliance,<br>\nbrilliance leads to enlightenment.</p><p>So as long as you protect your light,<br>\nknow that wisdom is your right.</p><p>Never stand still and always take to flight,<br>\nyours is enlightenment, the brightest of light.</p><p><br><br></p><p>Never has there been a night,<br>\nthat was wasn&apos;t lit by light.</p><p>Never has there been a fight,<br>\nthat wasn&apos;t won by wisdom&apos;s might.</p><p>Rise, rise in spite of the fright,<br>\nrise to no end in sight.</p>",
+    "html": "<p>No worries, the only real darkness is the Twilight of Hesitation,<br>\nit is dangerous because it makes time go by all too fast.</p><p>So you just have to make a promise to your self,<br>\nthat each day will be a tiny-tiny itsy-bitsy better; than then previous.</p><p>Other than that, no cloud could ever stop the sun from rising,<br>\nnothing can endanger your brilliance, there is nothing to fear.</p><p><br><br></p><p>And brilliance,<br>\nbrilliance leads to enlightenment.</p><p>So as long as you protect your light,<br>\nknow that wisdom is your right.</p><p>Never stand still and always take to flight,<br>\nyours is enlightenment, the brightest of light.</p><p><br><br></p><p>Never has there been a night,<br>\nthat was wasn&apos;t lit by light.</p><p>Never has there been a fight,<br>\nthat wasn&apos;t won by Wisdom&apos;s Might.</p><p>Rise, rise in spite of the fright,<br>\nrise to no end in sight.</p>",
     "audio": "audio/poetry-0121.mp3",
     "image": "image/poetry-0121-illustration.jpg"
   },
