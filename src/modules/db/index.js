@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0123",
+    "title": "To No End",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-01T03:38:48.751Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Jun 30th 2020, 11:38 PM",
+    "html": "<p>When we are still learning what the world is,<br>\nwe find comfort in recognizing where something starts, and where it ends.</p><p>Knowing the beginning and seeing the ending helps us feel in control,<br>\nit helps us see the journey&apos;s end, or the height of a challenge.</p><p>But all of that goes away when we begin rising,<br>\neventually we only consider the forward motion it self.</p><p>We ignore the beginning, we abandon the ends, we ignore the steps,<br>\nand we stop measuring the distance and paying attention to the effort.</p><p>In advancing forward we learn to recognize that all things must connect,<br>\nwe can only find peace in a mesh-work of common concerns and dreams upheld by all.</p><p>The roads we must travel have no limits, and it never takes long to catch up,<br>\nnobody falls behind for too long unless they practice resignation.</p><p>We need not travel far to begin seeing that the word is still very young,<br>\nthat passage of wisdom between generations is a very fragile process.</p><p>Many, who are not yet mature enough for the position they have gained, may feign authority,<br>\nwe have to be careful who we listen to and be mindful of the paths they have traveled.</p><p>We are the sum of all our rising, all our triumph, effort, and intent across all our ages,<br>\nhow we rose, and the choices we made, and the wisdom we grew with, all adds to the sum.</p><p>That sum doesn&apos;t just outline our personality and who we are in the now,<br>\nit is the structure of our wisdom and the body of our knowledge, directed towards who we will become in the future.</p><p>A choice we make in the now, will paint a moment in our past, but also influence what is yet to come,<br>\nand all the choices added together create who we are in the future that we will eventually enter.</p><p>We must take great care of our choices, we must take care to love ourselves,<br>\nto find the calm and peace from which we can make healthy decisions that will help us grow.</p><p>Not everyone will start in a colorful city with good schools and amazing friends,<br>\nsome will struggle to rise out of extremes that will never make sense.</p><p>But we must still set ourselves on that unlimited path,<br>\nand get used to the idea of no beginnings, and no ends, just that all too human forward motion.</p><p>The direction is always the same, move towards wisdom,<br>\nthat is the meeting point of all human beings no matter their circumstance or culture.</p><p>We begin as children, we mature into adults, and then we must go on to become Great Beings,<br>\nall Greatness is rooted in Love of Wisdom, and the root of wisdom is found in boldly facing the challenges of life.</p>",
+    "audio": "audio/poetry-0123.mp3",
+    "image": "image/poetry-0123-illustration.jpg"
+  },
+  {
     "id": "poetry-0122",
     "title": "The Great Being",
     "category": "poetry",
