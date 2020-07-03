@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0125",
+    "title": "Little Journals of Interesting Adventures",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-03T03:27:54.768Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Thu Jul 2nd 2020, 11:27 PM",
+    "html": "<p>Great Adventures need not take you far,<br>\nand ultimately, wherever you go there you are.</p><p>But still, there <strong>is</strong> something special about new places,<br>\nwe see more deeply, and get in good graces.</p><p>I think the kind of adventure, that <strong>really</strong> is the best,<br>\nwill make you start keeping a little journal to document your quest.</p><p>When there is time to think about all the things and little bits,<br>\neven the slightest curiosity will bring about new wits.</p><p>So fill all the journal pages, and leave it for later,<br>\nbecause you never know when a little journal may become something greater.</p><p>It could come as a surprise that this little adventure you took,<br>\nturned you into a Famous Writer and became your first Adventure Book!</p>",
+    "audio": "audio/poetry-0125.mp3",
+    "image": "image/poetry-0125-illustration.jpg"
+  },
+  {
     "id": "poetry-0124",
     "title": "My Little Dream Of Convergence",
     "category": "poetry",
@@ -9,7 +22,7 @@
     "draft": false,
     "deleted": false,
     "published": "Wed Jul 1st 2020, 10:32 PM",
-    "html": "<p>On the last day of the old year,<br>\nkids were granted the power to come up with a name for our newly united world...</p><p>It all stared a long time ago, it was about not repeating history&apos;s mistakes,<br>\na newly found emphasis on not committing the sins of our grand-grand-grand-fathers.</p><p>Young people begun rejecting Jury Duty by recognizing Poverty as a mind eating virus,<br>\nwhen the Judge asked if anybody couldn&apos;t serve, people would rise and say &quot;Virus of Poverty&quot;.</p><p>It meant that they were unable to take the oath, that they could not be an impartial Juror,<br>\nbecause they were convinced that Universal Basic Income would prevent the defendant from committing the crime in the first place.</p><p>The Judges had their hands tied, but they loved to hear it, and it always restored their faith in the world:<br>\n&quot;I stand against, The Disproportionate Mass Incarceration of People Made Ill by The Virus Of Poverty&quot;</p><p>Back in 2021 schools had to go online, and that exposed their weakness for all to see,<br>\npeople, and notably their future employers, lost interest in what organized education became.</p><p>There was a shift toward self-organizing education where kids kept portfolios,<br>\nof their own paths through knowledge, and at their own natural pace.</p><p>But it wast until the first paying school, that things became clear for the youngest generation,<br>\nthe school replaced imaginary grades, with real money that the children would learn to reason about and use.</p><p>By rejecting the status quo, and not settling on the irrelevant minimums,<br>\nHumanity increased her pace of progress, collective intelligence, and foresight.</p><p>It took less than twenty years, to get climate under control,<br>\nit was the children of the people that grew up by questioning authority and status quo.</p><p>Weapons manufacturing, profit optimization, economic fairy tales, greed, apathy, and hate - all fell,<br>\nas the world united under the new name: <a href=\"https://en.wikipedia.org/wiki/Boaty_McBoatface#Naming\">Worldie McWorldface</a>.</p>",
+    "html": "<p>On the last day of the old year,<br>\nkids were granted the power to come up with a name for our newly united world...</p><p>It all stared a long time ago, it was about not repeating history&apos;s mistakes,<br>\na newly found emphasis on not committing the sins of our grand-grand-grand-fathers.</p><p>Young people begun rejecting Jury Duty by recognizing Poverty as a mind eating virus,<br>\nwhen the Judge asked if anybody couldn&apos;t serve, people would rise and say &quot;Virus of Poverty&quot;.</p><p>It meant that they were unable to take the oath, that they could not be an impartial Juror,<br>\nbecause they were convinced that Universal Basic Income would prevent The Defendant from committing the crime in the first place.</p><p>The Judges had their hands tied, but they loved to hear it, and it always restored their faith in the world:<br>\n&quot;I stand against, The Disproportionate Mass Incarceration of People Made Ill by The Virus Of Poverty&quot;</p><p>Back in 2021 schools had to go online, and that exposed their weakness for all to see,<br>\npeople, and notably their future employers, lost interest in what organized education became.</p><p>There was a shift toward self-organizing education where kids kept portfolios,<br>\nof their own paths through knowledge, and at their own natural pace.</p><p>But it wast until the first paying school, that things became clear for the youngest generation,<br>\nthe school replaced imaginary grades, with real money that the children would learn to reason about and use.</p><p>By rejecting the status quo, and not settling on the irrelevant minimums,<br>\nHumanity increased her pace of progress, collective intelligence, and foresight.</p><p>It took less than twenty years, to get climate under control,<br>\nit was the children of the people that grew up by questioning authority and status quo.</p><p>Weapons manufacturing, profit optimization, economic fairy tales, greed, apathy, and hate - all fell,<br>\nas the world united under the new name: <a href=\"https://en.wikipedia.org/wiki/Boaty_McBoatface#Naming\">Worldie McWorldface</a>.</p>",
     "audio": "audio/poetry-0124.mp3",
     "image": "image/poetry-0124-illustration.jpg"
   },
