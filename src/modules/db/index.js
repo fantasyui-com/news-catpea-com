@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0127",
+    "title": "Have No Fear",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-05T03:42:09.311Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Jul 4th 2020, 11:42 PM",
+    "html": "<p>When you sense that fear is near,<br>\nbegin thinking about all the things you hold dear.</p><p>Think about how far you have already grown,<br>\nhow much of what you love used to be scary or unknown.</p><p>And do not let anyone try to control you with fear,<br>\nthey are weak and their mind is already broken and unclear.</p><br><p>Above all, know the weakness of fear,<br>\nall the things in your soul are far more real.</p><br><p>But do not just close your eyes and let it pass,<br>\nturn inward to remember your beauty, strength and class.</p><p>Let each time you get scared,<br>\nmark a day where you contemplate.</p><p>Think about all the little wisdoms you love,<br>\nand how much more you learned by standing up when push came to shove.</p>",
+    "audio": "audio/poetry-0127.mp3",
+    "image": "image/poetry-0127-illustration.jpg"
+  },
+  {
     "id": "poetry-0126",
     "title": "Humankind Must Keep Moving Towards Wisdom",
     "category": "poetry",
