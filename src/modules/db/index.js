@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0130",
+    "title": "Learn and Teach",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-08T03:39:10.941Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Jul 7th 2020, 11:39 PM",
+    "html": "<p>Without learning we cannot grow up,<br>\nand without teaching the world cannot progress.</p><p><br><br></p><p>It does not matter where you start your journey,<br>\nbe it top of the world, or the very bottom, or somewhere in the middle.</p><p>Wherever you start, you must immediately begin moving forward,<br>\nstep after step, find what moves you, use it to grow up.</p><p>Grow to create a solid thought, or dream, or aim, or understanding,<br>\nand get on top of it, and start building the next thing.</p><p>The road to catching up with everyone else is very short,<br>\nonce you are there, like everyone else, you take off in your own unique direction.</p><p><br><br></p><p>We must let go of beginnings and ends,<br>\nand questions of lengths of road we must travel.</p><p>We must let go of things that we can&apos;t finish in time to enjoy life,<br>\nempires ought be build by generations of visionaries, not a single inspired being.</p><p>We must put majority of our existence towards a happy meaningful life,<br>\nnot struggle, or war, or fear, but simple meaningful beautiful happiness.</p><p><br><br></p><p>We must not forget about the importance of Meaningful and Enlightening Education,<br>\nthe world is not able to give all a safe home but we can learn to build one.</p><p>And once we learn, and find peace in life,<br>\nwe should consider becoming teachers.</p><p><br><br></p><p>By teaching people, by giving them the right tools, by helping them see how to accomplish great deeds,<br>\nwe also grant them the path, to get where they will bloom at their healthiest, and thus Find Hope.</p><p>Inadequate education is one of the greatest barriers to a healthy existence,<br>\nbut it is also the <strong>weakest</strong> barrier, as it is removed with simple audio-books.</p><p>We should encourage people to search for best selling non fiction,<br>\nand inherit both Lessons, and the Culture of Successful Great Beings.</p><p><br><br></p><p>All the problems we face are Human Problems, and thus the solution is in Our Hands,<br>\nas humans we know that the source of our Powers is in our Minds.</p><p>That is where must begin our Lives,<br>\nby making our minds Strong, Noble, Authentic, Unbreakable; Dignified.</p><p>Let the self correcting nature of inheritance of knowledge from all our Beloved Great Beings,<br>\nbe the start of our battle against all the problems that plague our Civilization and Cultures.</p><p><br><br></p><p>Without wisdom all serious problems bear negative consequences,<br>\nconsequences that help to multiply problems until there seemingly seems to be no solution in sight.</p><p>But that is an illusion,<br>\ninstead of building more prisons to contain minds sickened by poverty, let us teach meaningful wisdom.</p><p>We must learn to prevent minds from fracturing, and from getting lost, and from not growing up,<br>\nwe must build a better world for all.</p><p><br><br></p><p>To build a better world we must fearlessly challenge ourselves to success,<br>\nto wisdom, to knowledge, to noble pursuits of excellence.</p><p>And then boldly teach,<br>\nall the lessons that moved us.</p>",
+    "audio": "audio/poetry-0130.mp3",
+    "image": "image/poetry-0130-illustration.jpg"
+  },
+  {
     "id": "poetry-0129",
     "title": "The Seagulls",
     "category": "poetry",
