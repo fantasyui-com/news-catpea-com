@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0132",
+    "title": "The School of Meow",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-10T03:26:34.767Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Thu Jul 9th 2020, 11:26 PM",
+    "html": "<p>I always try hard to learn something new,<br>\nso that my elder self can mumble &quot;I grew.&quot;</p><p>I try to listen to a non-fiction book or two,<br>\nto update my general world view.</p><p><br><br></p><p>And I do computer programming and research too,<br>\nI have lots of bookmarks in my queue.</p><p>I am trying to write programs as if I had a crew,<br>\nso I stick to simple systems where I can think things through.</p><p><br><br></p><p>Learning Life, and Programming somehow fits me like a shoe,<br>\nI&apos;ll have to make a list of the books and papers I read through.</p><p>I never have to try to look for something new,<br>\nthere are too many beautiful things to get bored, or blue.</p><p><br><br></p><p>I like learning about things that are most Human and true,<br>\ntrying to figure our what our elder selves wished they knew.</p><p>Someday, I would like to write a book to help young people get a better world view,<br>\nsomething short and beautiful that they can quickly finish, slam shut, and say &quot;Who knew?&quot;</p>",
+    "audio": "audio/poetry-0132.mp3",
+    "image": "image/poetry-0132-illustration.jpg"
+  },
+  {
     "id": "poetry-0131",
     "title": "Winter Adventures",
     "category": "poetry",
