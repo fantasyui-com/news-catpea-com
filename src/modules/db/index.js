@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0133",
+    "title": "Whew, It Is Only Eight!",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-11T00:36:16.758Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Fri Jul 10th 2020, 8:36 PM",
+    "html": "<p>Hey! whew,<br>\nit&apos;s only eight,</p><p>and here I was worried,<br>\nthat I am going to be late.</p><p>Today is Friday,<br>\nand on every Friday I must look,</p><p>for new ideas,<br>\nto add to my fancy <a href=\"https://westland-valhalla.github.io/warrior/\">Warrior Book</a></p><p>It is a book,<br>\nmade out of videos,</p><p>and some ideas,<br>\ndon&apos;t have enough of those.</p><p><br><br></p><p>Last week,<br>\nI searched for &quot;Ladies Fast Draw&quot;,</p><p>but it only returned three videos,<br>\nlast time I saw.</p><p>I also tried Women Sharp Shooting,<br>\nand Compound Bow,</p><p>but something didn&apos;t fit,<br>\nthe chapter just didn&apos;t flow.</p><p>I am searching for<br>\ninspirational things,</p><p>ideas that bring friends together,<br>\nand give them wings.</p><p><br><br></p><p>I wrote that book to show all;<br>\nthat we all start slow,</p><p>but we can all become mighty,<br>\nso as long as we give it a go.</p><p>All too frequently we assume,<br>\nthat we have to have talent.</p><p>and all the steps we take,<br>\nmust be naturally gallant.</p><p>But the truth is,<br>\nthat we must fail to get there,</p><p>effortlessly succeeding at anything,<br>\nis as boring as rare.</p><p>No need to hurry,<br>\nwe can learn really slow,</p><p>the most important thing,<br>\nis that we grow.</p>",
+    "audio": "audio/poetry-0133.mp3",
+    "image": "image/poetry-0133-illustration.jpg"
+  },
+  {
     "id": "poetry-0132",
     "title": "The School of Meow",
     "category": "poetry",
