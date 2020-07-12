@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0134",
+    "title": "Inspirational Poetry",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-12T02:43:04.977Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Jul 11th 2020, 10:43 PM",
+    "html": "<p>While Constitutions and Declarations,<br>\nage and get amended, to become other than intended.</p><p>Most beloved poetry is writ in stone,<br>\nloved and celebrated, and hard to forget.</p><p>So, let us write poems to celebrate every era,<br>\nand each new idea worthy of us and the modern times.</p><p>Humanity has always faced great challenges,<br>\nand the greatest challenges moved us the most.</p><p>Today, we must fix Education for all,<br>\nand it <strong>has to</strong> result in creating Wise Great Minds.</p><p>We have to fix World Poverty,<br>\nas it too often destroys minds before they can even put up a fight.</p><p>And we have to create a clearer picture of the world,<br>\npoems that reveal problems before they come into being.</p><p>Above all we have to help Young People,<br>\nhelp them to understand the world better.</p><p>Help them gain early insight,<br>\nso that they are not easily manipulated.</p><p><br><br></p><p>At the very least,<br>\nwe have to explain;</p><p>How borders divide,<br>\nand how divided, we are made to fight.</p><p>How easy it is to dress ignorance in authority,<br>\nhow some principals, or teachers, or parents, never cared, and never will.</p><p>How poverty is not the fault of the children born into it,<br>\nbut a mark of broken and immature and selfish politics.</p><p>How talent, and genius, and genes are a stupid myth for poor angry little men,<br>\nhow self education is far more meaningful, and how and noble.</p><p><br><br></p><p>You, my Dear Readers,<br>\nYou are <strong>full</strong> of Great Ideas.</p><p>The things you wish you knew when you were younger,<br>\nare more important than you think.</p><p>Those are the ideas that will create<br>\nunforgettable poetry.</p><p>Please, pick up a pencil, pick up a keyboard,<br>\nand rhyme or arrange, impress with words, with inspirational letters.</p><p>The ideas you hold dear,<br>\nmake you a philosopher, a poet, and artist.</p><p>The ideas you hold dear make you a teacher,<br>\nPlease, help the world learn.</p>",
+    "audio": "audio/poetry-0134.mp3",
+    "image": "image/poetry-0134-illustration.jpg"
+  },
+  {
     "id": "poetry-0133",
     "title": "Whew, It Is Only Eight!",
     "category": "poetry",
