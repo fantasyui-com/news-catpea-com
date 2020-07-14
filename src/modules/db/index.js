@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0136",
+    "title": "Reality, Clarity and Future Generations",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-14T03:41:51.155Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon Jul 13th 2020, 11:41 PM",
+    "html": "<p>Of course,<br>\nlet us ask what their regrets are...</p><p>We are after all the future generation,<br>\nto those that came before us.</p><p>Therefore we have insight,<br>\nand certainly have regrets.</p><p>We regret;<br>\nwars, poverty, hate and stupidity.</p><p><br><br></p><p>We want World Peace,<br>\nbecause a single Human Life is more Sacred than all the gods put together,<br>\nbecause borders are stupid and war is hell,<br>\nbecause ongoing weapons manufacturing is evil.</p><p>We want the End of Poverty,<br>\nbecause money should only be used to help a person and not make them worse,<br>\nbecause no one should be denied mental, dental or medical care,<br>\nbecause not a single Human Being should ever go hungry or thirsty.</p><p>We want the Age of Wisdom,<br>\nbecause people must learn how to think before being told what to think,<br>\nbecause the Modern Human being must first catch up with Knowledge in Beloved Books,<br>\nbecause we must put an end to making mistakes that can otherwise be avoided.</p><p><br><br></p><p>The World will not grow if Human Beings are prevented from Meaningful Education.<br></p><p>The World will not grow if People are too scared, or too hungry, or too tired to learn.<br></p><p>The World will not grow, if You, and I, and Everybody Else fails to Honor the Future Generations.<br></p><p><br><br></p><p>As many evil forces as there are,<br>\nthey will give up the moment they see that their lies can&apos;t move crowds anymore.</p><p><br><br></p><p>Moving against reality,<br>\ncommits the followers to the forgotten side of history.</p><p>Standing up for Truth and Authenticity,<br>\nfills us with Light of Wisdom, and Love of Humanity.</p><p><br><br></p><p>You never know,<br>\nthe first day,<br>\nwhen you become ready,</p><p>to reinforce, or add a new article,<br>\nto a document that will define Humanity for all Generations.</p><p>We can&apos;t be sure if this document exist yet,<br>\nperhaps you will begin writing it,</p><p>perhaps your article will be the opening article,<br>\nand yours, the first signature.</p><p><br><br></p><p>There are to many borders, My Friends,<br>\nand too often money is being used for harm, where it was invented for good.</p><p>Our World, with Our Love and Our Blessing,<br>\nmust take another Deep and Long Breath,<br>\nand Exhale in Blooming Changes all around.</p><p><br><br></p><p>Practice, take out your journal, and scribble to no end,<br>\nmany high and mighty laws printed over and over on paper will not hold up forever.</p><p>Humanity never moved toward some Economic Paradise,<br>\nit has always moved towards Goodness and Love.</p><p>It has moved slowly, slowed down by poverty of so many,<br>\nslowed down by borders,<br>\nand people not yet ready to learn how to think before they are told what to think.</p><p>But it has moved with unlimited strength,<br>\nsanding down to dust all that stood in the path of Good Ideas, and Goodness, and Love.</p><p>Do not accept wrongs, on paper, or law, or the red faces of those moving against the grain of reality,<br>\ndo not assume that the wrongs that stand today, will not be erased tomorrow.</p><p><br><br></p><p>Proudly, nobly, respectfully, deep in thought,<br>\ntake time off, and reach out to world&apos;s best selling non fiction.</p><p>My Friends,<br>\nMay you laugh, may you celebrate, may you admire,<br>\nand learn from; and forgive mistakes leaving them to the past.</p>",
+    "audio": "audio/poetry-0136.mp3",
+    "image": "image/poetry-0136-illustration.jpg"
+  },
+  {
     "id": "poetry-0135",
     "title": "A Dream About A Growing Humanity",
     "category": "poetry",
