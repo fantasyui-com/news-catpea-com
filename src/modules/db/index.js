@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0137",
+    "title": "The Amazing Power of Audio Books",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-15T00:49:49.894Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Jul 14th 2020, 8:49 PM",
+    "html": "<p><br><br></p><p>First of All,</p><p>Let me share with you a secret to a great intellectual wealth,<br>\nif you ever get hurt, or lonely the Audio Books will completely restore your health.</p><p>They will help you understand the world a lot better,<br>\nand they will piece your heart right back together.</p><p>Audio books will make your heart whole,<br>\nand they will add great Wisdom and Strength to your Soul.</p><p><br><br></p><p>And Let Me Tell You,</p><p>They help us resume great works and understand great lives,<br>\nconnect with great beings, their minds, and drives.</p><p>And it really, really works, they help you inherit power,<br>\nit gets into your soul, and grows like a flower.</p><p>And they help us see better with our own eyes,<br>\nsee World Poverty as the enemy, and World Peace as the The Prize.</p><p><br><br></p><p>And the more lives you inherit from,<br>\nthe sooner, you will find your way Home.</p><p>The original way, we used to learn to rise higher,<br>\n<strong>was</strong> by listening to Moving Stories by a cracking fire.</p><p>By listening to all the world&apos;s great stories we push poverty away,<br>\nand we become Wiser to no end, each and every day.</p>",
+    "audio": "audio/poetry-0137.mp3",
+    "image": "image/poetry-0137-illustration.jpg"
+  },
+  {
     "id": "poetry-0136",
     "title": "Reality, Clarity and Future Generations",
     "category": "poetry",
