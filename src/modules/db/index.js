@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0139",
+    "title": "Philosophers, Poets, and Artists",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-17T02:18:03.823Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Thu Jul 16th 2020, 10:18 PM",
+    "html": "<p>Nope, we may not finish school, get a job, buy a house, and worry about old age;<br>\nMy Dear fiends, I forbid you, and you&apos;re not even not allowed anyway.</p><p>I don&apos;t know who came up with thins nonsense,<br>\nand I don&apos;t know why our parents repeat it - though I have some theories.</p><p><br><br></p><p>You are to figure out what moves you,<br>\nand get on with it.</p><p>What moves you,<br>\nis also what helps you grow.</p><p>What moves you,<br>\nwill make you extremely strong and beautiful.</p><p><br><br></p><p>And it may very well be that it is some kind of a career,<br>\nbut there will certainly be something better.</p><p>Becoming a professional,<br>\nand spending the rest of your life as that professional - are very different things.</p><p>In deed.</p><p>And what is more, my Dear Fiends,<br>\nis that you will be making that initial choice under the influence;<br>\nof being too young to actually make decisions of that magnitude.</p><p>You will surely be beautiful and powerful enough to make it,<br>\nbut when you enter your early Mighty Middle Age,<br>\nyou will be even more Beautiful and even more Capable.</p><p>What seemed like a Delicious Challenge in your youth,<br>\nwill no longer challenge you enough.</p><p>I am sorry.</p><p>But something as simple as a fine direction chosen in early life,<br>\nwill soon be no longer be enough to do you justice.</p><p><br><br></p><p>Life is living.</p><p>It will never be as simple as quitting gym,<br>\nand saying &quot;I can&apos;t... I have a job now.&quot;.</p><p>Nope.</p><p>Nuh uh.</p><p>Now, you need to quit your job,<br>\nand start catching up, surpass what you once were, and now build on top of that.</p><p>Your undertakings are,<br>\nare not to subtract from you.</p><p>Our lives come with a limit,<br>\nit is a terrible tragedy, and I am very sorry.</p><p>But it also makes it that much more important,<br>\nthat we grow, that we flourish, that we bloom.</p><p>That every new day of our life,<br>\nadds to the previous.</p><p>When all our pursuits are connected meaningfully together in authenticity,<br>\nthey become an enormous treasure, and a song of ourselves.</p><p><br><br></p><p>Life may look simple from the first step before we start growing up.</p><p>But it becomes clear that it is more important to live an Inspired Existence that Adds Unto Us,<br>\nat the very least, because of how much we grow, and how much more we become the best of ourselves.</p><p>Life is so dear,<br>\nit is not a very good idea to follow what someone else expects of us.</p><p><br><br></p><p>You are always growing in complexity,<br>\nand the universe around you will unfold as more complex too.</p><p>For example, we don&apos;t get old,<br>\nwe grow, we expand, eventually gaining the ability to speak about our experience; and inspire and move crowds.</p><p>Growing old is what a brainless fruit does,<br>\nwe are Philosophers, Poets, Artists,<br>\nwe are always growing, renewing, living, we don&apos;t lose anything - we gain.</p>",
+    "audio": "audio/poetry-0139.mp3",
+    "image": "image/poetry-0139-illustration.jpg"
+  },
+  {
     "id": "poetry-0138",
     "title": "Brooklyn Bridge and I",
     "category": "poetry",
