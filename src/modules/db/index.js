@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0140",
+    "title": "Inexhaustible Source of Unlimited Wisdom",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-18T02:44:28.327Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Fri Jul 17th 2020, 10:44 PM",
+    "html": "<p>We are granted Consciousness,<br>\nbut given no guarantees by the Universe.</p><p>The only guarantee we have is Ourselves,<br>\nthe one Element that we are truly in control of.</p><p>The deliberate act of Growing Up,<br>\nis a constant reminder of that control.</p><p><br><br></p><p>Dusk and Twilight, Tears in the Rain, and Aches in Every Muscle,<br>\nsurrounded by Unfairness, Blindness, Ends Everywhere, and yet we Rise.</p><p>Though it may be the very end of some world,<br>\nwe are never robbed of the choice to keep going forward.</p><p><br><br></p><p>The choice to exert control over the walls that the Universe has us up against,<br>\nwhen all else has gone dark, the choice always remains.</p><p>And when we can no longer change the World,<br>\nthen we have to grow up to gain new powers that fit that world better.</p><p>The new powers will, alter the world,<br>\nand eventually we will find our way back home.</p><p><br><br></p><p>No matter what misery or battles mark our past,<br>\nhaving chosen to Rise, and Learn, and Rebuild; made us Beautiful.</p><p>No matter what challenges lie ahead,<br>\nThe Great Act of Growing Up, is an Inexhaustible Source of Unlimited Wisdom.</p><p>And the sum of it all,<br>\nis the Great Health and Joy of Life.</p>",
+    "audio": "audio/poetry-0140.mp3",
+    "image": "image/poetry-0140-illustration.jpg"
+  },
+  {
     "id": "poetry-0139",
     "title": "Philosophers, Poets, and Artists",
     "category": "poetry",
