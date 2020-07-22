@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0143",
+    "title": "Cheerfully Becoming Mighty And Wise",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-22T01:31:46.872Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Jul 21st 2020, 9:31 PM",
+    "html": "<p>Growing up, getting up, moving up, rising up,<br>\nwe each have this abstract sense of a special direction.</p><p>It calls to us when we are down,<br>\nand it calls when we <strong>can</strong> go higher.</p><p>You don&apos;t even need to speak a language,<br>\njust lift you finger and point to the sky.</p><p>It works for everything and every time,<br>\nit encourages us to continue to rise.</p><p>There is always an up,<br>\nand never an end in sight.</p><p><br><br></p><p>Growing up demands that we open our eyes and rise,<br>\nstand our ground and look to the skies.</p><p>So as long as we aim for the tallest of mountains and rise,<br>\nour knowledge will quickly catch up in size.</p><p>Wherever we begin, we <strong>can</strong> rise,<br>\nto grow in wisdom to no end, <strong>is</strong> the ultimate prize.</p><p>May we each discover our path to wisdom and rise,<br>\ncheerfully becoming mighty and wise.</p>",
+    "audio": "audio/poetry-0143.mp3",
+    "image": "image/poetry-0143-illustration.jpg"
+  },
+  {
     "id": "poetry-0142",
     "title": "Apocalypse Meow",
     "category": "poetry",
