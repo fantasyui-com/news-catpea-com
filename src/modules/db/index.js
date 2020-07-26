@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0147",
+    "title": "On Writing That Fifth Book",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-26T03:21:05.139Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Jul 25th 2020, 11:21 PM",
+    "html": "<p>I know all too well that writing books is hard,<br>\nas far as I can tell; I am still learning English.</p><p>But books, share principles, with life,<br>\nbe it book or life, it is always page after page, it has chapters.</p><p>Books are not, some fancy extra,<br>\nbut a pretty fancy way of rising, just rising.</p><p><br><br></p><p>And perhaps it is somewhat old fashioned to be urging you to write books,<br>\nbut I don&apos;t feel bad at all.</p><p>I expect the first one is the hardest,<br>\nthe second one will be shoooo goood,</p><p>The third one - I am sorry,<br>\nwill feel as floppy as a thinly sliced ham.</p><p>The fourth one,<br>\nafter that long wonderful pause.</p><p>Will surely be the one,<br>\nit will feel like such a closure.</p><p><br><br></p><p>But listen,<br>\nI suspect that we don&apos;t really get started until our fifth book.</p><p>&apos;Cause you know,<br>\nit is the book you don&apos;t think about writing that gets you.</p><p><br><br></p><p>And, I think I can actually predict enough of it to say,<br>\nthat as children we look to the future, as adults we grow, and as Great Beings we look at the past with wise eyes.</p><p>See, it is not until we get there, and glance over at ideas that we were passionate about when young,<br>\nbut now through the eyes of the Great Being... that all of a sudden, things like Amor Fati, are not merely about Love of Fate,</p><p>But also, from when we look at life,<br>\nsee when looking back we see fate as something that that largely already unfolded.</p><p>And now, the love for it fits,<br>\nit is the love for all we&apos;ve been through.</p><p>All the battles we fought and learned from regardless it it was triumph or disaster, ease or hardship,<br>\nit was what we grew <strong>so profound</strong>, what made us, ourselves.</p><p><br><br></p><p>So as long, as we fought to rise,<br>\nso as long as it counts for more than whim and being pushed around.</p><p>It doesn&apos;t matter how hard things were,<br>\nit matters that nothing took away from our Love of Life.</p><p>That we faced those challenges,<br>\neasy or difficult.</p><p>Because now,<br>\nyou sit at the typewriter, and you know the story dot for dot.</p><p>See, we have to live our life so sturdily,<br>\nas to bring enlightenment to our Elder Selves, and perhaps make them cry a little - and why the heck not!</p><p><br><br></p><p>See, growing is not just for getting somewhere,<br>\nbut also building what will eventually become our Beautiful Past.</p><p>And though as children we may need to admit to ourselves that we don&apos;t understand everything,<br>\nas Great Beings come Our Golden Age, we will understand what we once struggled with.</p><p>And with a great sense of accomplishment,<br>\na sense of accomplishment that wouldn&apos;t be there, had we not challenged ourselves with things that were out of our grasp when we were young.</p><p>So what may seem as difficulty in our youth,<br>\nwe will end up loving in our Golden Age for making us stronger and more profound.</p>",
+    "audio": "audio/poetry-0147.mp3",
+    "image": "image/poetry-0147-illustration.jpg"
+  },
+  {
     "id": "poetry-0146",
     "title": "On Learning Philosophical Concepts A Little Bit At A Time",
     "category": "poetry",
