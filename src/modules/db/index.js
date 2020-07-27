@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0148",
+    "title": "Ensue",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-27T03:47:43.249Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Jul 26th 2020, 11:47 PM",
+    "html": "<p>My Friends,</p><p>Not only are we unable to directly conjure up the greatest of our heights,<br>\nin that they must ensue from our Greatness &amp; Pursuits.</p><p>But also,<br>\nwe can&apos;t see that which we will miss.</p><p>A mistake hidden within the heartbreaking realm of never knowing what we missed,<br>\nan old, odd realm, strangely built with invisible walls.</p><p><br><br></p><p>The only way we can be sure that we have not fallen to some prison of invisible walls,<br>\nis to keep moving forward and up, and never stop.</p><p><br><br></p><p>If our elder selves, do end up, having regrets that begin with, &quot;I wish I knew...&quot;,<br>\nthen by pushing forward today, we let them know that we have done our Best.</p><p>We send a message of compassion to our future selves,<br>\nlate at night, at 3AM, the older you, will lay awake, and say:</p><p>&quot;I was amazing, there was noting else I could do...&quot;</p><p>Our elder selves need to know that we lived boldly, courageously,<br>\nit is for their health, and so that feel proud, and can get back to sleep with a smile.</p><p><br><br></p><p>I am always sad about never hearing about this from teachers,<br>\nthat our life is one, in many profound ways.</p><p>That authenticity is not some ideal,<br>\nbut just another name for Health, for Sanity, for Strength.</p><p>When we are older we realize that shortcuts are worthless,<br>\nthat they only lead to some sacrifice.</p><p>That throughout our entire lives,<br>\n<strong>the longest way</strong>, was the only way.</p><p>We must each climb the highest of mountains,<br>\nit is how we grow, it is how we bloom,<br>\nit is how the Greatest of Heights will Ensue.</p>",
+    "audio": "audio/poetry-0148.mp3",
+    "image": "image/poetry-0148-illustration.jpg"
+  },
+  {
     "id": "poetry-0147",
     "title": "On Writing That Fifth Book",
     "category": "poetry",
