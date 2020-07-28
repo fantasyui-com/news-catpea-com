@@ -5,10 +5,10 @@
     "title": "A Good Night's Rest",
     "category": "poetry",
     "tags": "Listen Poem",
-    "date": "2020-07-28T01:54:56.159Z",
+    "date": "2020-07-28T03:25:02.997Z",
     "draft": false,
     "deleted": false,
-    "published": "Mon Jul 27th 2020, 9:54 PM",
+    "published": "Mon Jul 27th 2020, 11:25 PM",
     "html": "<p>Life is always about learning and knowing,<br>\nall those winds of change freely blowing.</p><p>But there is something you must always remember,<br>\nthat you are a <strong>Raging Fire</strong> not a glowing ember.</p><p><br><br></p><p>It is your <strong>right</strong> to <strong>strive</strong> and <strong>thrive</strong> and <strong>grow</strong>,<br>\nmay you <strong>melt</strong> all the sleeping-and-cold snow.</p><p>Let there fill new oceans, let the rivers flow,<br>\nand may the sun shine forever with your beautiful glow.</p><p><br><br></p><p>We each should live our lives with a huge thunder,<br>\nbecause no matter the tests life is always a wonder.</p><p>But the best things come from us beating life&apos;s test,<br>\nby rising up, becoming wise, and doing our best.</p><p><br><br></p><p>No challenge is ever as easy as it looks,<br>\nit all requires reading plenty of books.</p><p>I don&apos;t think anybody is ever truly blessed,<br>\nI think life may push us all to feel stressed.</p><p><br><br></p><p>But we are each so special and so strong, and so sweet,<br>\nthat we can all take on the challenge, and handle the heat.</p><p>All the things we hold tight to the breast,<br>\nalways come from some hard challenge or quest.</p><p><br><br></p><p>It is <strong>all</strong> about learning and taking that harder route,<br>\nso that each day we grow-more in wisdom and less in doubt.</p><p>So please, always strive to do your best,<br>\nso that the 90 year old you can get some good night&apos;s rest.</p>",
     "audio": "audio/poetry-0149.mp3",
     "image": "image/poetry-0149-illustration.jpg"
