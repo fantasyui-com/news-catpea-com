@@ -1,14 +1,27 @@
 
   const data = [
   {
+    "id": "poetry-0151",
+    "title": "Coming to America",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-29T23:32:35.614Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed Jul 29th 2020, 7:32 PM",
+    "html": "<p>It has been a quarter of a century, but I still remember the sounds of New York,<br>\nI can almost hear the busy parks, and cars and the occasional police siren.</p><p>I still remember that a slice of New York Pizza across the street,<br>\nis one dollar and twenty five cents, I am sure no pizza takes that! amazing anymore.</p><p><br><br></p><p>And, wow, to this day I cannot get over the fact,<br>\nthat five cents is bigger than ten.</p><p>With each passing year I bemoan the injustice,<br>\nof December not being the tenth month, and October not being the eight.</p><p><br><br></p><p>While I never had a problem with fractions and the sixteenth of an inch,<br>\nglancing 9/16 or 7/8 on a piece of paper, makes me want to begin with a calculator in hand.</p><p>I never figured out how to spell the word &quot;W&quot;, I know it is written as a letter, but how do you spell it,<br>\nand I love that the letter &quot;W&quot; may actually mean Double-U; fantastic.</p><p><br><br></p><p>My biggest problem is with Weather,<br>\nas I never really switched to the Fahrenheit scale.</p><p>It just shows that you can take a mam out of the metric system,<br>\nbut you can&apos;t take the metric system out of a man.</p><p><br><br></p><p>My reptile brain just accepted somehow that every few months it gets boiling hot outside,<br>\nduring hot summers, I catch my self staring at my thermometer that extra second longer,</p><p>and slowly I go... What the ffffffff.. it is a hundred and five,<br>\nshut the FFront door.</p>",
+    "audio": "audio/poetry-0151.mp3",
+    "image": "image/poetry-0151-illustration.jpg"
+  },
+  {
     "id": "poetry-0150",
     "title": "Riding Red",
     "category": "poetry",
     "tags": "Listen Poem",
-    "date": "2020-07-29T03:40:55.912Z",
+    "date": "2020-07-29T03:55:55.709Z",
     "draft": false,
     "deleted": false,
-    "published": "Tue Jul 28th 2020, 11:40 PM",
+    "published": "Tue Jul 28th 2020, 11:55 PM",
     "html": "<p>Sometimes I race my bicycle in the twilight,<br>\nit is not too dark - there is still plenty of light.</p><p>And to be safe, I bring my flashing lamp,<br>\nand ride carefully like a real champ.</p><p>But, oh boy, oh boy, is it nice,<br>\nthere are deer, bunnies, and little mice.</p><p>Oh, how smell of pine trees mix with smoke from the fireplace,<br>\nit smells do good that I want to stop my race.</p><p>Sometimes, I do stop to look at the sun go down,<br>\nbut... I have to imagine the horizon as I am in middle of a town.</p><p>And hen the sun gets low enough all the clouds light up red,<br>\nfinally allowing the darkness to begin to spread.</p><p>That&apos;s usually when I turn around,<br>\nbut I love the frogs and crickets and the early night sound.</p><p>I wish I could capture it and keep it all,<br>\nbut all the pictures and videos I take look dull.</p><p>I think we should all take time to enjoy these simple treasures,<br>\nas these are some of the life&apos;s most magnificent pleasures.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0150-shadows.jpg\" alt=\"Shadows\"></p>",
     "audio": "audio/poetry-0150.mp3",
     "image": "image/poetry-0150-illustration.jpg"
