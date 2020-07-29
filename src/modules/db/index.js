@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0150",
+    "title": "Riding Red",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-07-29T03:40:55.912Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Jul 28th 2020, 11:40 PM",
+    "html": "<p>Sometimes I race my bicycle in the twilight,<br>\nit is not too dark - there is still plenty of light.</p><p>And to be safe, I bring my flashing lamp,<br>\nand ride carefully like a real champ.</p><p>But, oh boy, oh boy, is it nice,<br>\nthere are deer, bunnies, and little mice.</p><p>Oh, how smell of pine trees mix with smoke from the fireplace,<br>\nit smells do good that I want to stop my race.</p><p>Sometimes, I do stop to look at the sun go down,<br>\nbut... I have to imagine the horizon as I am in middle of a town.</p><p>And hen the sun gets low enough all the clouds light up red,<br>\nfinally allowing the darkness to begin to spread.</p><p>That&apos;s usually when I turn around,<br>\nbut I love the frogs and crickets and the early night sound.</p><p>I wish I could capture it and keep it all,<br>\nbut all the pictures and videos I take look dull.</p><p>I think we should all take time to enjoy these simple treasures,<br>\nas these are some of the life&apos;s most magnificent pleasures.</p><p><img loading=\"lazy\" class=\"img-fluid rounded shadow mt-5 mb-2\" src=\"image/poetry-0150-shadows.jpg\" alt=\"Shadows\"></p>",
+    "audio": "audio/poetry-0150.mp3",
+    "image": "image/poetry-0150-illustration.jpg"
+  },
+  {
     "id": "poetry-0149",
     "title": "A Good Night's Rest",
     "category": "poetry",
