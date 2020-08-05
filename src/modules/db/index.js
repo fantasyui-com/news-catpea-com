@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0158",
+    "title": "On Finding Our Stars",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-05T22:57:05.852Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed Aug 5th 2020, 6:57 PM",
+    "html": "<p>Before we learn what we should know,<br>\nwe must first learn how to grow.</p><p><br><br></p><p>To break out of all the rooms and halls,<br>\nwe must destroy all the invisible walls.</p><p>As we cannot reason-about what we can&#x2019;t see,<br>\nand so we must surpass our limits before we can think free.</p><p><br><br></p><p>It is not so much moving forward,<br>\nas it is always growing upward.</p><p>We say forward when we seem to stop,<br>\nbut we mean up - up to the top.</p><p>And then rise above where our limits once stood,<br>\nfrom could to would, to finally should.</p><p><br><br></p><p>What once we saw as highest complexity,<br>\nwe will know to navigate like a small city.</p><p>Then, we can help people finish their thoughts,<br>\nhelp them to their stars, connect their dots.</p><p><br><br></p><p>We must learn, it is just how Human Beings are,<br>\nwe have to see the whole before we can find the star.</p>",
+    "audio": "audio/poetry-0158.mp3",
+    "image": "image/poetry-0158-illustration.jpg"
+  },
+  {
     "id": "poetry-0157",
     "title": "As Bright As The Sun",
     "category": "poetry",
