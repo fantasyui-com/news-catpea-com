@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0157",
+    "title": "As Bright As The Sun",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-05T00:21:29.260Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Tue Aug 4th 2020, 8:21 PM",
+    "html": "<p>May all your days add,<br>\nmay you never feel sad.</p><p>Because it is hard to say,<br>\nwhat things may.</p><p>We certainly know not,<br>\nthe world; dot for dot.</p><p>What we do know,<br>\nis not to resign or live low.</p><p>Because life is one,<br>\nso live as bright as the sun.</p><p>And as wise,<br>\nas the true sunrise.</p><p>And as smart,<br>\nas the unbroken heart.</p><p>Growing is your right,<br>\nyour most magnificent might.</p><p>Do not waste a single day,<br>\nand always walk your own way.</p>",
+    "audio": "audio/poetry-0157.mp3",
+    "image": "image/poetry-0157-illustration.jpg"
+  },
+  {
     "id": "poetry-0156",
     "title": "Blogging About Jogging",
     "category": "poetry",
