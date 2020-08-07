@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0160",
+    "title": "Within The Idea Of Growing Up",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-07T20:42:03.759Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Fri Aug 7th 2020, 4:42 PM",
+    "html": "<p>If you grant me, that growing up is more than mere aging,<br>\nand that the other component is Intellectual Development.</p><p>And if we agree that we each start near zero,<br>\nand carry on upwards eventually becoming unique and creating undiscovered paths.</p><p>And if we agree that this idea cannot be used to belittle people,<br>\nit can only be used for growing up, and towards Humanity&apos;s Noblest goals.</p><p>Then,<br>\nthere is something you should know.</p><p>You can&apos;t speak to all people who are still developing on different heights and in different paths,<br>\nnot in the same language, and each unique height will carry unique concepts that can&apos;t translate.</p><p>While we share a lot,<br>\nwe don&apos;t share enough to communicate in ways that help us converge towards Wisdom.</p><p>There cannot be a single language with shared deeply held beliefs,<br>\non subjects that relate to progressing forward or upward.</p><p>Each,<br>\nmust learn to translate, interpret and understand the other.</p><p>The speakers who who speak only on their own intellectual level,<br>\nand from within their own culture are not enough to help the world grow.</p><p>Nor will there ever be a single mountain peak where we all converge,<br>\nthere can only be a certain height that will help cultures understand each other.</p><p>But, we do share the act of rising up, of growing up towards Wisdom,<br>\nof standing in relentless pursuits of excellence.</p><p>And,<br>\nof helping each other so that we may grow in Peace.</p>",
+    "audio": "audio/poetry-0160.mp3",
+    "image": "image/poetry-0160-illustration.jpg"
+  },
+  {
     "id": "poetry-0159",
     "title": "An Evening Before A Run",
     "category": "poetry",
