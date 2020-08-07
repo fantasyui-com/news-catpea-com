@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0159",
+    "title": "An Evening Before A Run",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-06T23:57:25.653Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Thu Aug 6th 2020, 7:57 PM",
+    "html": "<p>I went bicycling today,<br>\nbut I was lost in thoughts all day.</p><p><br><br></p><p>I thought about Typography and Art,<br>\nand how evey Human Being is really smart.</p><p>How people get busy,<br>\nand how life is rarely easy.</p><p>How we get tired, how creativity is made,<br>\notherwise it will just fade.</p><p>How there is only ever time for big things,<br>\nit matters not if its vagabonds or kings.</p><p>We are all limited in time,<br>\nwe truly are meant to learn, become wise and climb.</p><p><br><br></p><p>Now, I am ready for bed,<br>\nI really feel tired.</p><p>I am already packed for my morning run,<br>\nthe weather says, no rain, only sun.</p><p>Though, I&apos;ve noticed it will snow,<br>\nat the Rocky Mountains... but that&apos;s good to know.</p><p>Because you can&apos;t ever be too far away from that,<br>\nI am pretty far away, and glad.</p>",
+    "audio": "audio/poetry-0159.mp3",
+    "image": "image/poetry-0159-illustration.jpg"
+  },
+  {
     "id": "poetry-0158",
     "title": "On Finding Our Stars",
     "category": "poetry",
