@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0162",
+    "title": "Grow and Help Others Grow",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-09T22:59:36.980Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Aug 9th 2020, 6:59 PM",
+    "html": "<p>Do not let unfairness crush or burden you,<br>\nrise up against it, and speak out.</p><p>Do not let anyone or anything make you feel tired,<br>\ntiredness will cloud your judgment until it is too late.</p><p>Do not let anything stand between you and sunshine,<br>\nthe morning dew, the sleepy meadow, the red sunsets.</p><p>Do not let heartless cowards sell you on a cheap victory,<br>\na True Warrior begins with wisdom, and grows inside out.</p><p>Learn to recognize the influence of isolation, fatigue, fear,<br>\nand let it fade, as it is not part of your personality.</p><p><br><br></p><p>Let go,<br>\nof past mistakes.</p><p>Learn to recognize that the younger you, was doing the best they thought they could,<br>\nbut with less wisdom, less knowledge, less awareness, and less experience.</p><p>Growing up creates a great wall between the mistakes you might have made in your youth,<br>\nand the much wiser person you are today.</p><p>Dear Reader, if you - as you are today, <strong>would not</strong> do the same as the younger you,<br>\nthen you need to stop blaming yourself; it is not <em>your</em> fault anymore.</p><p>Do, whatever else you must do to grow strong,<br>\nand turn your attention to the world, and to the future.</p><p><br><br></p><p>The future generations need help with their thoughts, with their concept of the world.<br>\nWith the interpretation of their intellectual inheritance; history, books, stories, poems.</p><p>Help them avoid or overcome,<br>\nhelp them <strong>see</strong> the world better.</p><p>Use your hard earned wisdom,<br>\nto <strong>add</strong> to the world.</p><p><br><br></p><p>The children need your help, your wisdom, your knowledge, your experiences,<br>\nso that they can learn faster, avoid mistakes, see more, envision new heights.</p><p>Do not let children start at the same height you started,<br>\ndo not push them to repeat the same path you already traveled.</p><p>The world can only grow,<br>\nwhen the new generation, stands on the shoulders of the one that came before it.</p>",
+    "audio": "audio/poetry-0162.mp3",
+    "image": "image/poetry-0162-illustration.jpg"
+  },
+  {
     "id": "poetry-0161",
     "title": "Inspirational Books",
     "category": "poetry",
