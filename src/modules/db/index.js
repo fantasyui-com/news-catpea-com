@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0163",
+    "title": "On Listening to Audio Books",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-10T23:16:09.853Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Mon Aug 10th 2020, 7:16 PM",
+    "html": "<p>Audio Books, Video Lectures, Internet Lectures and Video Tutorials,<br>\nare all extremely important for our heath, healing, and well being.</p><p><br><br></p><p>One interesting way to start,<br>\nis Travel and Adventure books.</p><p>All the top rated books by <a href=\"https://en.wikipedia.org/wiki/Bill_Bryson\">Bill Bryson</a> are fun and frequently funny,<br>\nhis <a href=\"https://en.wikipedia.org/wiki/A_Short_History_of_Nearly_Everything\">A Short History of Nearly Everything</a> is a great start to really learning about science.</p><p>I recommend his little <a href=\"https://en.wikipedia.org/wiki/Notes_from_a_Big_Country\">Notes from a Big Country</a>,<br>\nit is all extremely positive, funny and interesting.</p><p><a href=\"https://www.audible.com/pd/Charles-Kuralts-America-Audiobook/B002UZL5BG\">Charles Kuralt&apos;s America</a> is another little adventure book that comes to mind.</p><p><br><br></p><p>As with any fun book there is no specific knowledge to transfer,<br>\njust the parts that we never got to ourselves.</p><p>Beautiful moments and experiences that somehow make us better,<br>\nobservations that help our imagination and dreams.</p><p>A Short History of Nearly Everything along with ten or so other top Science Popularizer Books,<br>\nwill absolutely expand our view of the universe and contribute to positive changes in our life.</p><p>There are also books about Jogging like &quot;Born to Run&quot;,<br>\nor &quot;Ultramarathon Man&quot; which teach about endurance and every day athletes.</p><p><br><br></p><p>Audio Books and Video Lectures,<br>\nare a fantastic source of Wisdom and Adventure.</p>",
+    "audio": "audio/poetry-0163.mp3",
+    "image": "image/poetry-0163-illustration.jpg"
+  },
+  {
     "id": "poetry-0162",
     "title": "Grow and Help Others Grow",
     "category": "poetry",
