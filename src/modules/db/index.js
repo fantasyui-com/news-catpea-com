@@ -1,15 +1,28 @@
 
   const data = [
   {
+    "id": "poetry-0165",
+    "title": "On His One 100th Birthday, May 28, 2030.",
+    "date": "2020-08-12T17:27:09.229Z",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed Aug 12th 2020, 1:27 PM",
+    "html": "<p>Nothing was coincidental,<br>\nit was strong and clear.</p><p>The amateurs were the first,<br>\nsocial networks came to a crawl.</p><p>The signal originated nowhere other,<br>\nthan the uninhabitable Proxima Centauri b.</p><p>There was an orbiting computer,<br>\nthey are spaced out 100 light years apart.</p><p><br><br></p><p>Frank Drake was looking at the bitmaps,<br>\nwith the candles on his birthday cake still lit.</p><p>He saw a machine, like in the movie,<br>\n&quot;prank&quot; he said with a broken heart.</p><p><br><br></p><p>Ms. Tarter said,<br>\n&quot;This is not a prank&quot;.</p><p>She pointed to the pictorial with familiar animals,<br>\nand then the undeniable images of poverty came.</p><p>Seth had it all figured out for years, he growled &quot;These are diagrams for a Planet Wide Governing Body&quot;<br>\n&quot;for a Peaceful, Wise, Planet Wide Government&quot;, he said with tears with his eyes.</p><p><br><br></p><p>No Poverty</p><p>No War</p><p>No Weapons Manufacturing</p><p>No Weapon Stockpiles</p><p>No Prisons, No Punishement (Only Hospitals and Therapy)</p><p>No Hurting or Eating Other Species</p><p>A Planet United Under A Single Government</p><p>No Representatives, No Presidents, No Political Personalities</p><p>Humanity Comes Together To Vote On Good Ideas, One Idea At A Time.</p><p>(The plans revealed how the ideas are protected, only questionnaires are answered.)</p><p>The ultimate goal of the Planetary Government is to Converge on Wisdom.\nIt is to protect the planet from self destruction, and encourage growth of Wisdom and Technology.</p><p><br><br></p><p>The leading theory is that is is an early radio satellite,<br>\nthat it maybe automated, like a network of chat-bot drones.</p><p>Withing 50 years an upgrade arrived,<br>\nit had just one more pictorial.</p><p>It showed that Milky Way was teeming with life,<br>\nthere are billions of mutually incompatible ecosystems with intelligent life,<br>\nand billions more without.</p><p>There is no safe way to travel,<br>\nthere is no safe way to enter the ecosystems.</p><p>Their technology is the same as ours,<br>\nsoldering irons and radio signals.</p><p>That&apos;s all there is,<br>\nthat&apos;s all there ever will be.</p><p>It showed that life was seeded by the first planet,<br>\nit was a crudely and hastily engineered extremely adaptive extremophile.</p><p>The dying planet sent out microscopic capsules moving at relativistic speeds,<br>\nthe estimates are 75,000,000,000,000,000,000 tons of capsules were sent.</p><p>The time dilation made the universe age faster,<br>\nor relatively speaking slowed the decay of the extremophiles.</p><p>Life is everywhere,<br>\nit is as old as the universe, everywhere, and eveywhen.</p><p>The old probe was sent out way and intercepted in the earth orbit,<br>\nit contained some of the original capsules for study and as proof.</p><p>We made many copies of the broadcasting station and sent them into orbits of all the nearby exoplanets,<br>\nthe plans and pictorials for the planetary government remained unchanged.</p><p>We reproduced the capsules as well it was primitive engineering,<br>\nscientists are against it, but in theory it is a safe mechanism to aim at Andromeda and the Magellanic Clouds.</p><p><br><br></p><p>A Circular Symbol was translated to be the shape that represents our union,<br>\nwe were able to translate the surrounding glyphs.</p><p>In Wisdom,<br>\nWe Are One,<br>\nAll Around.</p>",
+    "audio": "audio/poetry-0165.mp3",
+    "image": "image/poetry-0165-illustration.jpg"
+  },
+  {
     "id": "poetry-0164",
-    "title": "On A Wintery Starlit Night 17,000 Years Ago",
+    "title": "On A Wintry Starlit Night 17,000 Years Ago",
     "category": "poetry",
     "tags": "Listen Poem",
     "date": "2020-08-11T23:15:56.484Z",
     "draft": false,
     "deleted": false,
     "published": "Tue Aug 11th 2020, 7:15 PM",
-    "html": "<p>A legendary creature,<br>\nfrom a winter 17,000 years ago.</p><p>Still speaks of Might,<br>\nat the Cave of Lascaux.</p><p>It was not a hunt,<br>\nbut a Magical Sight,</p><p>It was a Noble Megaloceros,<br>\non a wintery starlit night.</p><p>A Family, and a Traveler,<br>\nHad to go out and see,</p><p>Some, said the titan was as big as a tree,<br>\nothers imagined him as big as the Baltic Sea.</p><p>And the story never gets old,<br>\nafter 17,000 years, it is still, being told.</p><p>(Pictured <a href=\"https://en.wikipedia.org/wiki/Megaloceros\">Megaloceros</a> from <a href=\"https://en.wikipedia.org/wiki/Lascaux\">Lascaux</a>)</p>",
+    "html": "<p>A legendary creature,<br>\nfrom a winter 17,000 years ago.</p><p>Still speaks of Might,<br>\nat the Cave of Lascaux.</p><p>It was not a hunt,<br>\nbut a Magical Sight,</p><p>It was a Noble Megaloceros,<br>\non a wintry starlit night.</p><p>A Family, and a Traveler,<br>\nHad to go out and see,</p><p>Some, said the titan was as big as a tree,<br>\nothers imagined him as big as the Baltic Sea.</p><p>And the story never gets old,<br>\nafter 17,000 years, it is still, being told.</p><p>(Pictured <a href=\"https://en.wikipedia.org/wiki/Megaloceros\">Megaloceros</a> from <a href=\"https://en.wikipedia.org/wiki/Lascaux\">Lascaux</a>)</p>",
     "audio": "audio/poetry-0164.mp3",
     "image": "image/poetry-0164-illustration.jpg"
   },
@@ -2685,7 +2698,7 @@
     "draft": false,
     "deleted": false,
     "published": "Mon Mar 30th 2020, 9:11 AM",
-    "html": "<p>Captain&apos;s Log: Day Fourteen of Quarantine,</p><p>All the local squirrels, now hold me in high esteem.</p><p>They feel munchies to extreme,</p><p>but the trailmix they stole is gone,</p><p>flurries of the box still scattered on my lawn.</p><p>Squirrels, now crazed, and withdrawn.</p><p>Peanuts on their mind,</p><p>because mail delivery was ill timed.</p><p>Why am I like this?</p>"
+    "html": "<p>Captain&apos;s Log: Day Fourteen of Quarantine,</p><p>All the local squirrels, now hold me in high esteem.<br>They feel munchies to extreme,<br>but the trailmix they stole is gone,</p><p>flurries of the box still scattered on my lawn.<br>Squirrels, now crazed, and withdrawn.</p><p>Peanuts on their mind,<br>because mail delivery was ill timed.</p><p>(Why am I like this?)</p>"
   },
   {
     "id": "research-0021",
@@ -2718,7 +2731,7 @@
     "draft": false,
     "deleted": false,
     "published": "Sun Mar 29th 2020, 9:14 AM",
-    "html": "<p>Captain&apos;s Log: Day Thirteen of Quarantine;</p><p>still staring at my screen,</p><p>hanging on for dear life to my spleen</p><p>as I drink another coffee bean,</p><p>trying, trying not to create a scene,</p><p>dancing dressed red outside my window;</p><p>during quarantine.</p>"
+    "html": "<p>Captain&apos;s Log: Day Thirteen of Quarantine;</p><p>Still staring at my screen,<br>\nhanging on for dear life to my spleen.</p><p>As I drink another coffee bean,<br>\ntrying, trying not to create a scene.</p><p>Dancing dressed red outside my window,<br>\nduring quarantine.</p>"
   },
   {
     "id": "research-0019",
@@ -2751,7 +2764,7 @@
     "draft": false,
     "deleted": false,
     "published": "Sat Mar 28th 2020, 6:31 PM",
-    "html": "<p>Captain&apos;s Log, Day Twelve of Quarantine.</p><p>I ordered some trail-mix from the internet, mailman dropped it off by the door.</p><p>And all the local Squirrels I&apos;ve been feeding came over</p><p>They ripped the box open, and ate it all without me.</p><p>How rude, I probably shouldn&apos;t have been feeding them all this time.</p>"
+    "html": "<p>Captain&apos;s Log, Day Twelve of Quarantine.</p><p>I ordered some trail-mix from the internet, mailman dropped it off by the door.</p><p>And all the local Squirrels I&apos;ve been feeding came over.</p><p>They ripped the box open, and ate it all without me.</p><p>How rude, I probably shouldn&apos;t have been feeding them all this time.</p>"
   },
   {
     "id": "research-0018",
