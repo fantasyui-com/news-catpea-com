@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0168",
+    "title": "A Little Nap",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-16T00:00:13.483Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Aug 15th 2020, 8:00 PM",
+    "html": "<p>I took a little nap,<br>\nAs I had to finish a website and an app.</p><p>I woke up feeling sweet and mighty and very strong.<br>\neven though I really didn&apos;t sleep for very long.</p><p>Now I have to get ready to go back to real sleep,<br>\nand I hope I don&apos;t end up having to count sheep.</p><p><br><br></p><p>I&apos;ve been learning programming and design all on my own,<br>\nmy software is really good now, I have progressed and grown.</p><p><br><br></p><p>There are no shortcuts to becoming really good,<br>\nthere is no school that can teach us as they should.</p><p>Talking matters in your own hands is the best way,<br>\nthe difference is like night and day.</p><p>For decades I&apos;ve telling people,<br>\nour mind are really, really, really delicate and extremely intricate.</p><p><br><br></p><p>Wherever possible we have to take to the books,<br>\ngo on tiny adventures and explore all the crannies and nooks.</p><p>To start learning well, find something pretty,<br>\nreal education is like exploring a new city.</p><p>You don&apos;t start by memorizing a map,<br>\nyou just go from one place to another, until you need a nap.</p><p><br><br></p><p>The teacher has no idea who you are or what you know,<br>\nif you&apos;ll listen to them you&apos;ll never grow.</p><p>Organized education is like a trap,<br>\nlearn on your own, and don&apos;t forget to take a nap.</p>",
+    "audio": "audio/poetry-0168.mp3",
+    "image": "image/poetry-0168-illustration.jpg"
+  },
+  {
     "id": "poetry-0167",
     "title": "A Million Times More",
     "category": "poetry",
