@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0169",
+    "title": "Planet of Tomorrow, Or I want to Become a Wise Being",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-16T22:09:24.888Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Aug 16th 2020, 6:09 PM",
+    "html": "<p>A World torn apart by borders,<br>\nis a broken world full of dark secrets.</p><p>The world can&apos;t progress forward,<br>\nif we are not learning.</p><p>Observations are very important,<br>\nbut they are not on a large enough scale.</p><p>We need a steady stream from multiple reinforcing sources,<br>\nAudio Books and Lectures are exactly that kind of stream.</p><p><br><br></p><p>They are integrated works of art,<br>\ntightly compressed, well arranged.</p><p>If you are lucky it will be read by the author,<br>\nthe chapters will flow together with feeling, pride and joy.</p><p>If you find a Memoir, or Travel/Adventure book, that makes you rest, that you enjoy, that makes you smirk.<br>\nYou are bound to permanently inherit massive amount of knowledge, it really does not matter what the book is about.</p><p>Any story story you love can only add to you, it will reinforce you, make you better and stronger.<br></p><p>Our first great achievement is reaching out for Knowledge and Wisdom,<br>\nand the reward is a Greater Mind.</p><p><br><br></p><p>Every person is capable of becoming, Profound and Wise,<br>\nit takes effort, it is a deliberate, volitional act.</p><p>If a person does not know: how big the world is,<br>\nthey will never leave their city, or their small mind, behind.</p><p>We have to learn to slow down,<br>\nand live at such a speed that does not interfere with our inheritance of wisdom.</p><p>We can&apos;t deny ourselves knowledge,<br>\nand then run quickly forward.</p><p>Without constantly expanding your knowledge,<br>\nwe may not be able to tell, which way forward, is.</p><p>Inheriting from lives and wisdom of other people, is a great super power.</p><p>And accepting responsibility for self education, is easily of of the greatest things we&apos;ll ever do.</p><p><br><br></p><p>Finally, the answer to that stupid question that people ask us when we are little,<br>\n&quot;What do you want to be when you grow up?&quot;,</p><p>Must not conjure up a picture of some career path.<br>\nThere is only one correct answer, and it should be the same for us all:</p><p>&quot;I want to Become a Wise Being&quot;</p><p>Only in our wisdom can the World grow,<br>\nand especially in the wisdom of the youngest generation.</p><p>The children of today,<br>\nwill run the entire Planet of Tomorrow.</p>",
+    "audio": "audio/poetry-0169.mp3",
+    "image": "image/poetry-0169-illustration.jpg"
+  },
+  {
     "id": "poetry-0168",
     "title": "A Little Nap",
     "category": "poetry",
