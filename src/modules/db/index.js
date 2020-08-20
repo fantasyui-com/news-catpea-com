@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0172",
+    "title": "The Sword Can't Even Compare To Your Pen",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-20T00:06:40.703Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Wed Aug 19th 2020, 8:06 PM",
+    "html": "<p>You are not alone,<br>\nand all you do matters.</p><p>As you rise,<br>\nyou create a way for others to follow.</p><p>Struggle, like suffering,<br>\nis a gas that fills all the available space.</p><p>It is never easy for anybody,<br>\nthe difference is in the choices we make and the aims we set.</p><p>The first Great Choice is to set off towards wisdom,<br>\nto continuously transcend our limits thorough out our entire existence.</p><p>One of the finest choices we can make,<br>\nis to Live Above Common Levels of Life.</p><p>There are no guarantees,<br>\nyour choice to proceed forward is all the guarantee there is.</p><p>Our biological life is not finely crafted,<br>\nit is a result of fundamental principles of Physics and Chemistry.</p><p>But our mind, is up to us to shape,<br>\nhence Audio Books and Lectures and our inheritance from of Other Lives, Times, and Works.</p><p>You need not hurry,<br>\nbut you do need to slow down so that you may read and write.</p><p><br><br></p><p>We each have a story to tell,<br>\nand many will follow a similar path to ours across the vastness of future.</p><p>They could use some advice,<br>\na few fine words about rising, about what it is like to see the sun for the first time.</p><p>Do not let your readers suffer the same loneliness you did,<br>\nlet them learn from you.</p><p><br><br></p><p>And the way you write,<br>\nis one thought at a time.</p><p>So as long as your write about your unlimited travels,<br>\nyou never run out of the story to tell.</p><p>And every once in a while,<br>\na poem will leap ahead of you.</p><p>The thought will arrive,<br>\nfrom the future before you get there.</p><p>You are connected to your future self,<br>\nno one can hold a stronger bond.</p><p>You are a being, with a mind and body, you are in the present,<br>\nbut you exist across time.</p><p>Your Life Line, your Life Time,<br>\nThe past you and the future you, are connected.</p><p>And just the same those who came before you,<br>\nand those who are yet to follow, are connected to you.</p><p>But you have to write your thoughts,<br>\n...when you are rising in your childhood,<br>\nthe children can understand it best.</p><p>In your early age, as you make your way,<br>\nas you learn to rise, and find your rhythm,<br>\nyour readers will be in their twenties.</p><p>And then, forties, and then sixties, and eighties, and hundreds,<br>\nat no point in your life should you be ashamed to write,<br>\nor be shamed for writing.</p><p><br><br></p><p>Because if you can manage to hold your pen,<br>\nit is more than most others can.</p><p>One thought at a time,<br>\nhelp others understand how to climb.</p><p>Make all your struggles count for more,<br>\nshow them how you fought for wisdom in your war.</p><p>Tell the world what you know,<br>\nso that others may safely follow.</p><p>Know that the first struggles sometimes mean more,<br>\nsometimes the hardest challenge is to get off the floor.</p><p>The first steps after all,<br>\nmatter the most to those whose worlds may be seem small.</p><p>All steps matter and in many ways,<br>\nall lead to enlightenment, and the Sun&apos;s rays.</p>",
+    "audio": "audio/poetry-0172.mp3",
+    "image": "image/poetry-0172-illustration.jpg"
+  },
+  {
     "id": "poetry-0171",
     "title": "The Day Humanity Entered The Age Of Wisdom",
     "category": "poetry",
