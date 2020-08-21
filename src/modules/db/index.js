@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0173",
+    "title": "The World United in Peace Under The Symbol Of The White Dove",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-21T00:17:05.415Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Thu Aug 20th 2020, 8:17 PM",
+    "html": "<p>All nations try very hard to divide,<br>\noutline their treasure and their national pride.</p><p>But reality is such,<br>\nthat this does not matter much.</p><p>One can complain about this nation or that nation,<br>\nbut that does not change the situation...</p><p><br><br></p><p>We are one,<br>\none family under the sun.</p><p>Eventually Education, Foresight, Wisdom, and World Peace,<br>\nwill bring us all together and the complaints will cease.</p><p>Until then, we must each remember that borders are useless,<br>\nthey only divide and create a huge mess.</p><p><br><br></p><p>A border does not mark its people to be of any particular kind,<br>\nit only keeps different kinds of colorful groups apart.</p><p>It is not correct to be unhappy about a nation,<br>\nlet us be unhappy about lack of safety, books and education.</p><p>Let us come together and stand against lack of Good Schools and Wisdom,<br>\nlet us but complain about divisions and lack of peace and calm.</p><p><br><br></p><p>If there were no borders, there would be more friendship and love,<br>\nall nations United in Peace under the symbol of the white dove.</p><p>We are not different from one another,<br>\na sister or brother from a different mother.</p><p>In the World of the Future we won&apos;t be divided at all,<br>\npeople will forget why we needed a wall.</p>",
+    "audio": "audio/poetry-0173.mp3",
+    "image": "image/poetry-0173-illustration.jpg"
+  },
+  {
     "id": "poetry-0172",
     "title": "The Sword Can't Even Compare To Your Pen",
     "category": "poetry",
