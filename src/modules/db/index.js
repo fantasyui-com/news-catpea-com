@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0175",
+    "title": "We Are Not To Be Quiet Little Mice, Just To Be Nice",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-22T23:22:28.446Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sat Aug 22nd 2020, 7:22 PM",
+    "html": "<p>There are tipping points in your intellectual development,<br>\nwhere you go from careful observation to certainty of knowing.</p><p>You build one thing on top of the other,<br>\nit becomes your Temple of Knowledge.</p><p>If you are correct about it all,<br>\nthen the more you add the more you understand.</p><p><br><br></p><p>To learn for real,<br>\nwe need fascination.</p><p>And we need freedom to move between curiosities,<br>\nand there are no divisions of subjects here.</p><p>We may learn numbers from calculating how many potential exoplanets our radio signals reached,<br>\nor we may trade mathematical notation for computer programming-languages where we can bring numbers to life.</p><p>Then quickly leap to Astrophotography, and learn about Biology from books written by Astrobiologists,<br>\nEnlightenment is not just about what we target precisely, but also what we learn along the way.</p><p><br><br></p><p>Enlightenment is Life, it is going round and round, and higher and higher,<br>\nthrough all these tiny twisty passages of Curiosity and Fascination to Discover more and more Light.</p><p>There is no need to divide Enlightenment from Wisdom and Knowledge,<br>\nbut we must make a strong division between Real Education that brings results,<br>\nand Fake Education that makes you unhappy, exhausted, stressed.</p><p>Because unhappiness, exhaustion and stress,<br>\nwill <strong>stop you</strong> from growing up, from becoming wise and enlightened,<br>\nfrom becoming an inspiration and helping the world grow a little.</p><p><br><br></p><p>It is a scary thing to aim away from everything we&apos;ve been taught to want,<br>\nbut you are you and not what someone tells you to be</p><p>...and you are supposed to be much more courageous than merely taking your own path in life,<br>\nwe can&apos;t live like quiet little mice just to be nice.</p><p>We have too much imagination, too much passion and inspiration, foresight insight and vision,<br>\nwe are not to live ordinary lives.</p><p><br><br></p><p>We are Thinking Humans!<br>\nWe are to live Lives of Inspired Enlightenment.</p><p>Because that&apos;s what furthers Human Kind the most,<br>\nbecause that is part of what is <strong>best</strong> within us.</p><p>Human Kind must grow in Wisdom and Enlightenment,<br>\neach of us is more than capable of becoming a Great Being.</p><p>When we grow the Wold Grows With Us,<br>\nlet us make this world a better place for us all.</p>",
+    "audio": "audio/poetry-0175.mp3",
+    "image": "image/poetry-0175-illustration.jpg"
+  },
+  {
     "id": "poetry-0174",
     "title": "Conundrum of The Human Condition",
     "category": "poetry",
