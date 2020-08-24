@@ -1,6 +1,19 @@
 
   const data = [
   {
+    "id": "poetry-0176",
+    "title": "The Practice of Strength",
+    "category": "poetry",
+    "tags": "Listen Poem",
+    "date": "2020-08-24T00:10:15.529Z",
+    "draft": false,
+    "deleted": false,
+    "published": "Sun Aug 23rd 2020, 8:10 PM",
+    "html": "<p>You can&apos;t leap into whatever you conceive Enlightenment to be,<br>\nit is built layer by layer, step by step, and year by year.</p><p>We all need might, never has a creature been alive that didn&apos;t need strength,<br>\nand waiting until the last moment; is a bad idea, anyway.</p><p>That&apos;s why people run marathons,<br>\nthis is why people challenge themselves with practice.</p><p>So that when life becomes a challenge,<br>\nfor all the finish lines they crossed, failure won&apos;t cross their mind.</p><p><br><br></p><p>A self challenge, is a practice of strength,<br>\nit is good for us.</p><p>It is different challenges for different people,<br>\nat different places in their lives.</p><p>But there is one thing they all have in common,<br>\nwhatever they set off to do, it seems impossible at first.</p><p>That&apos;s what the hard parts of life are like,<br>\nthey seem like an impassible challenge at first.</p><p><br><br></p><p>Practice makes us strong,<br>\ndifficult challenges help us grow, and help us think too.</p><p>It is all for life,<br>\nit is all for enlightenment.</p><p>It is all for living above the common levels of life,<br>\nit is all for knowing that no matter the challenge, we will find a way.</p><p>May we all grow wise, and strong, and healthy,<br>\nmay we each find a mountain to move and inspire a generation.</p>",
+    "audio": "audio/poetry-0176.mp3",
+    "image": "image/poetry-0176-illustration.jpg"
+  },
+  {
     "id": "poetry-0175",
     "title": "We Are Not To Be Quiet Little Mice, Just To Be Nice",
     "category": "poetry",
